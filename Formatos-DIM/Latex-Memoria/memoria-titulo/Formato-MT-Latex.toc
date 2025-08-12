@@ -1,0 +1,25 @@
+\contentsline {section}{Lista de Figuras}{1}{}%
+\contentsline {section}{Lista de Tablas}{2}{}%
+\contentsline {section}{Nomenclatura}{3}{}%
+\contentsline {section}{\numberline {1}Introducción}{4}{}%
+\contentsline {subsection}{\numberline {1.1}Contexto}{4}{}%
+\contentsline {subsection}{\numberline {1.2}Hipótesis}{4}{}%
+\contentsline {subsection}{\numberline {1.3}Objetivos}{4}{}%
+\contentsline {subsection}{\numberline {1.4}Descripción del trabajo}{5}{}%
+\contentsline {section}{\numberline {2}Escritura en LaTeX}{6}{}%
+\contentsline {subsection}{\numberline {2.1}Referencias}{6}{}%
+\contentsline {subsection}{\numberline {2.2}Listas de elementos}{6}{}%
+\contentsline {subsection}{\numberline {2.3}Acrónimos y siglas}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Ecuaciones y símbolos matemáticos}{6}{}%
+\contentsline {subsection}{\numberline {2.5}Figuras}{7}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Figuras simples}{7}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Figuras múltiples}{7}{}%
+\contentsline {subsection}{\numberline {2.6}Tablas}{8}{}%
+\contentsline {subsubsection}{\numberline {2.6.1}Tablas simples}{8}{}%
+\contentsline {subsubsection}{\numberline {2.6.2}Tablas personalizadas}{8}{}%
+\contentsline {section}{\numberline {3}Metodología}{9}{}%
+\contentsline {section}{\numberline {4}Resultados}{10}{}%
+\contentsline {section}{\numberline {5}Discusión}{11}{}%
+\contentsline {section}{\numberline {6}Conclusiones}{12}{}%
+\contentsline {section}{Anexo \numberline {A}Planos de fabricación}{14}{}%
+\contentsline {section}{Anexo \numberline {B}Código en Python}{15}{}%

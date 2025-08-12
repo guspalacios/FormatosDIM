@@ -1,0 +1,11 @@
+\begin{thebibliography}{1}
+
+\bibitem{ref1}
+J.~Doe and J.~Smith, ``Title of the article,'' {\em Journal name}, vol.~4,
+  no.~2, pp.~5--15, 2022.
+
+\bibitem{ref2}
+J.~Doe, {\em Title of the book}.
+\newblock Publisher, 2022.
+
+\end{thebibliography}

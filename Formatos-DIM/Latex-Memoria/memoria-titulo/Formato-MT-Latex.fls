@@ -1,0 +1,526 @@
+PWD c:\Users\gusta\OneDrive\Documentos\GitHub\udec_formatos\FormatosDIM\Formatos-DIM\Latex-Memoria\memoria-titulo
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\gusta\OneDrive\Documentos\GitHub\udec_formatos\FormatosDIM\Formatos-DIM\Latex-Memoria\memoria-titulo\Formato-MT-Latex.tex
+OUTPUT Formato-MT-Latex.log
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size12.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\textgreek\textgreek.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\textgreek\textgreek.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\lgrenc.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-inputenc\lgrenc.dfu
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\greek-fontenc\greek-fontenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpage2e.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpageclassic.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lastpage\lastpageclassic.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\dvipsnam.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\tabulary\tabulary.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\tabulary\tabulary.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\chngcntr\chngcntr.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\chngcntr\chngcntr.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\parskip\parskip.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\units\units.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\units\units.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\units\nicefrac.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\units\nicefrac.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\lipsum\lipsum.ltd.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\appendix\appendix.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\appendix\appendix.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\base\glossaries.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\mfirstuc\mfirstuc.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\xfor\xfor.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\xfor\xfor.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-base.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\tracklang\tracklang.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\tracklang\tracklang.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\generic\tracklang\tracklang.tex
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-l3fp.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-l3fp.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-l3fp.def
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\datatool\datatool-utf8.ldf
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-hypernav.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-list.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-long.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-super.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-super.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT .\A-Nomenclatura.tex
+INPUT .\A-Nomenclatura.tex
+INPUT .\A-Nomenclatura.tex
+INPUT .\A-Nomenclatura.tex
+INPUT A-Nomenclatura.tex
+INPUT .\Formato-MT-Latex.aux
+INPUT .\Formato-MT-Latex.aux
+INPUT Formato-MT-Latex.aux
+INPUT .\Pagina_Titulo.aux
+INPUT .\Pagina_Titulo.aux
+INPUT Pagina_Titulo.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT C0-Agradecimientos.aux
+INPUT .\C0-Resumen.aux
+INPUT .\C0-Resumen.aux
+INPUT C0-Resumen.aux
+INPUT .\C0-Abstract.aux
+INPUT .\C0-Abstract.aux
+INPUT C0-Abstract.aux
+INPUT .\C1-Introduccion.aux
+INPUT .\C1-Introduccion.aux
+INPUT C1-Introduccion.aux
+INPUT .\C2-Latex.aux
+INPUT .\C2-Latex.aux
+INPUT C2-Latex.aux
+INPUT .\C3-Metodologia.aux
+INPUT .\C3-Metodologia.aux
+INPUT C3-Metodologia.aux
+INPUT .\C4-Resultados.aux
+INPUT .\C4-Resultados.aux
+INPUT C4-Resultados.aux
+INPUT .\C5-Discusion.aux
+INPUT .\C5-Discusion.aux
+INPUT C5-Discusion.aux
+INPUT .\C6-Conclusiones.aux
+INPUT .\C6-Conclusiones.aux
+INPUT C6-Conclusiones.aux
+INPUT .\Z1-Planos.aux
+INPUT .\Z1-Planos.aux
+INPUT Z1-Planos.aux
+INPUT .\Z2-Codigo.aux
+INPUT .\Z2-Codigo.aux
+INPUT Z2-Codigo.aux
+OUTPUT Formato-MT-Latex.aux
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT .\Pagina_Titulo.tex
+INPUT .\Pagina_Titulo.tex
+OUTPUT Pagina_Titulo.aux
+INPUT .\Pagina_Titulo.tex
+INPUT .\Pagina_Titulo.tex
+INPUT Pagina_Titulo.tex
+INPUT .\udec-dim.png
+INPUT .\udec-dim.png
+INPUT .\udec-dim.png
+INPUT .\udec-dim.png
+OUTPUT Formato-MT-Latex.pdf
+INPUT .\udec-dim.png
+INPUT .\udec-dim.png
+INPUT .\udec-dim.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\C0-Agradecimientos.tex
+INPUT .\C0-Agradecimientos.tex
+OUTPUT C0-Agradecimientos.aux
+INPUT .\C0-Agradecimientos.tex
+INPUT .\C0-Agradecimientos.tex
+INPUT C0-Agradecimientos.tex
+INPUT .\C0-Resumen.tex
+INPUT .\C0-Resumen.tex
+OUTPUT C0-Resumen.aux
+INPUT .\C0-Resumen.tex
+INPUT .\C0-Resumen.tex
+INPUT C0-Resumen.tex
+INPUT .\C0-Abstract.tex
+INPUT .\C0-Abstract.tex
+OUTPUT C0-Abstract.aux
+INPUT .\C0-Abstract.tex
+INPUT .\C0-Abstract.tex
+INPUT C0-Abstract.tex
+INPUT .\Formato-MT-Latex.toc
+INPUT .\Formato-MT-Latex.toc
+INPUT Formato-MT-Latex.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+OUTPUT Formato-MT-Latex.toc
+INPUT .\Formato-MT-Latex.lof
+INPUT .\Formato-MT-Latex.lof
+INPUT Formato-MT-Latex.lof
+OUTPUT Formato-MT-Latex.lof
+INPUT .\Formato-MT-Latex.lot
+INPUT .\Formato-MT-Latex.lot
+INPUT Formato-MT-Latex.lot
+OUTPUT Formato-MT-Latex.lot
+INPUT .\C1-Introduccion.tex
+INPUT .\C1-Introduccion.tex
+OUTPUT C1-Introduccion.aux
+INPUT .\C1-Introduccion.tex
+INPUT .\C1-Introduccion.tex
+INPUT C1-Introduccion.tex
+INPUT .\C2-Latex.tex
+INPUT .\C2-Latex.tex
+OUTPUT C2-Latex.aux
+INPUT .\C2-Latex.tex
+INPUT .\C2-Latex.tex
+INPUT C2-Latex.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT .\F-Pequines.jpg
+INPUT .\F-Pequines.jpg
+INPUT .\F-Pequines.jpg
+INPUT .\F-Pequines.jpg
+INPUT .\F-Pequines.jpg
+INPUT .\F-Pequines.jpg
+INPUT .\F-Pequines.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT .\F-Yorkshire.jpg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT .\F-Poodle.jpg
+INPUT .\F-Poodle.jpg
+INPUT .\F-Poodle.jpg
+INPUT .\F-Poodle.jpg
+INPUT .\F-Poodle.jpg
+INPUT .\F-Poodle.jpg
+INPUT .\F-Poodle.jpg
+INPUT .\C3-Metodologia.tex
+INPUT .\C3-Metodologia.tex
+OUTPUT C3-Metodologia.aux
+INPUT .\C3-Metodologia.tex
+INPUT .\C3-Metodologia.tex
+INPUT C3-Metodologia.tex
+INPUT .\C4-Resultados.tex
+INPUT .\C4-Resultados.tex
+OUTPUT C4-Resultados.aux
+INPUT .\C4-Resultados.tex
+INPUT .\C4-Resultados.tex
+INPUT C4-Resultados.tex
+INPUT .\C5-Discusion.tex
+INPUT .\C5-Discusion.tex
+OUTPUT C5-Discusion.aux
+INPUT .\C5-Discusion.tex
+INPUT .\C5-Discusion.tex
+INPUT C5-Discusion.tex
+INPUT .\C6-Conclusiones.tex
+INPUT .\C6-Conclusiones.tex
+OUTPUT C6-Conclusiones.aux
+INPUT .\C6-Conclusiones.tex
+INPUT .\C6-Conclusiones.tex
+INPUT C6-Conclusiones.tex
+INPUT .\Formato-MT-Latex.bbl
+INPUT .\Formato-MT-Latex.bbl
+INPUT Formato-MT-Latex.bbl
+INPUT .\Z1-Planos.tex
+INPUT .\Z1-Planos.tex
+OUTPUT Z1-Planos.aux
+INPUT .\Z1-Planos.tex
+INPUT .\Z1-Planos.tex
+INPUT Z1-Planos.tex
+INPUT .\Z2-Codigo.tex
+INPUT .\Z2-Codigo.tex
+OUTPUT Z2-Codigo.aux
+INPUT .\Z2-Codigo.tex
+INPUT .\Z2-Codigo.tex
+INPUT Z2-Codigo.tex
+INPUT Formato-MT-Latex.aux
+INPUT .\Pagina_Titulo.aux
+INPUT .\Pagina_Titulo.aux
+INPUT Pagina_Titulo.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT C0-Agradecimientos.aux
+INPUT .\C0-Resumen.aux
+INPUT .\C0-Resumen.aux
+INPUT C0-Resumen.aux
+INPUT .\C0-Abstract.aux
+INPUT .\C0-Abstract.aux
+INPUT C0-Abstract.aux
+INPUT .\C1-Introduccion.aux
+INPUT .\C1-Introduccion.aux
+INPUT C1-Introduccion.aux
+INPUT .\C2-Latex.aux
+INPUT .\C2-Latex.aux
+INPUT C2-Latex.aux
+INPUT .\C3-Metodologia.aux
+INPUT .\C3-Metodologia.aux
+INPUT C3-Metodologia.aux
+INPUT .\C4-Resultados.aux
+INPUT .\C4-Resultados.aux
+INPUT C4-Resultados.aux
+INPUT .\C5-Discusion.aux
+INPUT .\C5-Discusion.aux
+INPUT C5-Discusion.aux
+INPUT .\C6-Conclusiones.aux
+INPUT .\C6-Conclusiones.aux
+INPUT C6-Conclusiones.aux
+INPUT .\Z1-Planos.aux
+INPUT .\Z1-Planos.aux
+INPUT Z1-Planos.aux
+INPUT .\Z2-Codigo.aux
+INPUT .\Z2-Codigo.aux
+INPUT Z2-Codigo.aux
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
