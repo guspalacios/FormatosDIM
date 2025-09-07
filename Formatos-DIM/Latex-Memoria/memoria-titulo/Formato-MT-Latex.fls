@@ -272,39 +272,12 @@ INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
 INPUT Pagina_Titulo.aux
-INPUT .\C0-Agradecimientos.aux
-INPUT .\C0-Agradecimientos.aux
-INPUT C0-Agradecimientos.aux
-INPUT .\C0-Resumen.aux
-INPUT .\C0-Resumen.aux
-INPUT C0-Resumen.aux
-INPUT .\C0-Abstract.aux
-INPUT .\C0-Abstract.aux
-INPUT C0-Abstract.aux
 INPUT .\C1-Introduccion.aux
 INPUT .\C1-Introduccion.aux
 INPUT C1-Introduccion.aux
-INPUT .\C2-Latex.aux
-INPUT .\C2-Latex.aux
-INPUT C2-Latex.aux
-INPUT .\C3-Metodologia.aux
-INPUT .\C3-Metodologia.aux
-INPUT C3-Metodologia.aux
-INPUT .\C4-Resultados.aux
-INPUT .\C4-Resultados.aux
-INPUT C4-Resultados.aux
-INPUT .\C5-Discusion.aux
-INPUT .\C5-Discusion.aux
-INPUT C5-Discusion.aux
-INPUT .\C6-Conclusiones.aux
-INPUT .\C6-Conclusiones.aux
-INPUT C6-Conclusiones.aux
-INPUT .\Z1-Planos.aux
-INPUT .\Z1-Planos.aux
-INPUT Z1-Planos.aux
-INPUT .\Z2-Codigo.aux
-INPUT .\Z2-Codigo.aux
-INPUT Z2-Codigo.aux
+INPUT .\Carta_Gantt.aux
+INPUT .\Carta_Gantt.aux
+INPUT Carta_Gantt.aux
 OUTPUT Formato-MT-Latex.aux
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\cbfonts-fd\lgrcmr.fd
@@ -335,45 +308,24 @@ INPUT .\udec-dim.png
 INPUT .\udec-dim.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT .\C0-Agradecimientos.tex
-INPUT .\C0-Agradecimientos.tex
-OUTPUT C0-Agradecimientos.aux
-INPUT .\C0-Agradecimientos.tex
-INPUT .\C0-Agradecimientos.tex
-INPUT C0-Agradecimientos.tex
-INPUT .\C0-Resumen.tex
-INPUT .\C0-Resumen.tex
-OUTPUT C0-Resumen.aux
-INPUT .\C0-Resumen.tex
-INPUT .\C0-Resumen.tex
-INPUT C0-Resumen.tex
-INPUT .\C0-Abstract.tex
-INPUT .\C0-Abstract.tex
-OUTPUT C0-Abstract.aux
-INPUT .\C0-Abstract.tex
-INPUT .\C0-Abstract.tex
-INPUT C0-Abstract.tex
 INPUT .\Formato-MT-Latex.toc
 INPUT .\Formato-MT-Latex.toc
 INPUT Formato-MT-Latex.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT Formato-MT-Latex.toc
@@ -381,146 +333,41 @@ INPUT .\Formato-MT-Latex.lof
 INPUT .\Formato-MT-Latex.lof
 INPUT Formato-MT-Latex.lof
 OUTPUT Formato-MT-Latex.lof
-INPUT .\Formato-MT-Latex.lot
-INPUT .\Formato-MT-Latex.lot
-INPUT Formato-MT-Latex.lot
-OUTPUT Formato-MT-Latex.lot
 INPUT .\C1-Introduccion.tex
 INPUT .\C1-Introduccion.tex
 OUTPUT C1-Introduccion.aux
 INPUT .\C1-Introduccion.tex
 INPUT .\C1-Introduccion.tex
 INPUT C1-Introduccion.tex
-INPUT .\C2-Latex.tex
-INPUT .\C2-Latex.tex
-OUTPUT C2-Latex.aux
-INPUT .\C2-Latex.tex
-INPUT .\C2-Latex.tex
-INPUT C2-Latex.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT .\F-Pequines.jpg
-INPUT .\F-Pequines.jpg
-INPUT .\F-Pequines.jpg
-INPUT .\F-Pequines.jpg
-INPUT .\F-Pequines.jpg
-INPUT .\F-Pequines.jpg
-INPUT .\F-Pequines.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT .\F-Yorkshire.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT .\F-Poodle.jpg
-INPUT .\F-Poodle.jpg
-INPUT .\F-Poodle.jpg
-INPUT .\F-Poodle.jpg
-INPUT .\F-Poodle.jpg
-INPUT .\F-Poodle.jpg
-INPUT .\F-Poodle.jpg
-INPUT .\C3-Metodologia.tex
-INPUT .\C3-Metodologia.tex
-OUTPUT C3-Metodologia.aux
-INPUT .\C3-Metodologia.tex
-INPUT .\C3-Metodologia.tex
-INPUT C3-Metodologia.tex
-INPUT .\C4-Resultados.tex
-INPUT .\C4-Resultados.tex
-OUTPUT C4-Resultados.aux
-INPUT .\C4-Resultados.tex
-INPUT .\C4-Resultados.tex
-INPUT C4-Resultados.tex
-INPUT .\C5-Discusion.tex
-INPUT .\C5-Discusion.tex
-OUTPUT C5-Discusion.aux
-INPUT .\C5-Discusion.tex
-INPUT .\C5-Discusion.tex
-INPUT C5-Discusion.tex
-INPUT .\C6-Conclusiones.tex
-INPUT .\C6-Conclusiones.tex
-OUTPUT C6-Conclusiones.aux
-INPUT .\C6-Conclusiones.tex
-INPUT .\C6-Conclusiones.tex
-INPUT C6-Conclusiones.tex
 INPUT .\Formato-MT-Latex.bbl
 INPUT .\Formato-MT-Latex.bbl
 INPUT Formato-MT-Latex.bbl
-INPUT .\Z1-Planos.tex
-INPUT .\Z1-Planos.tex
-OUTPUT Z1-Planos.aux
-INPUT .\Z1-Planos.tex
-INPUT .\Z1-Planos.tex
-INPUT Z1-Planos.tex
-INPUT .\Z2-Codigo.tex
-INPUT .\Z2-Codigo.tex
-OUTPUT Z2-Codigo.aux
-INPUT .\Z2-Codigo.tex
-INPUT .\Z2-Codigo.tex
-INPUT Z2-Codigo.tex
+INPUT .\Carta_Gantt.tex
+INPUT .\Carta_Gantt.tex
+OUTPUT Carta_Gantt.aux
+INPUT .\Carta_Gantt.tex
+INPUT .\Carta_Gantt.tex
+INPUT Carta_Gantt.tex
 INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
 INPUT Pagina_Titulo.aux
-INPUT .\C0-Agradecimientos.aux
-INPUT .\C0-Agradecimientos.aux
-INPUT C0-Agradecimientos.aux
-INPUT .\C0-Resumen.aux
-INPUT .\C0-Resumen.aux
-INPUT C0-Resumen.aux
-INPUT .\C0-Abstract.aux
-INPUT .\C0-Abstract.aux
-INPUT C0-Abstract.aux
 INPUT .\C1-Introduccion.aux
 INPUT .\C1-Introduccion.aux
 INPUT C1-Introduccion.aux
-INPUT .\C2-Latex.aux
-INPUT .\C2-Latex.aux
-INPUT C2-Latex.aux
-INPUT .\C3-Metodologia.aux
-INPUT .\C3-Metodologia.aux
-INPUT C3-Metodologia.aux
-INPUT .\C4-Resultados.aux
-INPUT .\C4-Resultados.aux
-INPUT C4-Resultados.aux
-INPUT .\C5-Discusion.aux
-INPUT .\C5-Discusion.aux
-INPUT C5-Discusion.aux
-INPUT .\C6-Conclusiones.aux
-INPUT .\C6-Conclusiones.aux
-INPUT C6-Conclusiones.aux
-INPUT .\Z1-Planos.aux
-INPUT .\Z1-Planos.aux
-INPUT Z1-Planos.aux
-INPUT .\Z2-Codigo.aux
-INPUT .\Z2-Codigo.aux
-INPUT Z2-Codigo.aux
+INPUT .\Carta_Gantt.aux
+INPUT .\Carta_Gantt.aux
+INPUT Carta_Gantt.aux
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb

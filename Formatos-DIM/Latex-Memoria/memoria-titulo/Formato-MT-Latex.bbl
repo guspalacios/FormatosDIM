@@ -1,11 +1,31 @@
 \begin{thebibliography}{1}
 
-\bibitem{ref1}
-J.~Doe and J.~Smith, ``Title of the article,'' {\em Journal name}, vol.~4,
-  no.~2, pp.~5--15, 2022.
+\bibitem{HullClyne1996}
+D.~Hull and T.~W. Clyne, {\em An Introduction to Composite Materials}.
+\newblock Cambridge University Press, 2nd~ed., 1996.
 
-\bibitem{ref2}
-J.~Doe, {\em Title of the book}.
-\newblock Publisher, 2022.
+\bibitem{KellyZweben2000}
+A.~Kelly and C.~Zweben, {\em Comprehensive Composite Materials}.
+\newblock Elsevier, 2000.
+
+\bibitem{DINSPEC19289}
+``Din spec 19289: Fibre-reinforced composites – determination of the
+  interfacial shear strength by single-fibre pull-out test (wipull method),''
+  2022.
+\newblock Disponible en DIN Standards.
+
+\bibitem{DeLeon2022}
+A.~De~Leon, M.~Tank, and R.~Sweat, ``A scalable fiber bundle pullout
+  manufacturing method for data-driven interfacial shear strength measurements
+  of micro and nanomaterials,'' {\em Composites Science and Technology},
+  vol.~222, p.~109375, 2022.
+
+\bibitem{ISO3341}
+``Iso 3341: Textiles — glass yarns — determination of breaking force and
+  breaking elongation,'' 2000.
+
+\bibitem{DIN29965}
+``Din 29965: Carbon fibre filament yarns – technical specification for
+  aerospace applications,'' 1992.
 
 \end{thebibliography}

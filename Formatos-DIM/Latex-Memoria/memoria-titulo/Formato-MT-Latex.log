@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  12 AUG 2025 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  6 SEP 2025 21:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1012,9 +1012,7 @@ Package: glossary-tree 2025/05/14 v4.7 (NLCT)
 \l__glossaries_tree_namesymbolwidth_padding_dim=\dimen327
 \l__glossaries_tree_level_int=\count352
 \glstreeindent=\skip119
-)) (A-Nomenclatura.tex) (Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Agradecimientos.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux
-\g__glossaries_gls_ref_acronym_int=\count353
-) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Z1-Planos.aux) (Z2-Codigo.aux))
+)) (A-Nomenclatura.tex) (Formato-MT-Latex.aux (Pagina_Titulo.aux) (C1-Introduccion.aux) (Carta_Gantt.aux))
 \openout1 = `Formato-MT-Latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -1074,16 +1072,16 @@ LaTeX Font Info:    ... okay on input line 72.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
+\scratchcounter=\count353
 \scratchdimen=\dimen328
 \scratchbox=\box75
-\nofMPsegments=\count355
-\nofMParguments=\count356
+\nofMPsegments=\count354
+\nofMParguments=\count355
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count357
+\MPscratchCnt=\count356
 \MPscratchDim=\dimen329
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
+\MPnumerator=\count357
+\makeMPintoPDFobject=\count358
 \everyMPtoPDFconversion=\toks52
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1109,32 +1107,11 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 ) [1
 
 
-{C:/Users/gusta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./udec-dim.png>]
-\openout2 = `C0-Agradecimientos.aux'.
-
- (C0-Agradecimientos.tex) [2
-
-
-
-]
-\openout2 = `C0-Resumen.aux'.
-
- (C0-Resumen.tex) [3
-
-
-
-]
-\openout2 = `C0-Abstract.aux'.
-
- (C0-Abstract.tex) [4
-
-
-
-] (Formato-MT-Latex.toc)
+{C:/Users/gusta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./udec-dim.png>] (Formato-MT-Latex.toc)
 \tf@toc=\write4
 \openout4 = `Formato-MT-Latex.toc'.
 
- [5
+ [2
 
 
 ] (Formato-MT-Latex.lof)
@@ -1143,110 +1120,45 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 
  [1
 
-] (Formato-MT-Latex.lot)
-\tf@lot=\write6
-\openout6 = `Formato-MT-Latex.lot'.
-
- [2
-
-]
-
-Package glossaries Info: Preparing to sort glossary `acronym' (total number of
-(glossaries)             referenced entries: 2)
-
-[3
-
 ]
 \openout2 = `C1-Introduccion.aux'.
 
- (C1-Introduccion.tex [4
+ (C1-Introduccion.tex [2
 
-]) [5]
-\openout2 = `C2-Latex.aux'.
 
- (C2-Latex.tex [6
-
+] [3]) [4] (Formato-MT-Latex.bbl) [5
 
 
 ]
-<F-Pequines.jpg, id=54, 539.01375pt x 415.5525pt>
-File: F-Pequines.jpg Graphic file (type jpg)
-<use F-Pequines.jpg>
-Package pdftex.def Info: F-Pequines.jpg  used on input line 34.
-(pdftex.def)             Requested size: 234.73524pt x 180.97311pt.
-<F-Yorkshire.jpg, id=55, 120.45pt x 103.3461pt>
-File: F-Yorkshire.jpg Graphic file (type jpg)
-<use F-Yorkshire.jpg>
-Package pdftex.def Info: F-Yorkshire.jpg  used on input line 48.
-(pdftex.def)             Requested size: 187.78532pt x 161.13568pt.
-<F-Poodle.jpg, id=56, 1003.75pt x 1003.75pt>
-File: F-Poodle.jpg Graphic file (type jpg)
-<use F-Poodle.jpg>
-Package pdftex.def Info: F-Poodle.jpg  used on input line 54.
-(pdftex.def)             Requested size: 161.26585pt x 161.26187pt.
- [7 <./F-Pequines.jpg> <./F-Yorkshire.jpg> <./F-Poodle.jpg>]) [8]
-\openout2 = `C3-Metodologia.aux'.
+\openout2 = `Carta_Gantt.aux'.
 
- (C3-Metodologia.tex) [9
-
-
-
-]
-\openout2 = `C4-Resultados.aux'.
-
- (C4-Resultados.tex) [10
-
-
-
-]
-\openout2 = `C5-Discusion.aux'.
-
- (C5-Discusion.tex) [11
-
-
-
-]
-\openout2 = `C6-Conclusiones.aux'.
-
- (C6-Conclusiones.tex) [12
-
-
-
-] (Formato-MT-Latex.bbl) [13
-
-
-]
-\openout2 = `Z1-Planos.aux'.
-
- (Z1-Planos.tex) [14
-
-]
-\openout2 = `Z2-Codigo.aux'.
-
- (Z2-Codigo.tex) [15
-
-
+ (Carta_Gantt.tex) [6
 
 ] 
 AED: lastpage setting LastPage
-(Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Agradecimientos.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Z1-Planos.aux) (Z2-Codigo.aux))
+
+Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
+ found. (Remove \makenoidxglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+(Formato-MT-Latex.aux (Pagina_Titulo.aux) (C1-Introduccion.aux) (Carta_Gantt.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26269 strings out of 474486
- 548966 string characters out of 5753570
- 1937542 words of memory out of 5000000
- 48053 multiletter control sequences out of 15000+600000
- 565632 words of font info for 62 fonts, out of 8000000 for 9000
+ 25967 strings out of 474486
+ 538331 string characters out of 5753570
+ 1936542 words of memory out of 5000000
+ 47819 multiletter control sequences out of 15000+600000
+ 564016 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,93p,2594b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Formato-MT-Latex.pdf (20 pages, 644075 bytes).
+ 84i,8n,93p,2594b,455s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Formato-MT-Latex.pdf (8 pages, 97275 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

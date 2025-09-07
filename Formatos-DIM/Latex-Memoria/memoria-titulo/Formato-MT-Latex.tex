@@ -74,9 +74,9 @@
 \pagenumbering{roman}
 
 \include{Pagina_Titulo}
-\include{C0-Agradecimientos}
-\include{C0-Resumen}
-\include{C0-Abstract}
+%\include{C0-Agradecimientos}
+%\include{C0-Resumen}
+%\include{C0-Abstract}
 
 \tableofcontents \clearpage
 \pagenumbering{arabic}
@@ -84,39 +84,35 @@
 \addcontentsline{toc}{section}{\listfigurename}
 \listoffigures \clearpage
 %\cleardoublepage
-\addcontentsline{toc}{section}{\listtablename}
-\listoftables \clearpage
+%\addcontentsline{toc}{section}{\listtablename}
+%\listoftables \clearpage
 %\cleardoublepage
 %\addcontentsline{toc}{section}{List of Abbreviations}
 %\glossary
 %\printglossaries[type=\acronymtype]
-\printnoidxglossary[title={Nomenclatura}, style=alttree]
+%\printnoidxglossary[title={Nomenclatura}, style=alttree]
 
 
 \include{C1-Introduccion}
-\include{C2-Latex}
-\include{C3-Metodologia}
-\include{C4-Resultados}
-\include{C5-Discusion}
-\include{C6-Conclusiones}
+%\include{C2-Latex}
+%\include{C3-Metodologia}
+%\include{C4-Resultados}
+%\include{C5-Discusion}
+%\include{C6-Conclusiones}
 
+%bibliography
+\addcontentsline{toc}{section}{\refname}
 \bibliographystyle{ieeetr}
 \bibliography{Referencias}
 
-
+%\appendix
 \begin{appendices}
-\include{Z1-Planos}
-\include{Z2-Codigo}
+\include{Carta_Gantt}
+%\include{Z2-Codigo}
 \end{appendices}
 
-
-
-%\appendix
-%\addcontentsline{toc}{section}{Anexos}
+\addcontentsline{toc}{section}{Anexos}
 %
-%\include{Z1-AnexoA}
-
-
 
 \end{document}
 
