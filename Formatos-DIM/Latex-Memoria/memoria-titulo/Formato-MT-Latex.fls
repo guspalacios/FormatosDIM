@@ -261,6 +261,11 @@ INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\supertabular\supertabular.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\styles\glossary-tree.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT .\A-Nomenclatura.tex
 INPUT .\A-Nomenclatura.tex
 INPUT .\A-Nomenclatura.tex
@@ -339,7 +344,14 @@ OUTPUT C1-Introduccion.aux
 INPUT .\C1-Introduccion.tex
 INPUT .\C1-Introduccion.tex
 INPUT C1-Introduccion.tex
+INPUT .\Interface_diagram.pdf
+INPUT .\Interface_diagram.pdf
+INPUT .\Interface_diagram.pdf
+INPUT .\Interface_diagram.pdf
+INPUT .\Interface_diagram.pdf
+INPUT .\Interface_diagram.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\Formato-MT-Latex.bbl
 INPUT .\Formato-MT-Latex.bbl
 INPUT Formato-MT-Latex.bbl
@@ -349,6 +361,12 @@ OUTPUT Carta_Gantt.aux
 INPUT .\Carta_Gantt.tex
 INPUT .\Carta_Gantt.tex
 INPUT Carta_Gantt.tex
+INPUT .\CartaGantt-MT_Palacios.pdf
+INPUT .\CartaGantt-MT_Palacios.pdf
+INPUT .\CartaGantt-MT_Palacios.pdf
+INPUT .\CartaGantt-MT_Palacios.pdf
+INPUT .\CartaGantt-MT_Palacios.pdf
+INPUT .\CartaGantt-MT_Palacios.pdf
 INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
@@ -363,11 +381,17 @@ INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcr
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
