@@ -30,6 +30,21 @@
 \usepackage{tocloft}
 \usepackage[nopostdot,toc,acronym,nomain,nonumberlist]{glossaries}
 
+% Referencias cruzadas automáticas
+\usepackage[hidelinks]{hyperref}
+\usepackage[nameinlink,capitalise]{cleveref}
+% --- Nombres en español para cleveref
+\crefname{figure}{figura}{figuras}
+\Crefname{figure}{Figura}{Figuras}
+\crefname{table}{tabla}{tablas}
+\Crefname{table}{Tabla}{Tablas}
+\crefname{subfigure}{subfigura}{subfiguras}
+\Crefname{subfigure}{Subfigura}{Subfiguras}
+\crefname{equation}{ecuación}{ecuaciones}
+\Crefname{equation}{Ecuación}{Ecuaciones}
+\crefname{appendix}{anexo}{anexos}
+\Crefname{appendix}{Anexo}{Anexos}
+
 \newenvironment{MyColorPar}[1]{%
     \leavevmode\color{#1}\ignorespaces%
 }{
@@ -80,23 +95,23 @@
 %\include{C0-Abstract}
 
 \tableofcontents \clearpage
-\pagenumbering{arabic}
-%\cleardoublepage
+% \pagenumbering{arabic}
+\cleardoublepage
 \addcontentsline{toc}{section}{\listfigurename}
 \listoffigures \clearpage
-%\cleardoublepage
-%\addcontentsline{toc}{section}{\listtablename}
-%\listoftables \clearpage
-%\cleardoublepage
-%\addcontentsline{toc}{section}{List of Abbreviations}
-%\glossary
-%\printglossaries[type=\acronymtype]
-%\printnoidxglossary[title={Nomenclatura}, style=alttree]
-
+\cleardoublepage
+% \addcontentsline{toc}{section}{\listtablename}
+% \listoftables \clearpage
+% \cleardoublepage
+% \addcontentsline{toc}{section}{List of Abbreviations}
+% \glossary
+% \printglossaries[type=\acronymtype]
+% \printnoidxglossary[title={Nomenclatura}, style=alttree]
+\pagenumbering{arabic}
 
 \include{C1-Introduccion}
-%\include{C2-Latex}
-%\include{C3-Metodologia}
+\include{C2-Latex}
+\include{C3-Metodologia}
 %\include{C4-Resultados}
 %\include{C5-Discusion}
 %\include{C6-Conclusiones}

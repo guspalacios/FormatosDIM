@@ -5,6 +5,10 @@ Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: Pagina_Titulo.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: C1-Introduccion.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: C2-Latex.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: C3-Metodologia.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
@@ -23,7 +27,7 @@ Warning--entry type for "ASTMD3822" isn't style-file defined
 --line 197 of file Referencias.bib
 You've used 16 entries,
             1876 wiz_defined-function locations,
-            580 strings with 6029 characters,
+            582 strings with 6059 characters,
 and the built_in function-call counts, 3208 in all, are:
 = -- 322
 > -- 97

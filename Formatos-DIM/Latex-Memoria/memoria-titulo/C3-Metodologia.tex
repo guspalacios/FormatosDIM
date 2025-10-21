@@ -1,10 +1,84 @@
+% =====================================
+% CAPÍTULO 3: METODOLOGÍA
+% =====================================
+
 \section{Metodología}
 
-La sección de metodología describe el diseño de investigación y los procedimientos utilizados, permitiendo a los lectores evaluar la validez y confiabilidad del estudio. Sirve como un plano detallado de cómo se llevó a cabo la investigación, incluyendo la selección de los casos de estudio, métodos de recolección de datos y técnicas de análisis. Estos métodos pueden incluir experimentos, simulaciones o levantamiento de datos de otras fuentes externas.
+La metodología define el diseño de investigación y los procedimientos utilizados para implementar
+el ensayo \textit{Fiber-Bundle Pull-Out} (FBPO) a mesoescala, asegurando la validez, confiabilidad
+y replicabilidad de los resultados. Este estudio se enmarca dentro de un enfoque experimental,
+orientado a adaptar y aplicar una metodología existente a una nueva configuración de ensayo,
+con el fin de evaluar la adhesión fibra–matriz mediante la medición de la resistencia al corte
+interfacial (\textit{Interfacial Shear Strength}, IFSS). El diseño general de la investigación
+se ha estructurado en seis etapas secuenciales, que abarcan desde la revisión de antecedentes
+hasta el análisis estadístico de los resultados.
 
-Se comienza describiendo el diseño general de la investigación, indicando cómo este diseño se enfoca a cumplir los objetivos y detallando sus alcances. Junto a esto, se presenta el o los casos de estudio, indicando sus características y limitaciones.
+\subsection{Diseño general de la investigación}
+El diseño experimental busca cumplir los objetivos planteados mediante la implementación progresiva
+de un ensayo reproducible a mesoescala, considerando una hebra de fibra de carbono como unidad de
+estudio. Se utilizarán hebras provenientes de dos proveedores distintos, correspondientes al mismo
+tipo de fibra, pero con posibles diferencias en el tratamiento superficial o recubrimiento, lo que
+permitirá evaluar su influencia sobre la interacción interfacial. La comparación entre ambas fibras
+constituye el caso de estudio principal de la investigación. El alcance de la metodología se limita
+a la fase experimental y al análisis estadístico de los resultados, sin considerar modelación
+numérica ni efectos de degradación ambiental.
 
-A continuación, se explican claramente los métodos utilizados para generar los datos, como experimentos, simulaciones o investigación sobre datos históricos. Se debe ser específico sobre las herramientas, instrumentos o tecnologías utilizadas y justificar por qué estos métodos fueron elegidos sobre otros.  Luego, se describen los procedimientos utilizados para analizar los datos recolectados. Especialmente para estudios experimentales, esto podría incluir análisis estadístico como pruebas de hipótesis, estimación de intervalos o análisis de varianza. 
+\subsection{Etapas de desarrollo}
 
-Uno de los principales objetivos de la sección de metodología es asegurar la replicabilidad de los resultados. Esto quiere decir, que cualquier otra persona podría seguir paso a paso lo indicado en esta sección para replicar los resultados que se mostrarán luego. Por lo tanto, se debe ser lo suficientemente específico en explicar el diseño y procedimiento, sin dejar aspectos clave de lado.
+\subsubsection{Etapa 1: Revisión de antecedentes bibliográficos}
+En la primera fase se realizará una revisión sistemática de la literatura sobre ensayos de tracción
+y adhesión a nivel micro y mesoescala, incluyendo métodos como el \textit{Single-Fiber Pull-Out},
+\textit{Microdroplet}, \textit{Iosipescu} y \textit{Fiber-Bundle Pull-Out}. Esta revisión permitirá
+establecer los parámetros geométricos, condiciones de embebido y estrategias de sujeción más
+apropiadas para adaptar el procedimiento al nivel meso, garantizando que las condiciones
+experimentales sean comparables con estudios previos. También se considerarán las directrices
+de normas internacionales relevantes, tales como DIN SPEC 19289, ISO 3341 y DIN 29965, que orientan
+el control dimensional y la trazabilidad del material de refuerzo.
 
+\subsubsection{Etapa 2: Diseño del sistema experimental}
+En la segunda fase se desarrollará el diseño del sistema experimental mediante modelado asistido
+por computadora en el software Autodesk Inventor. Se elaborará el modelo tridimensional del molde
+negativo para la fabricación de probetas de ensayo, considerando las dimensiones de embebido de la hebra y la correcta alineación axial. La impresión 3D en filamento de ácido poliláctico (PLA) se selecciona por su precisión, bajo costo y facilidad de reproducción, lo que permite obtener moldes reutilizables y consistentes en geometría. Este diseño constituye la base para garantizar la precisión dimensional del ensayo y la reproducibilidad entre probetas.
+
+\subsubsection{Etapa 3: Fabricación de moldes de silicona}
+Los moldes de silicona se fabricarán a partir de los modelos impresos en PLA, vertiendo silicona
+líquida en el molde negativo. Una vez curada, la silicona permitirá obtener cavidades con la
+geometría requerida para el colado de las probetas. Esta técnica fue seleccionada por su
+flexibilidad, estabilidad dimensional y compatibilidad con materiales termoestables, garantizando
+la obtención de moldes precisos para replicar múltiples probetas idénticas.
+
+\subsubsection{Etapa 4: Fabricación de probetas}
+La cuarta etapa contempla la elaboración de las probetas mediante el uso de los moldes de silicona.
+En cada molde se colocará una hebra de fibra de carbono, que se embebará parcialmente en una resina
+epóxica líquida. Se emplearán dos tipos de fibra de carbono provenientes de distintos proveedores,
+con el propósito de comparar el efecto de posibles diferencias en recubrimientos o tratamientos
+superficiales sobre la resistencia interfacial. Posteriormente, las probetas se someterán a un
+proceso de curado y postcurado de acuerdo con las especificaciones del fabricante de la resina,
+asegurando una polimerización completa y estable. Este proceso garantiza la replicabilidad geométrica
+y la consistencia del material entre muestras.
+
+\subsubsection{Etapa 5: Ejecución de los ensayos FBPO}
+En la quinta fase se llevará a cabo la campaña experimental del ensayo \textit{Fiber-Bundle Pull-Out}.
+Las probetas se ensayarán en una máquina de tracción universal instrumentada, bajo condiciones
+controladas de carga y desplazamiento. Se registrarán las curvas fuerza – desplazamiento y se
+documentarán los modos de falla observados en la interfaz fibra–matriz mediante registro visual y
+fotográfico. Cada serie de ensayos incluirá un número suficiente de repeticiones para asegurar la
+validez estadística de los resultados.
+
+\subsubsection{Etapa 6: Procesamiento y análisis de datos}
+Los datos experimentales obtenidos se procesarán mediante análisis de varianza (ANOVA) para
+identificar diferencias significativas entre las condiciones de ensayo, particularmente entre los dos
+tipos de fibra de carbono. Este análisis permitirá evaluar el efecto del proveedor sobre la
+resistencia al corte interfacial y la consistencia de los resultados. Finalmente, los valores de
+IFSS se contrastarán con antecedentes de otros ensayos mesoescala realizados en la misma institución,
+como el ensayo de Iosipescu y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, con el
+objetivo de validar la aplicabilidad y confiabilidad del método FBPO.
+
+\subsection{Replicabilidad y validez}
+El diseño experimental y los procedimientos descritos se documentarán detalladamente, asegurando
+que cualquier investigador pueda replicar las etapas del proceso con los mismos materiales,
+geometrías y parámetros de ensayo. Se seleccionaron herramientas y técnicas accesibles, como
+modelado CAD, impresión 3D e instrumentación estándar de tracción, con el propósito de facilitar
+la reproducibilidad del estudio. El control de variables, la comparación entre dos tipos de fibras
+y el uso de análisis estadístico robusto refuerzan la validez de los resultados y su potencial
+aplicación en estudios futuros de adhesión fibra–matriz a mesoescala.

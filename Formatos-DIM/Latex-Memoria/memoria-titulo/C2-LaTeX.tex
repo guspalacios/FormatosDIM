@@ -1,115 +1,120 @@
-\section{Escritura en LaTeX}
+% =====================================
+% CAPÍTULO 2: ESTADO DEL ARTE Y MARCO TEÓRICO
+% =====================================
 
-\subsection{Referencias}
-Los elementos del listado de referencias deben escribirse en el archivo \verb!Referencias.bib! siguiendo el formato allí establecido. Para citar una referencia en el documento se utiliza el comando \verb!\cite{X}!, donde \verb!X! es el nombre que se le da a cada elemento de las referencias. Por ejemplo, en el listado provisto hay dos elementos cuyos nombres son \verb!ref1! y \verb!ref2!. Al citar ambas referencias de forma independiente quedaría \cite{ref1} y \cite{ref2}. También se pueden citar ambas juntas así \cite{ref1, ref2}.
+\section{Estado del arte y marco teórico}
 
-\subsection{Listas de elementos}
-Se pueden crear listas de elementos mediante el ambiente \verb!itemize!. El ambiente se abre con \verb!\begin{itemize}!, los elementos se agregan mediante el comando \verb!\item! y el ambiente se cierra con \verb!\end{itemize}!. A continuación un ejemplo:
+\subsection{Estado del Arte}
 
+El estudio de la adhesión fibra–matriz en materiales compuestos ha sido ampliamente abordado
+mediante ensayos a escala micromecánica, los cuales permiten caracterizar la resistencia
+al corte interfacial (\textit{Interfacial Shear Strength}, IFSS) de fibras individuales embebidas
+en una matriz polimérica. Entre los métodos más utilizados destacan el \textit{Single-Fiber Pull-Out
+Test}, el \textit{Push-Out Test} y el \textit{Microdroplet Test} \cite{Miller1987, Gao2015, Ouyang2020}.
+Estos ensayos han demostrado ser efectivos para estimar la fuerza de adhesión a nivel de un
+filamento, pero presentan limitaciones importantes: alta dispersión de los resultados, baja
+representatividad frente a la interacción colectiva de fibras, y dificultad para escalar
+a configuraciones de ingeniería práctica \cite{DINSPEC19289, Liu2021}.
+
+Para superar estas limitaciones, se ha desarrollado el \textit{Fiber-Bundle Pull-Out Test}
+(FBPO), que permite extraer hebras completas de fibras (aproximadamente 3000 filamentos por hebra)
+embebidas en la matriz \cite{DeLeon2022}. Al trabajar en la mesoescala, este método captura
+de manera más representativa la interacción colectiva fibra–matriz, reduciendo la dispersión de
+los resultados y aumentando la robustez estadística. De León et al. \cite{DeLeon2022} describen
+un procedimiento escalable que utiliza moldes multicavidad y dispositivos de alineación geométrica,
+asegurando un control preciso de la longitud de embebido y permitiendo la producción de múltiples
+probetas de manera consistente. Este enfoque facilita la obtención de datos sistemáticos y
+reproducibles para estudios comparativos de adhesión.
+
+Además, la implementación de ensayos FBPO puede apoyarse en normativas existentes para fibras
+individuales o hilos textiles, cuyas recomendaciones son transferibles a la mesoescala. La
+\textbf{DIN SPEC 19289} establece procedimientos estandarizados para el \textit{single-fiber
+pull-out}, enfatizando el control geométrico y la alineación durante el ensayo. La
+\textbf{ISO 3341} proporciona lineamientos para la tracción de hilos de vidrio, incluyendo
+prácticas de sujeción y acondicionamiento que pueden aplicarse a hebras completas. Por último,
+la \textbf{DIN 29965} define especificaciones para hilos de carbono en aplicaciones aeroespaciales,
+relevantes para la trazabilidad y caracterización del material utilizado en probetas
+\cite{DINSPEC19289, ISO3341, DIN29965}.
+
+Finalmente, la validación de los resultados del FBPO se realiza comparando los datos
+obtenidos con otros ensayos mesoescala, como el ensayo de Iosipescu y los ensayos de
+tracción de hebras a $45^\circ$ y $90^\circ$. Estos métodos permiten establecer una referencia
+confiable para evaluar la efectividad y reproducibilidad del FBPO \cite{Liu2021, Ouyang2020}.
+De esta manera, el estado del arte evidencia la necesidad de un ensayo escalable a mesoescala
+que combine precisión experimental, robustez estadística y aplicabilidad práctica en la
+caracterización de la adhesión fibra–matriz.
+
+\subsection{Marco Teórico}
+
+El marco teórico tiene como objetivo proporcionar los conceptos fundamentales que sustentan la
+implementación del ensayo \textit{Fiber-Bundle Pull-Out} (FBPO) y la interpretación de los
+resultados obtenidos.
+
+\subsubsection{Interfaz fibra–matriz}
+La interfaz fibra–matriz se define como la región de contacto entre los filamentos de refuerzo y
+la matriz polimérica en un material compuesto. Esta zona es crucial, ya que permite la
+transferencia de esfuerzos desde la matriz hacia las fibras, determinando el comportamiento
+mecánico global del material. La calidad de la interfaz influye directamente en la rigidez,
+resistencia y tenacidad del compuesto, y un fallo en esta región puede conducir a una disminución
+significativa de la vida útil de los componentes \cite{HullClyne1996, KellyZweben2000}.
+
+\subsubsection{Resistencia al corte interfacial (IFSS)}
+La \textit{Interfacial Shear Strength} (IFSS) cuantifica la capacidad de la interfaz para resistir
+el deslizamiento relativo entre fibra y matriz bajo carga de corte. Este parámetro se estima
+comúnmente mediante ensayos de tracción de fibra individual o de hebras, como el
+\textit{Single-Fiber Pull-Out}, el \textit{Microbond Test} y el FBPO \cite{Gao2015, DeLeon2022}.
+La IFSS es un indicador clave para el diseño y optimización de materiales compuestos, ya que su
+valor afecta la transferencia de carga y, por tanto, la resistencia estructural.
+
+\subsubsection{Escalas de estudio}
 \begin{itemize}
-    \item Primer elemento
-    \item Segundo elemento
-    \item Tercer elemento
-    \item Cuarto elemento
+    \item \textbf{Micromecánica:} Se centra en la interacción de un único filamento con la matriz
+	circundante, utilizando equipos de alta precisión. Permite caracterizar la adhesión a nivel
+	de un filamento, pero presenta alta dispersión y baja representatividad frente al
+	comportamiento de múltiples fibras \cite{Miller1987, Ouyang2020}.
+    \item \textbf{Mesoescala:} Considera hebras completas de fibras (aproximadamente 3000
+	filamentos por hebra) embebidas en la matriz \cite{DeLeon2022}. Esta escala captura la
+	interacción colectiva fibra–matriz y reduce la dispersión estadística de los resultados,
+	permitiendo obtener mediciones más representativas y reproducibles.
+    \item \textbf{Macroscópica:} Analiza laminados completos o componentes estructurales,
+	donde la respuesta depende de la distribución global de fibras y de la matriz, incluyendo
+	efectos de geometría y carga real.
 \end{itemize}
 
-\subsection{Acrónimos y siglas}
-Los acrónimos y siglas deben escribirse en el archivo \verb!A-Nomenclatura.tex! siguiendo el formato allí establecido. Para incluir alguno de ellos en el documento se utiliza el comando \verb!\gls{X}!, donde \verb!X! es la abreviación previamente definida. La primera vez que se usa este comando para una abreviación en particular, automáticamente aparece la definición extensa seguida por la abreviación. Las siguientes veces solo aparece la abreviación. Por ejemplo, en el archivo mencionado están ya definidos los conceptos \gls{EA} y \gls{RNC}. Si los volvemos a utilizar nuevamente, solo aparecerá la abreviación tal como se observa acá \gls{EA} y \gls{RNC}.
+\subsubsection{Ensayos de caracterización interfacial}
+Los ensayos más utilizados para la medición de IFSS incluyen:
+\begin{itemize}
+    \item \textit{Single-Fiber Pull-Out Test:} Evalúa un solo filamento embebido, proporcionando
+	información directa sobre la adhesión pero con alta dispersión \cite{Miller1987}.
+    \item \textit{Push-Out Test:} Mide la fuerza necesaria para expulsar una fibra de un
+	microbloque de matriz, utilizado principalmente en composites de alta precisión
+	\cite{Ouyang2020}.
+    \item \textit{Microdroplet Test:} Evalúa la adhesión a partir de microgotas de matriz
+	sobre fibras individuales.
+    \item \textit{Fiber-Bundle Pull-Out Test (FBPO):} Permite extraer hebras completas de
+	fibras, integrando los efectos colectivos y aumentando la robustez estadística de los
+	resultados \cite{DeLeon2022, Liu2021}.
+\end{itemize}
 
-\subsection{Ecuaciones y símbolos matemáticos}
-Se pueden crear ecuaciones numeradas mediante el ambiente \verb!equation!. El ambiente se abre con \verb!\begin{equation}!, se ingresa la ecuación deseada y el ambiente se cierra con \verb!\end{equation}!. A continuación un ejemplo:
-\begin{equation}\label{eq:signature}
-    x(t) = x_{r}(t) + \frac{s(t)}{2\pi} - \int_{a}^{b} h(r) dr
-\end{equation}
-Esta ecuación numerada se puede referenciar en el texto mediante el comando \verb!\ref{X}!, donde \verb!X! es la etiqueta o \textit{label} que se le dio a la ecuación dentro del ambiente. En este caso corresponde a la Ec.~\ref{eq:signature}.
+\subsubsection{Aplicación de métodos estadísticos}
+Para garantizar que las diferencias observadas entre distintos ensayos o condiciones experimentales
+sean significativas, se emplean métodos estadísticos como el análisis de varianza (ANOVA).
+Este análisis permite identificar diferencias significativas en los resultados de IFSS entre
+distintas configuraciones de ensayos o materiales, asegurando la confiabilidad de las
+conclusiones \cite{Liu2021}.
 
-Para insertar ecuaciones o símbolos matemáticos dentro de un párrafo se usa \verb!$X$!, donde \verb!X! es lo que se desea escribir. Por ejemplo, se escribe la ecuación de una recta $y = mx + b$ dentro del párrafo. También se pueden escribir símbolos matemáticos latinos en cursiva como $x, r^{2}, c_{p}$ o griegos como $\alpha, \pi, \Delta$.
+\subsubsection{Normas y estandarización}
+La realización de ensayos de adhesión se respalda en normas técnicas, que aseguran la
+reproducibilidad y trazabilidad de los resultados. Entre ellas destacan:
+\begin{itemize}
+    \item \textbf{DIN SPEC 19289:} Procedimiento para el \textit{single-fiber pull-out},
+	con énfasis en alineación y control geométrico \cite{DINSPEC19289}.
+    \item \textbf{ISO 3341:} Determinación de la fuerza de ruptura y elongación de hilos
+	de vidrio, aplicable a hebras \cite{ISO3341}.
+    \item \textbf{DIN 29965:} Especificaciones para hilos de carbono en aplicaciones
+	aeroespaciales \cite{DIN29965}.
+\end{itemize}
 
-\subsection{Figuras}
-\subsubsection{Figuras simples}
-Las figuras se insertan en el ambiente \verb!figure!. El ambiente se abre con \verb!\begin{figure}!, se añade la ruta relativa a la figura con el comando \verb!\includegraphics! y el ambiente se cierra con \verb!\end{figure}!. La figura puede tener diferentes extensiones, entre ellas .png, .jpg y .pdf. A continuación un ejemplo:
-
-\begin{figure}[h]
-    \centering    
-    \includegraphics[width=0.5\textwidth]{F-Pequines.jpg} 
-    \caption{Perro de raza pequinés}
-    \label{fig:F-Pequines}
-\end{figure}
-
-El ambiente ofrece diferentes opciones para ajustar la alineación, posición y tamaño. El título bajo la figura se cambia mediante el comando \verb!\caption!. La referencia dentro del texto se hace igual que las ecuaciones. Es decir, se le da a la figura una etiqueta con el comando \verb!\label! y luego se referencia con el comando \verb!\ref!. En este caso resulta Fig.~\ref{fig:F-Pequines}.
-
-\subsubsection{Figuras múltiples}
-Es posible usar estructuras más complejas para añadir figuras múltiples como la Fig.~\ref{fig:Dos-Perros}.
-
-\begin{figure*}[h]
-    \centering
-    \begin{subfigure}[t]{0.4\textwidth}
-        \centering{%
-        \includegraphics[width=\textwidth]{F-Yorkshire.jpg}
-        }%
-        \subcaption{Yorkshire\label{fig:F-Yorkshire}}
-        \end{subfigure}
-    \begin{subfigure}[t]{0.3435\textwidth}
-        \centering{%
-        \includegraphics[width=\textwidth]{F-Poodle.jpg}
-        }%
-        \subcaption{Poodle\label{fig:F-Poodle}}
-    \end{subfigure}
-    \caption{Perros de diferente raza.}\label{fig:Dos-Perros}
-\end{figure*}
-
-En este caso, un perro yorkshire se muestra en la Fig.~\ref{fig:F-Yorkshire}, mientras que un perro poodle se muestra en la Fig.~\ref{fig:F-Poodle}
-
-\subsection{Tablas}
-\subsubsection{Tablas simples}
-Las tablas se insertan en el ambiente \verb!table! combinado con \verb!tabular!. Al llamar al ambiente \verb!tabular! se deben especificar la cantidad de columnas de la tabla escribiendo una \textbf{c} por cada columna con alineación centrada. Luego, los datos se añaden por cada fila separados por el símbolo \& y terminando la fila con doble backslash. Los comandos del tipo x-\verb!rule! son para añadir líneas horizontales. El comando \verb!label! es para darle el título a la tabla. A continuación un ejemplo:
-
-\begin{table}[h]
-	\centering
-	\caption{CNN architecture}
-	\label{tab:CNNArchitecture}
-	\begin{tabular}{cccc}
-		\toprule
-		Layer & Kernel size & Number of kernels & Feature map size \\
-		\midrule
-		Input & - & - & 128x128 \\
-		Convolution 1 & 5x5 & 64 & 124x124 \\
-		Pooling 1 & 2x2 & 64 & 62x62 \\
-		Convolution 2 & 5x5 & 32 & 62x62 \\
-		Pooling 2 & 2x2 & 32 & 31x31 \\
-		Fully connected & 1x1 & 512 & 512 \\
-		Softmax & - & - & 5 \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-La referencia de las tablas en el texto se realiza de la misma manera que para ecuaciones y figuras. En este caso tenemos la Tabla~\ref{tab:CNNArchitecture}.
-
-
-\subsubsection{Tablas personalizadas}
-Se pueden crear tablas personalizadas combinando filas y columnas mediante los comandos \verb!\multicolumn! y \verb!\multirow!. La Tabla~\ref{tab:norm-type} muestra un ejemplo de esto
-
-\begin{table}[h]
-	\centering
-	\caption{Accuracy for different signal durations considering the three types of image normalization}
-	\label{tab:norm-type}
-	\begin{tabular}{cccc}
-		\toprule
-		Signal duration & Normalization & Average \% & Std. deviation \% \\
-		\midrule
-		\multirow{3}{*}{0.6 s} & Global & 80 & 12 \\
-		 & Local & 78 & 12 \\
-		 & Signal & 50 & 36 \\
-             \midrule
-		\multirow{3}{*}{1.0 s} & Global & \multicolumn{2}{c}{Not considered} \\
-		 & Local & 88 & 6 \\
-		 & Signal & 90 & 76 \\
-             \midrule
-		\multirow{3}{*}{10 rev} & Global & \multicolumn{2}{c}{Not considered} \\
-		 & Local & 59 & 49 \\
-		 & Signal & \multicolumn{2}{c}{Not considered} \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-
+Este marco teórico proporciona la base necesaria para comprender la metodología propuesta
+y para interpretar los resultados del FBPO en el contexto de la adhesión fibra–matriz en
+materiales compuestos.

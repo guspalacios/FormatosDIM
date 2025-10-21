@@ -1,11 +1,19 @@
+% =====================================
+% CAPÍTULO 1: INTRODUCCIÓN
+% =====================================
+
 \section{Introducción}
 
 \subsection{Planteamiento del problema}
-Los materiales compuestos reforzados con fibras son cada vez más utilizados en sectores de alto impacto como la aeronáutica, el transporte, la energía y la construcción, 
-debido a su elevada relación resistencia–peso y a su versatilidad de diseño. Sin embargo, el desempeño mecánico de estos materiales depende en gran medida de la calidad
-de la interfaz entre la fibra y la matriz, entendida como la zona de contacto donde se transfiere el esfuerzo mecánico desde la matriz polimérica hacia los filamentos
-de refuerzo. Una interfaz deficiente puede conducir a fallas prematuras, pérdida de rigidez y reducción de la vida útil de los componentes, lo que limita la 
-competitividad de los compuestos en aplicaciones críticas \cite{HullClyne1996,KellyZweben2000,Gao2015}.
+Los materiales compuestos reforzados con fibras son cada vez más utilizados en sectores
+de alto impacto como la aeronáutica, el transporte, la energía y la construcción, debido a su
+elevada relación resistencia–peso y a su versatilidad de diseño. Sin embargo, el desempeño
+mecánico de estos materiales depende en gran medida de la calidad de la interfaz entre la fibra
+y la matriz, entendida como la zona de contacto donde se transfiere el esfuerzo mecánico desde
+la matriz polimérica hacia los filamentos de refuerzo. Una interfaz deficiente puede conducir
+a fallas prematuras, pérdida de rigidez y reducción de la vida útil de los componentes, lo que
+limita la competitividad de los compuestos en aplicaciones críticas
+\cite{HullClyne1996,KellyZweben2000,Gao2015}.
 
 \begin{figure}[h!]
     \centering
@@ -14,82 +22,106 @@ competitividad de los compuestos en aplicaciones críticas \cite{HullClyne1996,K
     \label{fig:interface}
 \end{figure}
 
+Para evaluar esta adhesión interfacial, se han desarrollado diversos métodos experimentales 
+a escala micromecánica, definida como aquella en la que se estudia la interacción entre un
+único filamento y la matriz circundante, utilizando equipos de microensayo de alta precisión
+y sistemas de registro especializados. Entre los que destacan el \textit{Single-Fiber Pull-Out Test},
+el \textit{Push-Out Test} y el \textit{Microdroplet Test}. Estos ensayos han sido ampliamente
+documentados y normalizados, permitiendo obtener estimaciones de la resistencia al corte interfacial
+(\textit{Interfacial Shear Strength}, IFSS). No obstante, su aplicación sobre fibras individuales
+presenta limitaciones importantes: alta dispersión de resultados, poca representatividad frente
+al comportamiento real de hebras de fibras (una hebra corresponde aproximadamente a
+3000 filamentos, cada uno con un diámetro típico cercano a $7\,\mu$m) y dificultad para escalar
+a configuraciones prácticas de ingeniería \cite{DINSPEC19289}.
 
-Para evaluar esta adhesión interfacial, se han desarrollado diversos métodos experimentales a escala micromecánica, definida como aquella en la que se estudia la 
-interacción entre un único filamento y la matriz circundante, utilizando equipos de microensayo de alta precisión y sistemas de registro especializados. Entre los que 
-destacan el \textit{Single-Fiber Pull-Out Test}, el \textit{Push-Out Test} y el \textit{Microdroplet Test}. Estos ensayos han sido ampliamente documentados y 
-normalizados, permitiendo obtener estimaciones de la resistencia al corte interfacial (\textit{Interfacial Shear Strength}, IFSS). No obstante, su aplicación sobre 
-fibras individuales presenta limitaciones importantes: alta dispersión de resultados, poca representatividad frente al comportamiento real de hebras de fibras 
-(una hebra corresponde aproximadamente a 3000 filamentos, cada uno con un diámetro típico cercano a $7\,\mu$m) y dificultad para escalar a configuraciones prácticas de 
-ingeniería \cite{DINSPEC19289}.
+En este contexto, el \textit{Fiber-Bundle Pull-Out Test} (FBPO) se presenta como una alternativa
+experimental de gran potencial. Este ensayo se sitúa en la mesoescala, es decir, entre el
+nivel micromecánico (un solo filamento) y el nivel macroscópico (laminados o componentes
+estructurales). En la mesoescala se estudia el comportamiento de una hebra completa,
+lo que permite capturar la interacción colectiva fibra–matriz. Esto otorga mayor robustez
+estadística a los resultados, ya que se reduce la dispersión asociada a variaciones individuales
+de cada filamento. Los autores en \cite{DeLeon2022} propusieron un método de fabricación escalable
+para probetas de FBPO, utilizando moldes multicavidad y dispositivos de alineación geométrica,
+lo que garantiza control en la longitud de embebido, mejora la repetibilidad y permite la 
+producción de grandes lotes de muestras. Dicho avance abre la posibilidad de implementar
+este ensayo en laboratorios convencionales y de generar datos sistemáticos para estudios
+comparativos de adhesión.
 
-En este contexto, el \textit{Fiber-Bundle Pull-Out Test} (FBPO) se presenta como una alternativa experimental de gran potencial. Este ensayo se sitúa en la mesoescala, 
-es decir, entre el nivel micromecánico (un solo filamento) y el nivel macroscópico (laminados o componentes estructurales). En la mesoescala se estudia el comportamiento 
-de una hebra completa, lo que permite capturar la interacción colectiva fibra–matriz. Esto otorga mayor robustez estadística a los resultados, ya que se reduce la 
-dispersión asociada a variaciones individuales de cada filamento. Los autores en \cite{DeLeon2022} propusieron un método de fabricación escalable para probetas de FBPO, 
-utilizando moldes multicavidad y dispositivos de alineación geométrica, lo que garantiza control en la longitud de embebido, mejora la repetibilidad y permite la 
-producción de grandes lotes de muestras. Dicho avance abre la posibilidad de implementar este ensayo en laboratorios convencionales y de generar datos sistemáticos 
-para estudios comparativos de adhesión.
+Asimismo, la implementación del FBPO encuentra respaldo en normativas afines que, aunque
+desarrolladas para fibras individuales o hilos textiles, entregan criterios transferibles. La
+\textbf{DIN SPEC 19289} define un procedimiento estandarizado para el \textit{single-fiber pull-out},
+con énfasis en el control geométrico y en la alineación del ensayo. La \textbf{ISO 3341} establece
+lineamientos para la tracción de hilos de vidrio, incorporando prácticas de sujeción y
+acondicionamiento que pueden extrapolarse a hebras de fibras. Por su parte, la
+\textbf{DIN 29965} entrega especificaciones para hilos de carbono en aplicaciones aeroespaciales,
+relevantes para la trazabilidad y caracterización del material utilizado en las probetas \cite{ISO3341,DIN29965}.
 
-Asimismo, la implementación del FBPO encuentra respaldo en normativas afines que, aunque desarrolladas para fibras individuales o hilos textiles, entregan criterios 
-transferibles. La \textbf{DIN SPEC 19289} define un procedimiento estandarizado para el \textit{single-fiber pull-out}, con énfasis en el control geométrico y en la 
-alineación del ensayo. La \textbf{ISO 3341} establece lineamientos para la tracción de hilos de vidrio, incorporando prácticas de sujeción y acondicionamiento que 
-pueden extrapolarse a hebras de fibras. Por su parte, la \textbf{DIN 29965} entrega especificaciones para hilos de carbono en aplicaciones aeroespaciales, relevantes 
-para la trazabilidad y caracterización del material utilizado en las probetas \cite{ISO3341,DIN29965}.
-
-Finalmente, la validez de los resultados del presente trabajo se reforzará mediante su comparación con otros ensayos desarrollados a mesoescala, 
-particularmente el ensayo de Iosipescu y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, 
-los cuales han sido utilizados previamente para estimar la resistencia al corte interfacial en configuraciones más representativas. 
-De esta manera, el \textit{Fiber-Bundle Pull-Out Test} se analizará no solo como técnica complementaria a los métodos micromecánicos tradicionales, 
-sino también en relación con metodologías meso ya reportadas en la literatura.
-
-De esta manera, el \textit{Fiber-Bundle Pull-Out Test} se analizará no solo como técnica complementaria a los métodos micromecánicos tradicionales, 
-sino también como una herramienta experimental con potencial de aplicación práctica y valor agregado en el desarrollo de compuestos avanzados, 
-contrastada frente a metodologías meso ya reportadas en la literatura.
+Finalmente, la validez de los resultados del presente trabajo se reforzará mediante su
+comparación con otros ensayos desarrollados a mesoescala, particularmente el ensayo de Iosipescu
+y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, los cuales han sido utilizados
+previamente para estimar la resistencia al corte interfacial en configuraciones más representativas. 
+De esta manera, el \textit{Fiber-Bundle Pull-Out Test} se analizará no solo como técnica
+complementaria a los métodos micromecánicos tradicionales, sino también en relación con metodologías
+meso ya reportadas en la literatura (\Cref{fig:interface}).
 
 \subsection{Alcance}
-El presente trabajo se enmarca en la implementación experimental del ensayo \textit{Fiber-Bundle Pull-Out} (FBPO) en materiales compuestos, con el objetivo de 
-caracterizar la adhesión fibra–matriz a nivel de mesoescala. El alcance de la investigación considera el diseño y fabricación de mordazas, moldes y probetas mediante 
-modelado CAD y técnicas de manufactura, la ejecución de ensayos bajo condiciones controladas en máquina de tracción, y el análisis estadístico de los resultados 
-mediante análisis de varianza (ANOVA). Esta técnica permite identificar diferencias significativas entre distintas condiciones experimentales, lo que contribuirá a 
-la obtención de resultados confiables y representativos sobre la resistencia al corte interfacial. De esta forma, se busca establecer un protocolo experimental 
-reproducible que permita evaluar de manera representativa la resistencia al corte interfacial.
+El presente trabajo se enmarca en la implementación experimental del ensayo \textit{Fiber-Bundle
+Pull-Out} (FBPO) en materiales compuestos, con el objetivo de caracterizar la adhesión
+fibra–matriz a nivel de mesoescala. El alcance de la investigación considera el diseño y
+fabricación de mordazas, moldes y probetas mediante modelado CAD y técnicas de manufactura,
+la ejecución de ensayos bajo condiciones controladas en máquina de tracción, y el análisis
+estadístico de los resultados mediante análisis de varianza (ANOVA). Esta técnica permite
+identificar diferencias significativas entre distintas condiciones experimentales, lo que
+contribuirá a la obtención de resultados confiables y representativos sobre la resistencia al corte
+interfacial. De esta forma, se busca establecer un protocolo experimental reproducible que
+permita evaluar de manera representativa la resistencia al corte interfacial.
 
-Este estudio se limita al análisis experimental en laboratorio y no contempla el desarrollo de modelos numéricos, la evaluación de componentes estructurales a escala 
-industrial ni el estudio de efectos de degradación ambiental como fatiga o envejecimiento. El horizonte temporal de ejecución corresponde a un período de cuatro meses, 
-en el cual se espera generar un procedimiento validado y transferible que complemente las metodologías convencionales de caracterización interfacial.
+Este estudio se limita al análisis experimental en laboratorio y no contempla el desarrollo
+de modelos numéricos, la evaluación de componentes estructurales a escala industrial ni
+el estudio de efectos de degradación ambiental como fatiga o envejecimiento. El horizonte
+temporal de ejecución corresponde a un período de cuatro meses, en el cual se espera generar
+un procedimiento validado y transferible que complemente las metodologías convencionales
+de caracterización interfacial.
 
 \subsection{Objetivos}
 
 \subsubsection{Objetivo General}
-Implementar el ensayo \textit{Fiber-Bundle Pull-Out} en materiales compuestos, mediante el diseño y 
-fabricación de un sistema experimental con el fin de determinar la resistencia al corte interfacial (IFSS) y validar su utilidad como técnica 
-de caracterización confiable en el estudio de la adhesión fibra–matriz.
+Implementar el ensayo \textit{Fiber-Bundle Pull-Out} en materiales compuestos, mediante el diseño
+y fabricación de un sistema experimental con el fin de determinar la resistencia al corte
+interfacial (IFSS) y validar su utilidad como técnica de caracterización confiable en el estudio
+de la adhesión fibra–matriz.
 
 \subsubsection{Objetivos Específicos}
 \begin{itemize}
-    \item \textbf{OE1:} Diseñar un sistema experimental a mesoescala —incluyendo mordazas, moldes y probetas— mediante modelado CAD, selección de materiales y 
-    técnicas de manufactura, con el propósito de asegurar precisión geométrica y reproducibilidad en los ensayos.
-    \item \textbf{OE2:} Implementar el ensayo \textit{Fiber-Bundle Pull-Out} en probetas de material compuesto, utilizando equipos de tracción instrumentados bajo 
-    condiciones controladas, con el fin de obtener parámetros experimentales que describan la interacción fibra– matriz.
-    \item \textbf{OE3:} Analizar los resultados experimentales mediante la aplicación de ANOVA y su contraste con antecedentes bibliográficos, para evaluar la 
-    resistencia al corte interfacial y validar la aplicabilidad del método como técnica de caracterización a mesoescala.
+    \item \textbf{OE1:} Diseñar un sistema experimental a mesoescala —incluyendo mordazas, moldes
+    y probetas— mediante modelado CAD, selección de materiales y técnicas de manufactura,
+    con el propósito de asegurar precisión geométrica y reproducibilidad en los ensayos.
+    \item \textbf{OE2:} Implementar el ensayo \textit{Fiber-Bundle Pull-Out} en probetas de
+    material compuesto, utilizando equipos de tracción instrumentados bajo condiciones controladas,
+    con el fin de obtener parámetros experimentales que describan la interacción fibra–
+    matriz.
+    \item \textbf{OE3:} Analizar los resultados experimentales mediante la aplicación de ANOVA y su
+    contraste con antecedentes bibliográficos, para evaluar la resistencia al corte interfacial
+    y validar la aplicabilidad del método como técnica de caracterización a mesoescala.
 \end{itemize}
 
 \subsection{Propuesta metodológica}
 
-La metodología propuesta se estructura en tres fases principales, coherentes con los objetivos planteados. 
-En primer lugar, se desarrollará el diseño y fabricación del sistema experimental a mesoescala, que comprende mordazas, moldes y probetas. 
-Este proceso se concibe como iterativo: los primeros prototipos permitirán identificar fallas o limitaciones y se rediseñarán hasta alcanzar 
-una configuración robusta y reproducible. 
+La metodología propuesta se estructura en tres fases principales, coherentes con los objetivos
+planteados. En primer lugar, se desarrollará el diseño y fabricación del sistema experimental
+a mesoescala, que comprende mordazas, moldes y probetas. Este proceso se concibe como iterativo:
+los primeros prototipos permitirán identificar fallas o limitaciones y se rediseñarán
+hasta alcanzar una configuración robusta y reproducible. 
 
-En una segunda etapa se llevará a cabo la implementación del ensayo \textit{Fiber-Bundle Pull-Out}, utilizando las probetas fabricadas 
-y un equipo de tracción instrumentado bajo condiciones controladas. 
+En una segunda etapa se llevará a cabo la implementación del ensayo \textit{Fiber-Bundle Pull-Out},
+utilizando las probetas fabricadas y un equipo de tracción instrumentado bajo condiciones
+controladas. 
 
-Finalmente, en la tercera etapa se procesarán y analizarán los resultados mediante técnicas estadísticas, en particular ANOVA, con el objetivo de 
-identificar diferencias significativas entre condiciones de ensayo y contrastar los hallazgos con antecedentes bibliográficos. 
+Finalmente, en la tercera etapa se procesarán y analizarán los resultados mediante técnicas
+estadísticas, en particular ANOVA, con el objetivo de identificar diferencias significativas
+entre condiciones de ensayo y contrastar los hallazgos con antecedentes bibliográficos. 
 
-La Figura~\ref{fig:metodologia} resume gráficamente estas tres fases y su relación con los objetivos específicos.
+La \Cref{fig:metodologia} resume gráficamente estas tres fases y su relación con los objetivos específicos.
 
 \begin{figure}[h!]
     \centering
@@ -103,19 +135,19 @@ La Figura~\ref{fig:metodologia} resume gráficamente estas tres fases y su relac
     ]
 
     % Fase 1
-    \node[box, fill=blue!15] (fase1) {\textbf{Fase 1: Diseño y fabricación} \\
+    \node[box, fill=blue!25] (fase1) {\textbf{Fase 1: Diseño y fabricación} \\
         Mordazas y agarres (mecanizado), moldes de silicona (impresión 3D), probetas. \\
         \footnotesize Relación: \textbf{OE1}
     };
 
     % Fase 2
-    \node[box, fill=green!15, below=of fase1] (fase2) {\textbf{Fase 2: Implementación del ensayo FBPO} \\
+    \node[box, fill=green!25, below=of fase1] (fase2) {\textbf{Fase 2: Implementación del ensayo FBPO} \\
         Montaje en máquina de tracción y control de condiciones (carga/desplazamiento). \\
         \footnotesize Relación: \textbf{OE2}
     };
 
     % Fase 3
-    \node[box, fill=orange!20, below=of fase2] (fase3) {\textbf{Fase 3: Procesamiento y análisis} \\
+    \node[box, fill=red!25, below=of fase2] (fase3) {\textbf{Fase 3: Procesamiento y análisis} \\
         Curvas fuerza–desplazamiento, ANOVA y contraste con bibliografía. \\
         \footnotesize Relación: \textbf{OE3}
     };
@@ -125,6 +157,6 @@ La Figura~\ref{fig:metodologia} resume gráficamente estas tres fases y su relac
     \draw[->, thick] (fase2) -- (fase3);
 
     \end{tikzpicture}
-    \caption{Esquema simplificado de la metodología propuesta y su relación con los objetivos específicos.}
+    \caption{Esquema simplificado de la metodología propuesta y su relación con los OE.}
     \label{fig:metodologia}
 \end{figure}
