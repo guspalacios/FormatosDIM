@@ -18,52 +18,58 @@ Database file #1: Referencias.bib
 Warning--entry type for "DINSPEC19289" isn't style-file defined
 --line 23 of file Referencias.bib
 Warning--entry type for "ISO3341" isn't style-file defined
---line 39 of file Referencias.bib
+--line 43 of file Referencias.bib
 Warning--entry type for "DIN29965" isn't style-file defined
---line 53 of file Referencias.bib
+--line 61 of file Referencias.bib
 Warning--entry type for "ISO2062" isn't style-file defined
---line 183 of file Referencias.bib
+--line 199 of file Referencias.bib
 Warning--entry type for "ASTMD3822" isn't style-file defined
---line 197 of file Referencias.bib
-You've used 16 entries,
+--line 217 of file Referencias.bib
+Warning--entry type for "Escarate2025" isn't style-file defined
+--line 465 of file Referencias.bib
+Warning--entry type for "ISO19375" isn't style-file defined
+--line 505 of file Referencias.bib
+Warning--entry type for "ASTMD4475" isn't style-file defined
+--line 523 of file Referencias.bib
+You've used 27 entries,
             1876 wiz_defined-function locations,
-            582 strings with 6059 characters,
-and the built_in function-call counts, 3208 in all, are:
-= -- 322
-> -- 97
+            657 strings with 8654 characters,
+and the built_in function-call counts, 6074 in all, are:
+= -- 600
+> -- 245
 < -- 0
-+ -- 40
-- -- 24
-* -- 172
-:= -- 423
-add.period$ -- 21
-call.type$ -- 16
-change.case$ -- 14
++ -- 94
+- -- 67
+* -- 378
+:= -- 829
+add.period$ -- 32
+call.type$ -- 27
+change.case$ -- 27
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 177
-empty$ -- 351
-format.name$ -- 24
-if$ -- 835
+cite$ -- 27
+duplicate$ -- 318
+empty$ -- 593
+format.name$ -- 67
+if$ -- 1524
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 15
-newline$ -- 56
-num.names$ -- 11
-pop$ -- 78
+int.to.str$ -- 27
+missing$ -- 20
+newline$ -- 89
+num.names$ -- 21
+pop$ -- 117
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 125
+skip$ -- 242
 stack$ -- 0
-substring$ -- 121
-swap$ -- 69
+substring$ -- 273
+swap$ -- 137
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 23
-width$ -- 18
-write$ -- 143
-(There were 5 warnings)
+while$ -- 47
+width$ -- 29
+write$ -- 243
+(There were 8 warnings)

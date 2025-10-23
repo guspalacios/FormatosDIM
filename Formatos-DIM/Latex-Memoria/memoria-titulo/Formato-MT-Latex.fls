@@ -403,6 +403,7 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 OUTPUT Formato-MT-Latex.toc
 INPUT .\Formato-MT-Latex.lof
 INPUT .\Formato-MT-Latex.lof
@@ -420,7 +421,7 @@ INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\C2-Latex.tex
 INPUT .\C2-Latex.tex
@@ -434,6 +435,34 @@ OUTPUT C3-Metodologia.aux
 INPUT .\C3-Metodologia.tex
 INPUT .\C3-Metodologia.tex
 INPUT C3-Metodologia.tex
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Modelo_pla_negativo.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Silicona_caucho.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Etapas_probeta.jpeg
+INPUT .\Resina_mepox_1685.jpeg
+INPUT .\Resina_mepox_1685.jpeg
+INPUT .\Resina_mepox_1685.jpeg
+INPUT .\Resina_mepox_1685.jpeg
+INPUT .\Resina_mepox_1685.jpeg
+INPUT .\Resina_mepox_1685.jpeg
+INPUT .\Resina_mepox_1685.jpeg
 INPUT .\Formato-MT-Latex.bbl
 INPUT .\Formato-MT-Latex.bbl
 INPUT Formato-MT-Latex.bbl
@@ -475,12 +504,20 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb

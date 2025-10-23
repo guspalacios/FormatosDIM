@@ -13,7 +13,15 @@ interfacial (\textit{Interfacial Shear Strength}, IFSS). El diseño general de l
 se ha estructurado en seis etapas secuenciales, que abarcan desde la revisión de antecedentes
 hasta el análisis estadístico de los resultados.
 
+Como lineamiento transversal, se establecerán prácticas de control de calidad y trazabilidad:
+identificación unívoca de probetas (proveedor–lote–cavidad–fecha), registro de condiciones
+ambientales, verificación metrológica de la longitud embebida y de la geometría del molde, y
+criterios explícitos de \emph{muestra válida} y descarte. El tratamiento de datos considerará
+una reducción definida (IFSS aparente), el reporte de incertidumbre y una documentación clara del
+procedimiento de cálculo, de modo de favorecer la comparabilidad interlote e interlaboratorio.
+
 \subsection{Diseño general de la investigación}
+
 El diseño experimental busca cumplir los objetivos planteados mediante la implementación progresiva
 de un ensayo reproducible a mesoescala, considerando una hebra de fibra de carbono como unidad de
 estudio. Se utilizarán hebras provenientes de dos proveedores distintos, correspondientes al mismo
@@ -22,6 +30,27 @@ permitirá evaluar su influencia sobre la interacción interfacial. La comparaci
 constituye el caso de estudio principal de la investigación. El alcance de la metodología se limita
 a la fase experimental y al análisis estadístico de los resultados, sin considerar modelación
 numérica ni efectos de degradación ambiental.
+
+Para asegurar validez interna, se controlarán variables críticas de ejecución —alineación axial,
+longitud embebida, velocidad de ensayo y criterios de validez— y se documentará el estado del
+material (condición de la hebra y ruta de curado de la resina). Se empleará una asignación balanceada
+de probetas a las cavidades del molde y se mantendrán constantes las condiciones de ensayo dentro de
+cada campaña. El tamaño muestral por proveedor se definirá en función de la variabilidad esperada y
+de la necesidad de realizar contrastes estadísticos con potencia suficiente, manteniendo un registro
+completo de exclusiones y sus causas.
+
+En concordancia con \cite{DeLeon2022}, se adoptará una arquitectura de moldeo horizontal con
+\emph{multicavidades} y dispositivos de alineación geométrica para controlar la longitud de embebido
+y minimizar la dispersión por desalineaciones. Las prácticas de sujeción y alineación se inspirarán
+en \textbf{ISO 19375} y \textbf{DIN SPEC 19289} (para \textit{single-fibre pull-out}), mientras que
+\textbf{ISO 3341} orientará el acondicionamiento y la manipulación de hebras; \textbf{DIN 29965}
+respaldará la trazabilidad y especificación del hilo de carbono utilizado\cite{ISO19375,DINSPEC19289,ISO3341,DIN29965}.
+
+Finalmente, se definirá un esquema de reporte mínimo que incluya: identificación de materiales y lotes,
+parámetros de fabricación y ensayo, criterios de validez, estadísticos descriptivos por grupo y
+métrica de IFSS aparente con su incertidumbre. Este marco guía la implementación detallada por etapas
+y asegura que las conclusiones reflejen diferencias de material y proceso, y no artefactos de montaje
+o de reducción.
 
 \subsection{Etapas de desarrollo}
 
@@ -34,51 +63,259 @@ apropiadas para adaptar el procedimiento al nivel meso, garantizando que las con
 experimentales sean comparables con estudios previos. También se considerarán las directrices
 de normas internacionales relevantes, tales como DIN SPEC 19289, ISO 3341 y DIN 29965, que orientan
 el control dimensional y la trazabilidad del material de refuerzo.
+Se incorporarán recomendaciones sobre: reporte de \emph{IFSS aparente} y su modelo de reducción,
+control de variables críticas (velocidad, \(\ell_e\), alineación, criterio de “muestra válida”),
+y contraste de tendencias con métricas complementarias \cite{Fischer2020,Liu2021,AhmadvashAghbash2024IMR}.
+
+De forma complementaria, se definirá una estrategia de búsqueda simple y reproducible (bases de datos,
+palabras clave y filtros por año/tipo de documento) y una plantilla de extracción de datos que registre,
+para cada estudio, el sistema fibra–resina y \textit{sizing}, longitud embebida objetivo y método de medición,
+velocidad de ensayo, esquema de sujeción/alineación, criterio de “muestra válida”, forma de identificar el
+despegue y modelo de reducción utilizado. Se priorizarán trabajos con reporte claro de geometría, condiciones
+de ensayo e incertidumbre, y se excluirán aquellos con información insuficiente para comparación.
+
+El resultado de esta etapa será un breve compendio con rangos operativos recomendados (p.\,ej., \(\ell_e\) y tolerancias,
+velocidad de cruceta, acondicionamiento de hebras), una lista de verificación (checklist) para control de variables
+y un esquema de reporte mínimo (métrica de IFSS aparente, incertidumbre, criterios de validez). Este insumo servirá
+como base para parametrizar el diseño experimental de las siguientes etapas, manteniendo la trazabilidad con la literatura
+y las normas seleccionadas.
 
 \subsubsection{Etapa 2: Diseño del sistema experimental}
 En la segunda fase se desarrollará el diseño del sistema experimental mediante modelado asistido
 por computadora en el software Autodesk Inventor. Se elaborará el modelo tridimensional del molde
-negativo para la fabricación de probetas de ensayo, considerando las dimensiones de embebido de la hebra y la correcta alineación axial. La impresión 3D en filamento de ácido poliláctico (PLA) se selecciona por su precisión, bajo costo y facilidad de reproducción, lo que permite obtener moldes reutilizables y consistentes en geometría. Este diseño constituye la base para garantizar la precisión dimensional del ensayo y la reproducibilidad entre probetas.
+negativo para la fabricación de probetas de ensayo, considerando las dimensiones de embebido de la hebra
+y la correcta alineación axial. La impresión 3D en filamento de ácido poliláctico (PLA) se selecciona
+por su precisión, bajo costo y facilidad de reproducción, lo que permite obtener moldes reutilizables
+y consistentes en geometría. Este diseño constituye la base para garantizar la precisión dimensional
+del ensayo y la reproducibilidad entre probetas. En la \Cref{fig:modelo_pla_negativo} se muestra el
+molde negativo impreso en PLA con canales de sección constante y topes geométricos que fijan \(\ell_e\),
+en línea con la arquitectura multicavidad y el control de alineación descritos por \cite{DeLeon2022}.
+
+Como criterio de diseño, se prioriza que los canales del molde mantengan una sección constante y que los
+topes geométricos definan la longitud de embebido sin requerir ajustes posteriores, favoreciendo la
+repetibilidad entre cavidades. La alineación axial se aborda en el propio modelo, asegurando superficies
+de referencia planas y continuidad geométrica a lo largo del eje de la hebra, de modo que el conjunto
+molde–probeta pueda montarse de forma coaxial en la máquina de tracción. La \Cref{fig:modelo_pla_negativo}
+permite visualizar estos elementos y su disposición, coherentes con la estrategia de \cite{DeLeon2022}.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Modelo_pla_negativo.jpeg}
+  \caption{Molde negativo impreso en PLA (multicavidad) con canales y topes geométricos para fijar \(\ell_e\).}
+  \label{fig:modelo_pla_negativo}
+\end{figure}
 
 \subsubsection{Etapa 3: Fabricación de moldes de silicona}
 Los moldes de silicona se fabricarán a partir de los modelos impresos en PLA, vertiendo silicona
 líquida en el molde negativo. Una vez curada, la silicona permitirá obtener cavidades con la
 geometría requerida para el colado de las probetas. Esta técnica fue seleccionada por su
 flexibilidad, estabilidad dimensional y compatibilidad con materiales termoestables, garantizando
-la obtención de moldes precisos para replicar múltiples probetas idénticas.
+la obtención de moldes precisos para replicar múltiples probetas idénticas. La \Cref{fig:silicona_caucho}
+documenta el material elastomérico utilizado para el molde blando (RTV, dureza nominal \(\sim\)~Shore~A~30),
+seleccionado para facilitar la liberación limpia de probetas y reducir variaciones de \(\ell_e\).
+
+En esta etapa, la prioridad es conservar la geometría definida en el negativo de PLA y asegurar una
+superficie interna uniforme en las cavidades de silicona, de modo que el colado posterior de la resina
+se realice sin interferencias. La elección de un elastómero RTV con la dureza indicada favorece la
+estabilidad del volumen de la cavidad durante el llenado y el desmoldeo, reduciendo la probabilidad de
+daños locales en el borde de las probetas. La \Cref{fig:silicona_caucho} muestra el sistema empleado,
+coherente con la necesidad de reproducibilidad y facilidad de uso en series de fabricación.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Silicona_caucho.jpeg}
+  \caption{Sistema de silicona RTV empleado para la fabricación del molde blando (Shore A~30, kit silicona
+  + catalizador).}
+  \label{fig:silicona_caucho}
+\end{figure}
 
 \subsubsection{Etapa 4: Fabricación de probetas}
-La cuarta etapa contempla la elaboración de las probetas mediante el uso de los moldes de silicona.
+Se contempla la elaboración de las probetas mediante el uso de los moldes de silicona.
 En cada molde se colocará una hebra de fibra de carbono, que se embebará parcialmente en una resina
 epóxica líquida. Se emplearán dos tipos de fibra de carbono provenientes de distintos proveedores,
 con el propósito de comparar el efecto de posibles diferencias en recubrimientos o tratamientos
 superficiales sobre la resistencia interfacial. Posteriormente, las probetas se someterán a un
 proceso de curado y postcurado de acuerdo con las especificaciones del fabricante de la resina,
 asegurando una polimerización completa y estable. Este proceso garantiza la replicabilidad geométrica
-y la consistencia del material entre muestras.
+y la consistencia del material entre muestras. La \Cref{fig:etapas_probeta} ilustra el flujo físico
+de la fabricación: (a) cavidades de silicona, (b) posicionamiento y tensión inicial de la hebra,
+(c) colado y curado parcial, y (d) probeta desmoldeada; este registro apoya la trazabilidad
+cavidad–probeta para un eventual \emph{bloqueo por cavidad} en el análisis.
+
+Como criterio operativo, se mantendrá constante la longitud de embebido definida por los topes del
+molde, se verificará el correcto asentamiento de la hebra en la cavidad antes del colado, y se
+respetarán los tiempos y temperaturas de curado indicados por el proveedor de la resina para todas
+las probetas de una misma serie. Con el fin de preservar la comparabilidad entre ambos proveedores de
+fibra, las probetas se fabricarán bajo las mismas condiciones de mezcla, vertido y curado, y se
+etiquetarán de forma consistente (proveedor – lote – cavidad) para su trazabilidad en el análisis.
+La \Cref{fig:etapas_probeta} sirve además como guía visual para repetir el procedimiento con la misma
+secuencia y manipulación, favoreciendo la reproducibilidad entre lotes.
+
+\paragraph{Sistema de resina.}
+Se empleó un sistema epoxi de baja viscosidad (resina + endurecedor) adecuado para colado en cavidades
+estrechas, buscando buen mojado de la hebra y minimizando burbujas. La \Cref{fig:resina_mepox_1685}
+muestra el sistema utilizado; la proporción de mezcla y la cinética de curado se siguieron según
+ficha técnica del fabricante, registrando temperatura y tiempos para mantener consistencia entre lotes.
+
+En todos los casos se respetará la misma relación de mezcla y el mismo perfil térmico dentro de cada
+campaña, de modo que cualquier diferencia observada en los resultados pueda atribuirse a la condición
+de la fibra y no a variaciones del sistema epoxi. Asimismo, se procurará un vertido continuo y
+uniforme en la cavidad para conservar la geometría definida por el molde y asegurar la repetibilidad
+del proceso entre probetas fabricadas en sesiones distintas.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Etapas_probeta.jpeg}
+  \caption{Secuencia de fabricación de probetas FBPO: cavidad de silicona, posicionamiento de hebra,
+  colado/curado y desmoldeo.}
+  \label{fig:etapas_probeta}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Resina_mepox_1685.jpeg}
+  \caption{Sistema epoxi de baja viscosidad utilizado (resina + endurecedor). Se respetaron proporciones
+  y tiempos de curado según ficha técnica.}
+  \label{fig:resina_mepox_1685}
+\end{figure}
 
 \subsubsection{Etapa 5: Ejecución de los ensayos FBPO}
-En la quinta fase se llevará a cabo la campaña experimental del ensayo \textit{Fiber-Bundle Pull-Out}.
+Se llevará a cabo la fase experimental del ensayo \textit{Fiber-Bundle Pull-Out}.
 Las probetas se ensayarán en una máquina de tracción universal instrumentada, bajo condiciones
 controladas de carga y desplazamiento. Se registrarán las curvas fuerza – desplazamiento y se
-documentarán los modos de falla observados en la interfaz fibra–matriz mediante registro visual y
+documentarán los modos de falla observados en la interfaz fibra – matriz mediante registro visual y
 fotográfico. Cada serie de ensayos incluirá un número suficiente de repeticiones para asegurar la
-validez estadística de los resultados.
+validez estadística de los resultados. Previo a cada corrida se realizará \emph{zeroing} y un \emph{preload}
+mínimo; la velocidad de cruceta se mantendrá constante y se reportará su tolerancia. Se identificarán
+explícitamente \(P^{\ast}\) (despegue) y, cuando aplique, la carga pico.
+
+De forma complementaria, se mantendrá invariable el procedimiento de montaje de las probetas en las
+mordazas y la secuencia de preparación de la máquina a lo largo de toda la campaña, de modo que las
+condiciones de ensayo sean comparables entre grupos. La tasa de adquisición de datos se fijará a un
+valor suficiente para identificar con claridad el despegue y caracterizar el tramo posterior de la
+curva fuerza – desplazamiento bajo la misma velocidad de cruceta. El registro de las observaciones
+visuales y de las condiciones nominales de cada corrida permitirá asociar los resultados a la probeta
+y cavidad correspondientes, manteniendo la trazabilidad requerida para el análisis estadístico posterior.
 
 \subsubsection{Etapa 6: Procesamiento y análisis de datos}
-Los datos experimentales obtenidos se procesarán mediante análisis de varianza (ANOVA) para
-identificar diferencias significativas entre las condiciones de ensayo, particularmente entre los dos
-tipos de fibra de carbono. Este análisis permitirá evaluar el efecto del proveedor sobre la
-resistencia al corte interfacial y la consistencia de los resultados. Finalmente, los valores de
-IFSS se contrastarán con antecedentes de otros ensayos mesoescala realizados en la misma institución,
-como el ensayo de Iosipescu y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, con el
-objetivo de validar la aplicabilidad y confiabilidad del método FBPO.
+Los datos experimentales obtenidos se organizarán según el criterio de \emph{muestra válida}, asociando
+a cada registro su identificación (proveedor–lote–cavidad–fecha) y las variables de ejecución (velocidad
+de ensayo, \(\ell_e\) medida). Se realizará una depuración básica (consistencia de unidades, detección
+de registros incompletos) y un resumen descriptivo por grupo (tendencia central y dispersión),
+manteniendo la trazabilidad de cualquier exclusión. La \textbf{IFSS aparente (FBPO)} se estimará
+mediante el modelo de reducción \(\tau_{\text{IFSS,ap}} \approx \partial P^{\ast}/\partial A_e\), i.e.,
+la pendiente de la regresión de \(P^{\ast}\) frente al área embebida \(A_e\) (recta por el origen);
+para hebras aproximadas como cilindros de diámetro equivalente \(d_{\text{eq}}\) y longitud embebida
+\(\ell_e\), \(A_e = \pi d_{\text{eq}} \ell_e\). Se reportarán la pendiente, \(R^2\) e intervalos de
+confianza, junto con una revisión de sensibilidad ante puntos influyentes y, cuando corresponda,
+\emph{bloqueo por cavidad} para reducir el error residual \cite{Fischer2020,Liu2021,DeLeon2022}.
+
+Con la métrica primaria (\(\tau_{\text{IFSS,ap}}\)) por probeta o por lote, se aplicará un contraste
+global entre condiciones (proveedor A/B) mediante ANOVA de un factor, verificando previamente normalidad
+y homogeneidad de varianzas; en caso de heterocedasticidad se utilizará la variante de Welch, y, si
+procede, comparaciones \emph{post hoc} (Tukey o Games–Howell) con intervalos de confianza. Los
+resultados se presentarán con tamaños de efecto e incertidumbre asociada (IC; \emph{bootstrap}
+cuando sea pertinente), destacando tendencias y su coherencia con la literatura. Finalmente, los
+valores de IFSS se contrastarán con antecedentes de otros ensayos mesoescala realizados en la misma
+institución (Iosipescu; tracción de hebras a \(45^\circ\) y \(90^\circ\)) para validar la aplicabilidad
+y confiabilidad del FBPO, enfatizando la comparación de \emph{tendencias} más que la intercambiabilidad
+numérica \cite{Fischer2020,Liu2021,DeLeon2022}.
 
 \subsection{Replicabilidad y validez}
-El diseño experimental y los procedimientos descritos se documentarán detalladamente, asegurando
-que cualquier investigador pueda replicar las etapas del proceso con los mismos materiales,
-geometrías y parámetros de ensayo. Se seleccionaron herramientas y técnicas accesibles, como
-modelado CAD, impresión 3D e instrumentación estándar de tracción, con el propósito de facilitar
-la reproducibilidad del estudio. El control de variables, la comparación entre dos tipos de fibras
-y el uso de análisis estadístico robusto refuerzan la validez de los resultados y su potencial
-aplicación en estudios futuros de adhesión fibra–matriz a mesoescala.
+El diseño experimental y los procedimientos se documentarán de manera que cualquier investigador
+pueda reproducir las etapas con los mismos materiales, geometrías y parámetros. Se mantendrán
+constantes las condiciones clave (alineación, \(\ell_e\), velocidad de ensayo) y se registrarán
+los insumos críticos (archivos CAD del molde, lotes de resina y fibra, fechas y ambiente de ensayo),
+junto con evidencias del modo de falla. Se definirán y aplicarán criterios explícitos de \emph{muestra
+válida}, así como causales de descarte previamente establecidas, preservando la trazabilidad
+cavidad – probeta. El uso de herramientas accesibles (modelado CAD, impresión 3D, tracción
+instrumentada) y un plan estadístico coherente (ANOVA/ Welch, comparaciones post hoc y reporte de
+incertidumbre) refuerzan la validez de las conclusiones y su comparabilidad interlote e
+interlaboratorio, habilitando el uso del FBPO como técnica reproducible para estudiar la adhesión
+fibra – matriz a mesoescala.
+
+
+% % =====================================
+% % CAPÍTULO 3: METODOLOGÍA
+% % =====================================
+
+% \section{Metodología}
+
+% La metodología define el diseño de investigación y los procedimientos utilizados para implementar
+% el ensayo \textit{Fiber-Bundle Pull-Out} (FBPO) a mesoescala, asegurando la validez, confiabilidad
+% y replicabilidad de los resultados. Este estudio se enmarca dentro de un enfoque experimental,
+% orientado a adaptar y aplicar una metodología existente a una nueva configuración de ensayo,
+% con el fin de evaluar la adhesión fibra–matriz mediante la medición de la resistencia al corte
+% interfacial (\textit{Interfacial Shear Strength}, IFSS). El diseño general de la investigación
+% se ha estructurado en seis etapas secuenciales, que abarcan desde la revisión de antecedentes
+% hasta el análisis estadístico de los resultados.
+
+% \subsection{Diseño general de la investigación}
+% El diseño experimental busca cumplir los objetivos planteados mediante la implementación progresiva
+% de un ensayo reproducible a mesoescala, considerando una hebra de fibra de carbono como unidad de
+% estudio. Se utilizarán hebras provenientes de dos proveedores distintos, correspondientes al mismo
+% tipo de fibra, pero con posibles diferencias en el tratamiento superficial o recubrimiento, lo que
+% permitirá evaluar su influencia sobre la interacción interfacial. La comparación entre ambas fibras
+% constituye el caso de estudio principal de la investigación. El alcance de la metodología se limita
+% a la fase experimental y al análisis estadístico de los resultados, sin considerar modelación
+% numérica ni efectos de degradación ambiental.
+
+% \subsection{Etapas de desarrollo}
+
+% \subsubsection{Etapa 1: Revisión de antecedentes bibliográficos}
+% En la primera fase se realizará una revisión sistemática de la literatura sobre ensayos de tracción
+% y adhesión a nivel micro y mesoescala, incluyendo métodos como el \textit{Single-Fiber Pull-Out},
+% \textit{Microdroplet}, \textit{Iosipescu} y \textit{Fiber-Bundle Pull-Out}. Esta revisión permitirá
+% establecer los parámetros geométricos, condiciones de embebido y estrategias de sujeción más
+% apropiadas para adaptar el procedimiento al nivel meso, garantizando que las condiciones
+% experimentales sean comparables con estudios previos. También se considerarán las directrices
+% de normas internacionales relevantes, tales como DIN SPEC 19289, ISO 3341 y DIN 29965, que orientan
+% el control dimensional y la trazabilidad del material de refuerzo.
+
+% \subsubsection{Etapa 2: Diseño del sistema experimental}
+% En la segunda fase se desarrollará el diseño del sistema experimental mediante modelado asistido
+% por computadora en el software Autodesk Inventor. Se elaborará el modelo tridimensional del molde
+% negativo para la fabricación de probetas de ensayo, considerando las dimensiones de embebido de la hebra y la correcta alineación axial. La impresión 3D en filamento de ácido poliláctico (PLA) se selecciona por su precisión, bajo costo y facilidad de reproducción, lo que permite obtener moldes reutilizables y consistentes en geometría. Este diseño constituye la base para garantizar la precisión dimensional del ensayo y la reproducibilidad entre probetas.
+
+% \subsubsection{Etapa 3: Fabricación de moldes de silicona}
+% Los moldes de silicona se fabricarán a partir de los modelos impresos en PLA, vertiendo silicona
+% líquida en el molde negativo. Una vez curada, la silicona permitirá obtener cavidades con la
+% geometría requerida para el colado de las probetas. Esta técnica fue seleccionada por su
+% flexibilidad, estabilidad dimensional y compatibilidad con materiales termoestables, garantizando
+% la obtención de moldes precisos para replicar múltiples probetas idénticas.
+
+% \subsubsection{Etapa 4: Fabricación de probetas}
+% La cuarta etapa contempla la elaboración de las probetas mediante el uso de los moldes de silicona.
+% En cada molde se colocará una hebra de fibra de carbono, que se embebará parcialmente en una resina
+% epóxica líquida. Se emplearán dos tipos de fibra de carbono provenientes de distintos proveedores,
+% con el propósito de comparar el efecto de posibles diferencias en recubrimientos o tratamientos
+% superficiales sobre la resistencia interfacial. Posteriormente, las probetas se someterán a un
+% proceso de curado y postcurado de acuerdo con las especificaciones del fabricante de la resina,
+% asegurando una polimerización completa y estable. Este proceso garantiza la replicabilidad geométrica
+% y la consistencia del material entre muestras.
+
+% \subsubsection{Etapa 5: Ejecución de los ensayos FBPO}
+% En la quinta fase se llevará a cabo la campaña experimental del ensayo \textit{Fiber-Bundle Pull-Out}.
+% Las probetas se ensayarán en una máquina de tracción universal instrumentada, bajo condiciones
+% controladas de carga y desplazamiento. Se registrarán las curvas fuerza – desplazamiento y se
+% documentarán los modos de falla observados en la interfaz fibra–matriz mediante registro visual y
+% fotográfico. Cada serie de ensayos incluirá un número suficiente de repeticiones para asegurar la
+% validez estadística de los resultados.
+
+% \subsubsection{Etapa 6: Procesamiento y análisis de datos}
+% Los datos experimentales obtenidos se procesarán mediante análisis de varianza (ANOVA) para
+% identificar diferencias significativas entre las condiciones de ensayo, particularmente entre los dos
+% tipos de fibra de carbono. Este análisis permitirá evaluar el efecto del proveedor sobre la
+% resistencia al corte interfacial y la consistencia de los resultados. Finalmente, los valores de
+% IFSS se contrastarán con antecedentes de otros ensayos mesoescala realizados en la misma institución,
+% como el ensayo de Iosipescu y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, con el
+% objetivo de validar la aplicabilidad y confiabilidad del método FBPO.
+
+% \subsection{Replicabilidad y validez}
+% El diseño experimental y los procedimientos descritos se documentarán detalladamente, asegurando
+% que cualquier investigador pueda replicar las etapas del proceso con los mismos materiales,
+% geometrías y parámetros de ensayo. Se seleccionaron herramientas y técnicas accesibles, como
+% modelado CAD, impresión 3D e instrumentación estándar de tracción, con el propósito de facilitar
+% la reproducibilidad del estudio. El control de variables, la comparación entre dos tipos de fibras
+% y el uso de análisis estadístico robusto refuerzan la validez de los resultados y su potencial
+% aplicación en estudios futuros de adhesión fibra–matriz a mesoescala.

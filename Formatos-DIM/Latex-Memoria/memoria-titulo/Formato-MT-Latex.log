@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  21 OCT 2025 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  22 OCT 2025 23:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1242,7 +1242,7 @@ Package hyperref Info: Link coloring OFF on input line 88.
 \openout2 = `Pagina_Titulo.aux'.
 
  (Pagina_Titulo.tex
-<udec-dim.png, id=121, 417.56pt x 108.405pt>
+<udec-dim.png, id=133, 417.56pt x 108.405pt>
 File: udec-dim.png Graphic file (type png)
 <use udec-dim.png>
 Package pdftex.def Info: udec-dim.png  used on input line 5.
@@ -1257,7 +1257,12 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
  [2
 
 
-] (Formato-MT-Latex.lof)
+] (Formato-MT-Latex.lof
+Overfull \hbox (21.40816pt too wide) in paragraph at lines 3--3
+ [][] [][]\OT1/cmr/m/n/12 Molde neg-a-tivo im-preso en PLA (mul-ti-cavi-dad) con canales y topes geom^^Setricos 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `Formato-MT-Latex.lof'.
 
@@ -1268,39 +1273,62 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 \openout2 = `C1-Introduccion.aux'.
 
  (C1-Introduccion.tex
-<Interface_diagram.pdf, id=179, 341.275pt x 127.47626pt>
+<Interface_diagram.pdf, id=212, 341.275pt x 127.47626pt>
 File: Interface_diagram.pdf Graphic file (type pdf)
 <use Interface_diagram.pdf>
-Package pdftex.def Info: Interface_diagram.pdf  used on input line 20.
-(pdftex.def)             Requested size: 352.10286pt x 131.52957pt.
+Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
+(pdftex.def)             Requested size: 422.52057pt x 157.83354pt.
  [1
 
 
 
- <./Interface_diagram.pdf>] [2]) [3]
+ <./Interface_diagram.pdf>] [2] [3]) [4]
 \openout2 = `C2-Latex.aux'.
 
- (C2-Latex.tex [4
+ (C2-Latex.tex [5
 
 
 
-] [5]) [6]
+] [6] [7] [8] [9] [10] [11] [12]) [13]
 \openout2 = `C3-Metodologia.aux'.
 
- (C3-Metodologia.tex [7
+ (C3-Metodologia.tex [14
 
-
-
-]) [8] (Formato-MT-Latex.bbl) [9
 
 
 ]
+<Modelo_pla_negativo.jpeg, id=463, 652.68843pt x 547.2947pt>
+File: Modelo_pla_negativo.jpeg Graphic file (type jpg)
+<use Modelo_pla_negativo.jpeg>
+Package pdftex.def Info: Modelo_pla_negativo.jpeg  used on input line 103.
+(pdftex.def)             Requested size: 234.73524pt x 196.83386pt.
+ [15]
+<Silicona_caucho.jpeg, id=470, 733.23938pt x 441.90094pt>
+File: Silicona_caucho.jpeg Graphic file (type jpg)
+<use Silicona_caucho.jpeg>
+Package pdftex.def Info: Silicona_caucho.jpeg  used on input line 126.
+(pdftex.def)             Requested size: 234.73524pt x 141.46512pt.
+ [16 <./Modelo_pla_negativo.jpeg> <./Silicona_caucho.jpeg>]
+<Etapas_probeta.jpeg, id=479, 475.02469pt x 418.56375pt>
+File: Etapas_probeta.jpeg Graphic file (type jpg)
+<use Etapas_probeta.jpeg>
+Package pdftex.def Info: Etapas_probeta.jpeg  used on input line 168.
+(pdftex.def)             Requested size: 234.73524pt x 206.83522pt.
+<Resina_mepox_1685.jpeg, id=480, 813.0375pt x 702.37407pt>
+File: Resina_mepox_1685.jpeg Graphic file (type jpg)
+<use Resina_mepox_1685.jpeg>
+Package pdftex.def Info: Resina_mepox_1685.jpeg  used on input line 176.
+(pdftex.def)             Requested size: 234.73524pt x 202.783pt.
+ [17] [18 <./Etapas_probeta.jpeg> <./Resina_mepox_1685.jpeg>]) [19] (Formato-MT-Latex.bbl [20
+
+
+]) [21]
 \openout2 = `Carta_Gantt.aux'.
 
  (Carta_Gantt.tex
 
 pdfTeX warning: pdflatex (file ./CartaGantt-MT_Palacios.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<CartaGantt-MT_Palacios.pdf, id=277, 794.97pt x 614.295pt>
+<CartaGantt-MT_Palacios.pdf, id=520, 794.97pt x 614.295pt>
 File: CartaGantt-MT_Palacios.pdf Graphic file (type pdf)
 <use CartaGantt-MT_Palacios.pdf>
 Package pdftex.def Info: CartaGantt-MT_Palacios.pdf  used on input line 7.
@@ -1310,7 +1338,7 @@ Overfull \hbox (93.89265pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-) [10
+) [22
 
  <./CartaGantt-MT_Palacios.pdf>] 
 AED: lastpage setting LastPage
@@ -1325,20 +1353,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Formato-MT-Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 1E5DDE978FDED449A5789599ED2A88FC;5627.
+(rerunfilecheck)             Checksum: 16001AF767D13DF436DD4902209DD017;6549.
  ) 
 Here is how much of TeX's memory you used:
- 34846 strings out of 474486
- 697819 string characters out of 5753570
- 1937542 words of memory out of 5000000
- 56517 multiletter control sequences out of 15000+600000
- 564324 words of font info for 57 fonts, out of 8000000 for 9000
+ 34932 strings out of 474486
+ 699467 string characters out of 5753570
+ 1940542 words of memory out of 5000000
+ 56570 multiletter control sequences out of 15000+600000
+ 564683 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,93p,2594b,914s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Formato-MT-Latex.pdf (13 pages, 413022 bytes).
+ <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Formato-MT-Latex.pdf (25 pages, 1123707 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 260 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 635 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 304 words of extra memory for PDF output out of 10000 (max. 10000000)
 
