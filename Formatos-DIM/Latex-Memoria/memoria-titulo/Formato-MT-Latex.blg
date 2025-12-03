@@ -3,12 +3,22 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Formato-MT-Latex.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: Pagina_Titulo.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: C0-Resumen.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: C0-Abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 20 items.
 A level-1 auxiliary file: C1-Introduccion.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: C2-Latex.aux
 Reallocating 'name_of_file' (item size: 1) to 19 items.
 A level-1 auxiliary file: C3-Metodologia.aux
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: C4-Resultados.aux
+Reallocating 'name_of_file' (item size: 1) to 17 items.
+A level-1 auxiliary file: C5-Discusion.aux
+Reallocating 'name_of_file' (item size: 1) to 20 items.
+A level-1 auxiliary file: C6-Conclusiones.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
 The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
@@ -16,60 +26,60 @@ Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: Carta_Gantt.aux
 Database file #1: Referencias.bib
 Warning--entry type for "DINSPEC19289" isn't style-file defined
---line 23 of file Referencias.bib
+--line 47 of file Referencias.bib
 Warning--entry type for "ISO3341" isn't style-file defined
---line 43 of file Referencias.bib
+--line 67 of file Referencias.bib
 Warning--entry type for "DIN29965" isn't style-file defined
---line 61 of file Referencias.bib
+--line 85 of file Referencias.bib
 Warning--entry type for "ISO2062" isn't style-file defined
---line 199 of file Referencias.bib
+--line 223 of file Referencias.bib
 Warning--entry type for "ASTMD3822" isn't style-file defined
---line 217 of file Referencias.bib
+--line 241 of file Referencias.bib
 Warning--entry type for "Escarate2025" isn't style-file defined
---line 465 of file Referencias.bib
+--line 489 of file Referencias.bib
 Warning--entry type for "ISO19375" isn't style-file defined
---line 505 of file Referencias.bib
+--line 529 of file Referencias.bib
 Warning--entry type for "ASTMD4475" isn't style-file defined
---line 523 of file Referencias.bib
-You've used 27 entries,
+--line 547 of file Referencias.bib
+You've used 28 entries,
             1876 wiz_defined-function locations,
-            657 strings with 8654 characters,
-and the built_in function-call counts, 6074 in all, are:
-= -- 600
-> -- 245
+            672 strings with 8954 characters,
+and the built_in function-call counts, 6327 in all, are:
+= -- 627
+> -- 253
 < -- 0
-+ -- 94
-- -- 67
-* -- 378
-:= -- 829
-add.period$ -- 32
-call.type$ -- 27
-change.case$ -- 27
++ -- 97
+- -- 69
+* -- 393
+:= -- 863
+add.period$ -- 33
+call.type$ -- 28
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 318
-empty$ -- 593
-format.name$ -- 67
-if$ -- 1524
+cite$ -- 28
+duplicate$ -- 335
+empty$ -- 615
+format.name$ -- 69
+if$ -- 1590
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 20
-newline$ -- 89
-num.names$ -- 21
-pop$ -- 117
+int.to.str$ -- 28
+missing$ -- 21
+newline$ -- 92
+num.names$ -- 22
+pop$ -- 119
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 242
+skip$ -- 256
 stack$ -- 0
-substring$ -- 273
-swap$ -- 137
+substring$ -- 281
+swap$ -- 146
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 47
-width$ -- 29
-write$ -- 243
+while$ -- 49
+width$ -- 30
+write$ -- 254
 (There were 8 warnings)

@@ -1,4 +1,4 @@
-\contentsline {section}{Lista de Figuras}{iii}{Doc-Start}%
+\contentsline {section}{Lista de Figuras}{v}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Planteamiento del problema}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Alcance}{3}{subsection.1.2}%
@@ -30,5 +30,8 @@
 \contentsline {subsubsection}{\numberline {3.2.5}Etapa 5: Ejecución de los ensayos FBPO}{17}{subsubsection.3.2.5}%
 \contentsline {subsubsection}{\numberline {3.2.6}Etapa 6: Procesamiento y análisis de datos}{19}{subsubsection.3.2.6}%
 \contentsline {subsection}{\numberline {3.3}Replicabilidad y validez}{19}{subsection.3.3}%
-\contentsline {section}{Referencias}{20}{subsection.3.3}%
-\contentsline {section}{Anexo \numberline {A}Carta Gantt}{22}{appendix.a.A}%
+\contentsline {section}{\numberline {4}Resultados}{20}{section.4}%
+\contentsline {section}{\numberline {5}Discusión}{21}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{22}{section.6}%
+\contentsline {section}{Referencias}{23}{section.6}%
+\contentsline {section}{Anexo \numberline {A}Carta Gantt}{25}{appendix.a.A}%

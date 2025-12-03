@@ -59,6 +59,9 @@
 
 \usepackage{tikz}
 \usetikzlibrary{arrows.meta, positioning}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 
 \renewcommand{\contentsname}{Contenidos}
 \renewcommand\appendixname{Anexo}
@@ -91,8 +94,8 @@
 
 \include{Pagina_Titulo}
 %\include{C0-Agradecimientos}
-%\include{C0-Resumen}
-%\include{C0-Abstract}
+\include{C0-Resumen}
+\include{C0-Abstract}
 
 \tableofcontents \clearpage
 % \pagenumbering{arabic}
@@ -112,9 +115,9 @@
 \include{C1-Introduccion}
 \include{C2-Latex}
 \include{C3-Metodologia}
-%\include{C4-Resultados}
-%\include{C5-Discusion}
-%\include{C6-Conclusiones}
+\include{C4-Resultados}
+\include{C5-Discusion}
+\include{C6-Conclusiones}
 
 %bibliography
 \addcontentsline{toc}{section}{\refname}

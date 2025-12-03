@@ -321,6 +321,64 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.co
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarypositioning.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
 INPUT .\A-Nomenclatura.tex
 INPUT .\A-Nomenclatura.tex
 INPUT .\A-Nomenclatura.tex
@@ -332,6 +390,12 @@ INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
 INPUT Pagina_Titulo.aux
+INPUT .\C0-Resumen.aux
+INPUT .\C0-Resumen.aux
+INPUT C0-Resumen.aux
+INPUT .\C0-Abstract.aux
+INPUT .\C0-Abstract.aux
+INPUT C0-Abstract.aux
 INPUT .\C1-Introduccion.aux
 INPUT .\C1-Introduccion.aux
 INPUT C1-Introduccion.aux
@@ -341,6 +405,15 @@ INPUT C2-Latex.aux
 INPUT .\C3-Metodologia.aux
 INPUT .\C3-Metodologia.aux
 INPUT C3-Metodologia.aux
+INPUT .\C4-Resultados.aux
+INPUT .\C4-Resultados.aux
+INPUT C4-Resultados.aux
+INPUT .\C5-Discusion.aux
+INPUT .\C5-Discusion.aux
+INPUT C5-Discusion.aux
+INPUT .\C6-Conclusiones.aux
+INPUT .\C6-Conclusiones.aux
+INPUT C6-Conclusiones.aux
 INPUT .\Carta_Gantt.aux
 INPUT .\Carta_Gantt.aux
 INPUT Carta_Gantt.aux
@@ -353,8 +426,6 @@ INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -388,6 +459,18 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\C0-Resumen.tex
+INPUT .\C0-Resumen.tex
+OUTPUT C0-Resumen.aux
+INPUT .\C0-Resumen.tex
+INPUT .\C0-Resumen.tex
+INPUT C0-Resumen.tex
+INPUT .\C0-Abstract.tex
+INPUT .\C0-Abstract.tex
+OUTPUT C0-Abstract.aux
+INPUT .\C0-Abstract.tex
+INPUT .\C0-Abstract.tex
+INPUT C0-Abstract.tex
 INPUT .\Formato-MT-Latex.toc
 INPUT .\Formato-MT-Latex.toc
 INPUT Formato-MT-Latex.toc
@@ -463,6 +546,24 @@ INPUT .\Resina_mepox_1685.jpeg
 INPUT .\Resina_mepox_1685.jpeg
 INPUT .\Resina_mepox_1685.jpeg
 INPUT .\Resina_mepox_1685.jpeg
+INPUT .\C4-Resultados.tex
+INPUT .\C4-Resultados.tex
+OUTPUT C4-Resultados.aux
+INPUT .\C4-Resultados.tex
+INPUT .\C4-Resultados.tex
+INPUT C4-Resultados.tex
+INPUT .\C5-Discusion.tex
+INPUT .\C5-Discusion.tex
+OUTPUT C5-Discusion.aux
+INPUT .\C5-Discusion.tex
+INPUT .\C5-Discusion.tex
+INPUT C5-Discusion.tex
+INPUT .\C6-Conclusiones.tex
+INPUT .\C6-Conclusiones.tex
+OUTPUT C6-Conclusiones.aux
+INPUT .\C6-Conclusiones.tex
+INPUT .\C6-Conclusiones.tex
+INPUT C6-Conclusiones.tex
 INPUT .\Formato-MT-Latex.bbl
 INPUT .\Formato-MT-Latex.bbl
 INPUT Formato-MT-Latex.bbl
@@ -482,6 +583,12 @@ INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
 INPUT Pagina_Titulo.aux
+INPUT .\C0-Resumen.aux
+INPUT .\C0-Resumen.aux
+INPUT C0-Resumen.aux
+INPUT .\C0-Abstract.aux
+INPUT .\C0-Abstract.aux
+INPUT C0-Abstract.aux
 INPUT .\C1-Introduccion.aux
 INPUT .\C1-Introduccion.aux
 INPUT C1-Introduccion.aux
@@ -491,6 +598,15 @@ INPUT C2-Latex.aux
 INPUT .\C3-Metodologia.aux
 INPUT .\C3-Metodologia.aux
 INPUT C3-Metodologia.aux
+INPUT .\C4-Resultados.aux
+INPUT .\C4-Resultados.aux
+INPUT C4-Resultados.aux
+INPUT .\C5-Discusion.aux
+INPUT .\C5-Discusion.aux
+INPUT C5-Discusion.aux
+INPUT .\C6-Conclusiones.aux
+INPUT .\C6-Conclusiones.aux
+INPUT C6-Conclusiones.aux
 INPUT .\Carta_Gantt.aux
 INPUT .\Carta_Gantt.aux
 INPUT Carta_Gantt.aux

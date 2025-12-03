@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  22 OCT 2025 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  3 DEC 2025 01:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1139,33 +1139,77 @@ File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowlinewidth=\dimen335
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (A-Nomenclatura.tex) (Formato-MT-Latex.aux (Pagina_Titulo.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (Carta_Gantt.aux))
+) (C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
+\t@pgfplots@toka=\toks51
+\t@pgfplots@tokb=\toks52
+\t@pgfplots@tokc=\toks53
+\pgfplots@tmpa=\dimen336
+\c@pgfplots@coordindex=\count364
+\c@pgfplots@scanlineindex=\count365
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks54
+\t@pgf@tokb=\toks55
+\t@pgf@tokc=\toks56
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count366
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count367
+\t@pgfplotstable@a=\toks57
+) (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count368
+ (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen337
+\pgfdecoratedremainingdistance=\dimen338
+\pgfdecoratedinputsegmentcompleteddistance=\dimen339
+\pgfdecoratedinputsegmentremainingdistance=\dimen340
+\pgf@decorate@distancetomove=\dimen341
+\pgf@decorate@repeatstate=\count369
+\pgfdecorationsegmentamplitude=\dimen342
+\pgfdecorationsegmentlength=\dimen343
+)
+\tikz@lib@dec@box=\box75
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count370
+\pgfplots@xmin@reg=\dimen344
+\pgfplots@xmax@reg=\dimen345
+\pgfplots@ymin@reg=\dimen346
+\pgfplots@ymax@reg=\dimen347
+\pgfplots@zmin@reg=\dimen348
+\pgfplots@zmax@reg=\dimen349
+) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (A-Nomenclatura.tex) (Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Carta_Gantt.aux))
 \openout1 = `Formato-MT-Latex.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 88.
-LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 91.
+LaTeX Font Info:    Trying to load font information for LGR+cmr on input line 91.
  (C:\Users\gusta\AppData\Roaming\MiKTeX\tex/latex/cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
+LaTeX Font Info:    ... okay on input line 91.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1203,26 +1247,20 @@ LaTeX Font Info:    ... okay on input line 88.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen336
-\scratchbox=\box75
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen337
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks52
+\scratchcounter=\count371
+\scratchdimen=\dimen350
+\scratchbox=\box76
+\nofMPsegments=\count372
+\nofMParguments=\count373
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count374
+\MPscratchDim=\dimen351
+\MPnumerator=\count375
+\makeMPintoPDFobject=\count376
+\everyMPtoPDFconversion=\toks59
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (C:\Users\gusta\AppData\Roaming\MiKTeX\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -1234,15 +1272,18 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 88.
+Package hyperref Info: Link coloring OFF on input line 91.
  (Formato-MT-Latex.out) (Formato-MT-Latex.out)
 \@outlinefile=\write4
 \openout4 = `Formato-MT-Latex.out'.
 
+
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
 \openout2 = `Pagina_Titulo.aux'.
 
- (Pagina_Titulo.tex
-<udec-dim.png, id=133, 417.56pt x 108.405pt>
+(Pagina_Titulo.tex
+<udec-dim.png, id=145, 417.56pt x 108.405pt>
 File: udec-dim.png Graphic file (type png)
 <use udec-dim.png>
 Package pdftex.def Info: udec-dim.png  used on input line 5.
@@ -1250,11 +1291,25 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 ) [1
 
 
-{C:/Users/gusta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./udec-dim.png>] (Formato-MT-Latex.toc)
+{C:/Users/gusta/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./udec-dim.png>]
+\openout2 = `C0-Resumen.aux'.
+
+ (C0-Resumen.tex) [2
+
+
+
+]
+\openout2 = `C0-Abstract.aux'.
+
+ (C0-Abstract.tex) [3
+
+
+
+] (Formato-MT-Latex.toc)
 \tf@toc=\write5
 \openout5 = `Formato-MT-Latex.toc'.
 
- [2
+ [4
 
 
 ] (Formato-MT-Latex.lof
@@ -1266,14 +1321,14 @@ Overfull \hbox (21.40816pt too wide) in paragraph at lines 3--3
 \tf@lof=\write6
 \openout6 = `Formato-MT-Latex.lof'.
 
- [3
+ [5
 
 
 ]
 \openout2 = `C1-Introduccion.aux'.
 
  (C1-Introduccion.tex
-<Interface_diagram.pdf, id=212, 341.275pt x 127.47626pt>
+<Interface_diagram.pdf, id=235, 341.275pt x 127.47626pt>
 File: Interface_diagram.pdf Graphic file (type pdf)
 <use Interface_diagram.pdf>
 Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
@@ -1297,38 +1352,59 @@ Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
 
 
 ]
-<Modelo_pla_negativo.jpeg, id=463, 652.68843pt x 547.2947pt>
+<Modelo_pla_negativo.jpeg, id=487, 652.68843pt x 547.2947pt>
 File: Modelo_pla_negativo.jpeg Graphic file (type jpg)
 <use Modelo_pla_negativo.jpeg>
 Package pdftex.def Info: Modelo_pla_negativo.jpeg  used on input line 103.
 (pdftex.def)             Requested size: 234.73524pt x 196.83386pt.
  [15]
-<Silicona_caucho.jpeg, id=470, 733.23938pt x 441.90094pt>
+<Silicona_caucho.jpeg, id=494, 733.23938pt x 441.90094pt>
 File: Silicona_caucho.jpeg Graphic file (type jpg)
 <use Silicona_caucho.jpeg>
 Package pdftex.def Info: Silicona_caucho.jpeg  used on input line 126.
 (pdftex.def)             Requested size: 234.73524pt x 141.46512pt.
  [16 <./Modelo_pla_negativo.jpeg> <./Silicona_caucho.jpeg>]
-<Etapas_probeta.jpeg, id=479, 475.02469pt x 418.56375pt>
+<Etapas_probeta.jpeg, id=502, 475.02469pt x 418.56375pt>
 File: Etapas_probeta.jpeg Graphic file (type jpg)
 <use Etapas_probeta.jpeg>
 Package pdftex.def Info: Etapas_probeta.jpeg  used on input line 168.
 (pdftex.def)             Requested size: 234.73524pt x 206.83522pt.
-<Resina_mepox_1685.jpeg, id=480, 813.0375pt x 702.37407pt>
+<Resina_mepox_1685.jpeg, id=503, 813.0375pt x 702.37407pt>
 File: Resina_mepox_1685.jpeg Graphic file (type jpg)
 <use Resina_mepox_1685.jpeg>
 Package pdftex.def Info: Resina_mepox_1685.jpeg  used on input line 176.
 (pdftex.def)             Requested size: 234.73524pt x 202.783pt.
- [17] [18 <./Etapas_probeta.jpeg> <./Resina_mepox_1685.jpeg>]) [19] (Formato-MT-Latex.bbl [20
+ [17] [18 <./Etapas_probeta.jpeg> <./Resina_mepox_1685.jpeg>]) [19]
+\openout2 = `C4-Resultados.aux'.
+
+ (C4-Resultados.tex) [20
 
 
-]) [21]
+
+]
+\openout2 = `C5-Discusion.aux'.
+
+ (C5-Discusion.tex) [21
+
+
+
+]
+\openout2 = `C6-Conclusiones.aux'.
+
+ (C6-Conclusiones.tex) [22
+
+
+
+] (Formato-MT-Latex.bbl [23
+
+
+]) [24]
 \openout2 = `Carta_Gantt.aux'.
 
  (Carta_Gantt.tex
 
 pdfTeX warning: pdflatex (file ./CartaGantt-MT_Palacios.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<CartaGantt-MT_Palacios.pdf, id=520, 794.97pt x 614.295pt>
+<CartaGantt-MT_Palacios.pdf, id=557, 794.97pt x 614.295pt>
 File: CartaGantt-MT_Palacios.pdf Graphic file (type pdf)
 <use CartaGantt-MT_Palacios.pdf>
 Package pdftex.def Info: CartaGantt-MT_Palacios.pdf  used on input line 7.
@@ -1338,7 +1414,7 @@ Overfull \hbox (93.89265pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-) [22
+) [25
 
  <./CartaGantt-MT_Palacios.pdf>] 
 AED: lastpage setting LastPage
@@ -1347,26 +1423,26 @@ Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-(Formato-MT-Latex.aux (Pagina_Titulo.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (Carta_Gantt.aux))
+(Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Carta_Gantt.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Formato-MT-Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 16001AF767D13DF436DD4902209DD017;6549.
+(rerunfilecheck)             Checksum: 3C4D780D8B786B8FECCA8942B0F006A0;6834.
  ) 
 Here is how much of TeX's memory you used:
- 34932 strings out of 474486
- 699467 string characters out of 5753570
+ 44989 strings out of 474486
+ 1041466 string characters out of 5753570
  1940542 words of memory out of 5000000
- 56570 multiletter control sequences out of 15000+600000
+ 66451 multiletter control sequences out of 15000+600000
  564683 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,8n,93p,2594b,914s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,93p,2594b,924s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Formato-MT-Latex.pdf (25 pages, 1123707 bytes).
+Output written on Formato-MT-Latex.pdf (30 pages, 1137695 bytes).
 PDF statistics:
- 635 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 304 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 672 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 
