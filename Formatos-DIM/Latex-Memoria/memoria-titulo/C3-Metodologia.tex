@@ -101,6 +101,7 @@ permite visualizar estos elementos y su disposición, coherentes con la estrateg
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.5\textwidth]{Modelo_pla_negativo.jpeg}
+  \captionsetup{justification=centering, singlelinecheck=false}
   \caption{Molde negativo impreso en PLA (multicavidad) con canales y topes geométricos para fijar \(\ell_e\).}
   \label{fig:modelo_pla_negativo}
 \end{figure}
@@ -124,6 +125,7 @@ coherente con la necesidad de reproducibilidad y facilidad de uso en series de f
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.5\textwidth]{Silicona_caucho.jpeg}
+  \captionsetup{justification=centering, singlelinecheck=false}
   \caption{Sistema de silicona RTV empleado para la fabricación del molde blando (Shore A~30, kit silicona
   + catalizador).}
   \label{fig:silicona_caucho}
@@ -142,6 +144,15 @@ de la fabricación: (a) cavidades de silicona, (b) posicionamiento y tensión in
 (c) colado y curado parcial, y (d) probeta desmoldeada; este registro apoya la trazabilidad
 cavidad–probeta para un eventual \emph{bloqueo por cavidad} en el análisis.
 
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\textwidth]{Etapas_probeta.jpeg}
+  \captionsetup{justification=centering, singlelinecheck=false}
+  \caption{Secuencia de fabricación de probetas FBPO: cavidad de silicona, posicionamiento de hebra,
+  colado/curado y desmoldeo.}
+  \label{fig:etapas_probeta}
+\end{figure}
+
 Como criterio operativo, se mantendrá constante la longitud de embebido definida por los topes del
 molde, se verificará el correcto asentamiento de la hebra en la cavidad antes del colado, y se
 respetarán los tiempos y temperaturas de curado indicados por el proveedor de la resina para todas
@@ -153,7 +164,7 @@ secuencia y manipulación, favoreciendo la reproducibilidad entre lotes.
 
 \paragraph{Sistema de resina.}
 Se empleó un sistema epoxi de baja viscosidad (resina + endurecedor) adecuado para colado en cavidades
-estrechas, buscando buen mojado de la hebra y minimizando burbujas. La \Cref{fig:resina_mepox_1685}
+estrechas, buscando buen mojado de la hebra y minimizando burbujas. La \Cref{fig:resinas_epoxi}
 muestra el sistema utilizado; la proporción de mezcla y la cinética de curado se siguieron según
 ficha técnica del fabricante, registrando temperatura y tiempos para mantener consistencia entre lotes.
 
@@ -164,27 +175,38 @@ uniforme en la cavidad para conservar la geometría definida por el molde y aseg
 del proceso entre probetas fabricadas en sesiones distintas.
 
 \begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.5\textwidth]{Etapas_probeta.jpeg}
-  \caption{Secuencia de fabricación de probetas FBPO: cavidad de silicona, posicionamiento de hebra,
-  colado/curado y desmoldeo.}
-  \label{fig:etapas_probeta}
-\end{figure}
+    \centering
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.5\textwidth]{Resina_mepox_1685.jpeg}
-  \caption{Sistema epoxi de baja viscosidad utilizado (resina + endurecedor). Se respetaron proporciones
-  y tiempos de curado según ficha técnica.}
-  \label{fig:resina_mepox_1685}
+    \begin{minipage}[b]{0.5\textwidth}
+        \centering
+        \includegraphics[height=6.3cm, keepaspectratio]{Resina_mepox_1685.jpeg}
+    \end{minipage}%
+    \begin{minipage}[b]{0.5\textwidth}
+        \centering
+        \includegraphics[height=6.3cm, keepaspectratio]{Resina_epo_200.jpeg}
+    \end{minipage}
+
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Sistemas epoxi de baja viscosidad utilizados. Izquierda: MEPOX 1685. Derecha: EPO 200.}
+    \label{fig:resinas_epoxi}
 \end{figure}
 
 \subsubsection{Etapa 5: Ejecución de los ensayos FBPO}
-Se llevará a cabo la fase experimental del ensayo \textit{Fiber-Bundle Pull-Out}.
-Las probetas se ensayarán en una máquina de tracción universal instrumentada, bajo condiciones
-controladas de carga y desplazamiento. Se registrarán las curvas fuerza – desplazamiento y se
-documentarán los modos de falla observados en la interfaz fibra – matriz mediante registro visual y
-fotográfico. Cada serie de ensayos incluirá un número suficiente de repeticiones para asegurar la
+Se llevará a cabo la fase experimental del ensayo \textit{Fiber-Bundle Pull-Out}
+(Fig.~\ref{fig:ensayo_fbpo}). Las probetas se ensayarán en una máquina de tracción universal
+instrumentada, bajo condiciones controladas de carga y desplazamiento. Se registrarán las curvas
+fuerza – desplazamiento y se documentarán los modos de falla observados en la interfaz fibra – matriz
+mediante registro visual y fotográfico.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[height=7.5cm, keepaspectratio]{Ensayo_fbpo.jpeg}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Montaje experimental del ensayo \textit{Fiber-Bundle Pull-Out} (FBPO). }
+    \label{fig:ensayo_fbpo}
+\end{figure}
+
+Cada serie de ensayos incluirá un número suficiente de repeticiones para asegurar la
 validez estadística de los resultados. Previo a cada corrida se realizará \emph{zeroing} y un \emph{preload}
 mínimo; la velocidad de cruceta se mantendrá constante y se reportará su tolerancia. Se identificarán
 explícitamente \(P^{\ast}\) (despegue) y, cuando aplique, la carga pico.

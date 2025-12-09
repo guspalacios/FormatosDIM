@@ -2,11 +2,11 @@
 % CAPÍTULO 2: ESTADO DEL ARTE Y MARCO TEÓRICO
 % =====================================
 
-\section{Estado del arte y marco teórico}
+\section{Estado del Arte y Marco Teórico}
 
 \subsection{Estado del Arte}
-
-El estudio de la adhesión fibra – matriz en materiales compuestos ha sido ampliamente abordado
+    
+El estudio de la adhesión fibra–matriz en materiales compuestos ha sido ampliamente abordado
 mediante ensayos a escala micromecánica, los cuales permiten caracterizar la resistencia
 al corte interfacial (\textit{Interfacial Shear Strength}, IFSS) de fibras individuales embebidas
 en una matriz polimérica. Entre los métodos más utilizados destacan el \textit{Single-Fiber Pull-Out
@@ -17,30 +17,28 @@ representatividad frente a la interacción colectiva de fibras, y dificultad par
 a configuraciones de ingeniería práctica \cite{DINSPEC19289, Liu2021}.
 
 En años recientes, la \textbf{ISO 19375:2024} ha consolidado criterios para el \textit
-{single-fibre
-pull-out} (control de alineación, geometría y reducción de datos), reforzando buenas prácticas que pueden
-transferirse a otras configuraciones \cite{ISO19375}. En paralelo, varias revisiones subrayan que la IFSS
-obtenida es una \textit{medida aparente} sensible al estado de tensiones no uniforme, al acoplamiento
-normal – corte y al modelo de reducción empleado; por ello, se recomienda explicitar el procedimiento de
-cálculo y corroborar tendencias con métricas complementarias cuando sea pertinente
-\cite{Fischer2020, Liu2021, AhmadvashAghbash2024IMR}.
+{single-fibre pull-out} (control de alineación, geometría y reducción de datos), reforzando buenas
+prácticas que pueden transferirse a otras configuraciones \cite{ISO19375}. En paralelo, varias
+revisiones subrayan que la IFSS obtenida es una \textit{métrica aparente} sensible al estado de
+tensiones no uniforme, al acoplamiento normal–corte y al modelo de reducción empleado; por ello,
+se recomienda explicitar el procedimiento de cálculo y corroborar tendencias con métricas
+complementarias cuando sea pertinente \cite{Fischer2020, Liu2021, AhmadvashAghbash2024IMR}.
 
 Para superar estas limitaciones, se ha desarrollado el \textit{Fiber-Bundle Pull-Out Test}
 (FBPO), que permite extraer hebras completas de fibras (aproximadamente 3000 filamentos por hebra)
 embebidas en la matriz \cite{DeLeon2022}. Al trabajar en la mesoescala, este método captura
 de manera más representativa la interacción colectiva fibra–matriz, reduciendo la dispersión de
-los resultados y aumentando la robustez estadística. De León et al. \cite{DeLeon2022} describen
-un procedimiento escalable que utiliza moldes multicavidad y dispositivos de alineación geométrica,
-asegurando un control preciso de la longitud de embebido y permitiendo la producción de múltiples
-probetas de manera consistente. Este enfoque facilita la obtención de datos sistemáticos y
-reproducibles para estudios comparativos de adhesión.
+los resultados y aumentando la robustez estadística. De León et al.\ describen un procedimiento
+escalable basado en moldes multicavidad y dispositivos de alineación geométrica,
+asegurando un control preciso de la longitud de embebido y permitiendo la producción repetible de
+probetas homogéneas.
 
 Adicionalmente, se ha mostrado que configuraciones FBPO mejoradas logran consistencia con
 métodos micromecánicos (microbond/pull-out) y que la ruta de curado puede
 reducir tiempos manteniendo o mejorando el desempeño interfacial, siempre que se controle el grado
 de curado \cite{Zhou2016}. Para sistemas de fibras cortas y termoplásticos, estudios de \textit{push-out}
-a microescala también han servido como referencia sobre cómo la “IFSS verdadera” puede diferir de la
-aparente por distribuciones de tensión y confinamiento \cite{Liu2021}.
+a microescala también han servido como referencia para entender cómo la “IFSS verdadera” puede diferir de
+la aparente por distribuciones de tensión y confinamiento \cite{Liu2021}.
 
 Además, la implementación de ensayos FBPO puede apoyarse en normativas existentes para fibras
 individuales o hilos textiles, cuyas recomendaciones son transferibles a la mesoescala. La
@@ -49,59 +47,127 @@ pull-out}, enfatizando el control geométrico y la alineación durante el ensayo
 \textbf{ISO 3341} proporciona lineamientos para la tracción de hilos de vidrio, incluyendo
 prácticas de sujeción y acondicionamiento que pueden aplicarse a hebras completas. Por último,
 la \textbf{DIN 29965} define especificaciones para hilos de carbono en aplicaciones aeroespaciales,
-relevantes para la trazabilidad y caracterización del material utilizado en probetas
-\cite{DINSPEC19289, ISO3341, DIN29965}.
-
-De forma complementaria, la \textbf{ISO 19375:2024} aporta lineamientos actuales para el control de
-alineación y geometría en \textit{single-fibre pull-out} que pueden inspirar la implementación FBPO
-\cite{ISO19375}; y, como referencia de normalización de extracción/aparente fuera del ámbito polimérico,
-\textbf{ASTM D4475} ilustra cómo se estandarizan metodologías de corte/aparente en piezas pultruidas
-\cite{ASTMD4475}.
+relevantes para la trazabilidad del material utilizado en probetas
+\cite{DINSPEC19289, ISO3341, DIN29965}. La \textbf{ISO 19375:2024} aporta lineamientos adicionales de
+alineación y validez para \textit{single-fibre pull-out}, útiles para inspirar configuraciones FBPO,
+mientras que \textbf{ASTM D4475} muestra cómo se normalizan metodologías de corte/aparente en compuestos
+pultruidos.
 
 Más allá del montaje, la literatura enfatiza fuentes de variabilidad que afectan la comparación
 entre estudios: (i) longitud embebida \(\ell_e\) y su dispersión real; (ii) velocidad de ensayo y
 \emph{rate effects} sobre la fricción post–despegue; (iii) condición de superficie y \textit{sizing}
 (química, espesor, energía superficial); y (iv) criterios de identificación de la carga de despegue
 \(P^{\ast}\) y del área embebida efectiva \(A_e\) \cite{Fischer2020,Liu2021,AhmadvashAghbash2024IMR}.
-Los estándares \cite{ISO19375,DINSPEC19289,ISO3341} ofrecen \emph{checklists} de control (alineación,
-acondicionamiento, sujeción, validez) que, aunque concebidos para un filamento o para hilos, pueden
-\textbf{trasladarse} al FBPO para reducir la dispersión y mejorar la trazabilidad (p.\,ej., pretensión
-controlada de la hebra, bloqueo por cavidad, reporte de tolerancias).
+Los estándares citados ofrecen listas de verificación transferibles al FBPO, las cuales permiten
+reducir dispersión y mejorar trazabilidad mediante control de pretensión, bloqueo geométrico y reporte
+sistemático de tolerancias.
 
-En términos de escalamiento y rendimiento, el enfoque multicavidad de \cite{DeLeon2022}
-permite una producción eficiente de probetas homogéneas, habilitando análisis con
-tamaños muestrales adecuados y el uso de modelos de reducción robustos
-(pendiente de \(P^{\ast}\) vs.\ \(A_e\) por el origen) con intervalos de confianza. La práctica
-recomendada es reportar la \(\tau_{\text{IFSS,ap}}\) con su incertidumbre, verificar supuestos
-(linealidad, homocedasticidad) y, según proceda, aplicar ANOVA o alternativas no paramétricas, además de
-explorar bloqueos (p.\,ej., por cavidad o lote) para desagregar efectos sistemáticos
-\cite{Fischer2020,Liu2021}. Este prisma estadístico es clave para detectar
-\emph{efectos pequeños pero consistentes} (como cambios de \textit{sizing}).
+A nivel histórico, el desarrollo de métodos experimentales para cuantificar la adhesión fibra–matriz
+ha evolucionado desde los primeros microbond en los años 80, pasando por la consolidación del 
+\textit{single-fibre pull-out} en los 90, el avance de técnicas ópticas/SEM/AFM en los 2000 y la 
+incorporación de modelos shear–lag enriquecidos en la década de 2010. Desde 2015, los métodos 
+mesoscópicos como FBPO se posicionan como alternativas más representativas para estudiar adhesión en 
+hebras completas \cite{DeLeon2022}.
 
+Los distintos ensayos aportan ventanas complementarias al fenómeno interfacial. El microbond 
+representa despegue altamente localizado; el \textit{single-fibre pull-out} permite controlar \(\ell_e\); 
+el \textit{push-out} revela efectos de confinamiento; y el FBPO introduce mecanismos colectivos de 
+fricción y redistribución de carga. No existe equivalencia directa entre sus valores, ya que difieren 
+sus estados tensionales, sensibilidad geométrica y escalas de medida.
 
-La trazabilidad de materiales (designación del hilo, masas lineales, tolerancias de calidad)
-descrita en \cite{DIN29965} y las pautas de acondicionamiento/sujeción de \cite{ISO3341} complementan
-la alineación geométrica de \cite{ISO19375,DINSPEC19289}, constituyendo un marco operativo para
-FBPO: identificación unívoca de probetas, registro ambiental, verificación metrológica de
-\(\ell_e\) y \(d_{\text{eq}}\), y criterios explícitos de descarte. En conjunto, estos elementos
-favorecen la comparabilidad interlaboratorio y la interpretación prudente
-de la IFSS como \emph{aparente} y dependiente del modelo adoptado.
+El \textbf{sizing} emerge como el factor más determinante de la adhesión. A nivel químico regula la 
+energía superficial y humectación; a nivel microestructural define rugosidad, espesor y continuidad de 
+la capa; y en mesoescala controla la compactación del haz, el \textit{wicking} y la fricción colectiva. 
+De León et al.\ demostraron mediante SEM/AFM que diferencias entre proveedores pueden modificar 
+sistemáticamente los modos de falla y la fricción post–despegue \cite{DeLeon2022}.
+
+El escalamiento micro→meso→macro es central para comprender la IFSS moderna: la micromecánica captura 
+mecanismos locales; la mesomecánica (FBPO) captura efectos colectivos; y los ensayos estructurales 
+permiten validar tendencias en configuraciones reales. En este sentido, FBPO actúa como un puente entre 
+lo local y lo estructural, aportando valores más representativos que un filamento individual.
+
+Finalmente, la variabilidad experimental sigue siendo un desafío. La literatura moderna recomienda 
+un tratamiento estadístico explícito: ANOVA, intervalos de confianza, bloqueos por cavidad y 
+verificación de supuestos. El FBPO, gracias a su naturaleza multicavidad, permite tamaños muestrales 
+significativamente mayores que los ensayos micromecánicos tradicionales.
+
+\subsubsection{Valores reportados en la literatura}
+
+El \textit{review} más reciente sobre adhesión fibra–matriz \cite{AhmadvashAghbash2024IMR} compila
+los rangos típicos de IFSS reportados para configuraciones micro, meso y macroscópicas en sistemas
+carbono/epoxi y vidrio/epoxi. En general, los métodos micromecánicos presentan los valores más altos
+debido al confinamiento geométrico y al estado tensional no uniforme, mientras que los métodos
+mesoscópicos —como FBPO— entregan valores más moderados pero de mayor representatividad estadística.
+
+A partir de los datos consolidados en la revision de \cite{AhmadvashAghbash2024IMR}, los rangos típicos
+son:
+
+\begin{itemize}
+    \item \textbf{SFFT:} 30–100 MPa.
+    \item \textbf{Microbond:} 30–90 MPa.
+    \item \textbf{Push-Out / Push-In:} 10–80 MPa.
+    \item \textbf{SFPO:} 20–50 MPa.
+    \item \textbf{FBPO:} 15–40 MPa. \cite{DeLeon2022}.
+    \item \textbf{ILSS:} 40–80 MPa.
+    \item \textbf{Iosipescu:} 30–60 MPa.
+\end{itemize}
+
+Estos rangos reflejan claramente la disminución progresiva de la IFSS aparente al pasar de escalas
+micromecánicas a mesoscópicas y finalmente a ensayos estructurales. La Fig.~\ref{fig:ifss_ranges} 
+resume estos valores mediante un boxplot, lo que permite visualizar simultáneamente la amplitud del
+rango reportado y las diferencias sistemáticas entre métodos. Este comportamiento coincide con lo
+reportado por \cite{AhmadvashAghbash2024IMR}, quien destaca que los ensayos a microescala tienden a 
+sobreestimar la adhesión debido a restricciones geométricas que no representan adecuadamente la 
+interacción colectiva de una hebra completa.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.85\linewidth]{IFSS_ranges_plot.png}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Rangos de IFSS reportados en la literatura para distintos métodos de ensayo.}
+    \label{fig:ifss_ranges}
+\end{figure}
+
+% =======================================================
+% ===================== DISCUSIÓN ========================
+% =======================================================
 
 \paragraph{Discusión.}
-El FBPO ocupa una escala intermedia que reduce la dispersión típica de la micromecánica sin perder
-sensibilidad a la interfase; no obstante, la \(\tau_{\text{IFSS,ap}}\) depende del modelo de reducción
-(\(P^{\ast}\) – \(A_e\)), de \(\ell_e\), de \(d_{\text{eq}}\) y de la historia de proceso (curado y
-\textit{sizing}). En consecuencia, los valores no son directamente intercambiables con microbond o
-\textit{single-fibre pull-out}. La comparación debe centrarse en tendencias con control estricto de
-variables y reporte de incertidumbre, siguiendo criterios de alineación, geometría, sujeción y validez
-establecidos en \cite{ISO19375,DINSPEC19289,ISO3341,DIN29965}, junto con un plan estadístico explícito
-(ANOVA y, cuando corresponda, bloqueo por cavidad/lote).
 
-En este marco, se replica y adapta \cite{DeLeon2022} (molde multicavidad y control metrológico de
-\(\ell_e\)) para aislar el efecto del \textit{sizing} al comparar dos proveedores de la misma fibra en
-la misma resina. Se estimará \(\tau_{\text{IFSS,ap}}\) por pendiente \(P^{\ast}\)–\(A_e\) con intervalos
-de confianza y verificación de supuestos, generando evidencia reproducible y robusta sobre la influencia
-del recubrimiento de fábrica en la adhesión fibra – matriz a mesoescala.
+El FBPO se sitúa en una escala intermedia que permite reducir la elevada dispersión típica de los
+ensayos micromecánicos convencionales sin perder sensibilidad hacia los mecanismos fundamentales de la
+interfase. Sin embargo, la \(\tau_{\text{IFSS,ap}}\) obtenida continúa siendo un parámetro dependiente
+del método, condicionado por el modelo de reducción empleado (\(P^{\ast}\)–\(A_e\)), la longitud embebida
+\(\ell_e\), el perímetro efectivo \(d_{\mathrm{eq}}\) y la historia de procesamiento (curado, rugosidad,
+\textit{sizing}). Los valores de FBPO no son directamente comparables con microbond, \textit{pull-out}
+ni \textit{push-out}, pues cada método ilumina diferentes mecanismos interfaciales.
+
+Esta dependencia refuerza la necesidad de interpretar resultados desde un enfoque multiescala: la
+micromecánica captura fenómenos locales de adhesión, mientras que FBPO incorpora mecanismos colectivos
+como fricción residual, redistribución de carga y variabilidad topológica del haz. A nivel estructural,
+estas propiedades emergentes condicionan la tenacidad interlaminar y el desempeño transversal del
+laminado.
+
+El \textit{sizing} es uno de los factores más influyentes en la IFSS aparente. La evidencia de De León
+et al.\ muestra que la morfología post–ensayo y la fricción residual permiten discriminar entre
+interacciones interfaciales fuertes y débiles, imponiendo la necesidad de caracterizar superficie y
+registrar lote/proveedor para aislar efectos reales.
+
+La variabilidad experimental requiere un enfoque estadístico explícito: regresiones con intervalos de
+confianza, análisis ANOVA, bloqueos por cavidad/lote y verificación de supuestos. El FBPO es especialmente
+adecuado para esta aproximación debido a su escalabilidad y capacidad de generar grandes tamaños
+muestrales.
+
+Persisten brechas abiertas: ausencia de modelos universales que integren adhesión, fricción y topología
+del haz; falta de criterios estandarizados para definir \(P^{\ast}\); y necesidad de profundizar en
+modelos fisicoquímicos que describan el rol del \textit{sizing}. El presente trabajo replica y adapta la
+metodología multicavidad propuesta por \cite{DeLeon2022} para comparar dos proveedores de la misma fibra
+en idéntica resina, generando evidencia reproducible y trazable sobre la influencia del recubrimiento de
+fábrica en la adhesión fibra–matriz a mesoescala.
+
+%
+% Marco teórico
+%
 
 \subsection{Marco Teórico}
 
@@ -160,6 +226,53 @@ la interpretación con métricas complementarias cuando sea pertinente
 \cite{ISO19375,Fischer2020,Liu2021,Zhou2016}. Bajo estas premisas, la IFSS aparente se convierte en un
 indicador robusto para juzgar diferencias de adhesión entre materiales o tratamientos, manteniendo
 explícito su carácter dependiente del modelo y de las condiciones de ensayo.
+
+\subsubsection{Naturaleza aparente vs.\ real de la IFSS}
+
+La resistencia al corte interfacial reportada en los ensayos (IFSS) es, en la mayoría de los casos,
+una \emph{magnitud aparente}. Esto se debe a que su cálculo se basa en modelos de reducción que
+suponen condiciones idealizadas: distribución uniforme de corte, perímetro constante, ausencia de
+tensiones normales y contacto perfecto fibra–matriz. En configuraciones reales, estos supuestos no se
+cumplen estrictamente debido a fenómenos como rugosidad superficial, gradientes de adherencia,
+infiltración capilar (\textit{wicking}), fricción post–despegue y heterogeneidad en la compactación del
+haz \cite{Liu2021,AhmadvashAghbash2024IMR}.
+
+Por ello, la IFSS calculada representa una combinación efectiva de adhesión química, anclaje
+mecánico y fricción residual. Su valor depende del método utilizado (microbond, pull-out,
+push-out, FBPO), de la escala del ensayo y del modelo adoptado para interpretar la curva
+fuerza–desplazamiento. En este contexto, la comparación de IFSS entre distintos métodos no debe
+realizarse en términos absolutos, sino interpretando \emph{tendencias bajo condiciones controladas} y
+especificando siempre el modelo y supuestos utilizados en la reducción de datos.
+
+\subsubsection{Mecanismos de falla interfacial}
+
+El despegue fibra–matriz puede involucrar diversos mecanismos que se manifiestan de forma secuencial
+o simultánea:
+
+\begin{itemize}
+    \item \textbf{Falla adhesiva:} ocurre en la superficie de la fibra cuando la química del
+    \textit{sizing} o la humectación son insuficientes. La carga cae abruptamente al perderse el
+    anclaje químico inicial.
+
+    \item \textbf{Falla cohesiva en la interfase:} el desgarro se produce en una capa interfacial
+    modificada (zona rica en \textit{sizing}, regiones con reticulación parcial o gradientes
+    fisicoquímicos). Este mecanismo indica la presencia de una ``zona de transición'' entre fibra y
+    matriz.
+
+    \item \textbf{Falla cohesiva en la matriz:} la grieta se propaga dentro de la resina adyacente,
+    típica de matrices frágiles o con tensiones residuales elevadas. Puede aumentar la carga de
+    despegue aparente aun cuando la adhesión no sea alta.
+
+    \item \textbf{Deslizamiento friccional post–despegue:} tras la pérdida de anclaje químico,
+    la interacción está dominada por presión normal, rugosidad superficial y compactación del haz. La
+    fricción puede contribuir significativamente a la carga medida, especialmente en FBPO donde miles
+    de filamentos participan colectivamente \cite{DeLeon2022}.
+\end{itemize}
+
+La curva fuerza–desplazamiento permite identificar estos mecanismos: una pendiente inicial asociada
+a la adhesión, un punto de despegue \(P^{\ast}\), una caída abrupta y un régimen posterior dominado por
+fricción. La coexistencia de mecanismos explica por qué la IFSS aparente no representa estrictamente
+una propiedad intrínseca del material, sino una respuesta efectiva del sistema fibra–interfase–matriz.
 
 \subsubsection{Escalas de estudio}
 \begin{itemize}
@@ -244,8 +357,8 @@ Los ensayos más utilizados para la medición de IFSS incluyen:
 	las guías más recientes ayudan a estandarizar alineación, geometría y reporte
 	\cite{Miller1987,ISO19375,DINSPEC19289}.
 
-    \item \textbf{\textit{Push-Out Test:}} Determina la resistencia interfacial empujando la fibra hacia fuera
-	desde una microsección pulida del compuesto mediante un indentador controlado, mientras se
+    \item \textbf{\textit{Push-Out Test:}} Determina la resistencia interfacial empujando la fibra hacia
+    fuera desde una microsección pulida del compuesto mediante un indentador controlado, mientras se
 	monitoriza la fuerza de expulsión. Se utiliza principalmente en composites de alta precisión o en
 	estudios donde se busca minimizar artefactos de sujeción del filamento, permitiendo análisis
 	locales e incluso mapeo espacial de la interfase. Entre sus limitaciones se encuentran la preparación
@@ -261,8 +374,8 @@ Los ensayos más utilizados para la medición de IFSS incluyen:
 	micromecánicos, la dispersión puede ser elevada y la representatividad frente a hebras completas
 	es limitada \cite{Gao2015,Ouyang2020}.
 
-    \item \textbf{\textit{Fiber-Bundle Pull-Out Test (FBPO):}} Extrae una hebra completa (típicamente miles de
-	filamentos) parcialmente embebida en la matriz, capturando la interacción colectiva fibra – matriz.
+    \item \textbf{\textit{Fiber-Bundle Pull-Out Test (FBPO):}} Extrae una hebra completa (típicamente miles
+    de filamentos) parcialmente embebida en la matriz, capturando la interacción colectiva fibra – matriz.
 	Esta configuración reduce la dispersión típica de la micromecánica, mejora la robustez estadística
 	y permite estudiar efectos de proceso y de \textit{sizing} con mayor representatividad. Sus retos
 	incluyen el estado de tensiones más complejo, la necesidad de un modelo de reducción explícito
@@ -276,12 +389,12 @@ mostrar coherencia de tendencias si se controlan las condiciones de fabricación
 las magnitudes no son directamente intercambiables por las diferencias en estado de tensiones y escala
 de medida \cite{Zhou2016, Fischer2020}. En consecuencia, se recomienda limitar el análisis a la
 dirección y tamaño relativo de los efectos (p.\,ej., impacto del \textit{sizing} o del curado) bajo
-protocolos armonizados de alineación, geometría, velocidad y criterios de validez \cite{ISO19375,DINSPEC19289},
-reportando la incertidumbre (intervalos de confianza) y aplicando ANOVA con bloqueo cuando existan
-fuentes sistemáticas (cavidad, lote) \cite{Fischer2020,Liu2021}. La validez externa puede reforzarse
-corroborando tendencias con métricas complementarias a otra escala (p.\,ej., ILSS o Iosipescu) y con
-configuraciones FBPO escalables y trazables (molde multicavidad, control metrológico de \(\ell_e\))
-que facilitan la repetibilidad interlote \cite{DeLeon2022}.
+protocolos armonizados de alineación, geometría, velocidad y criterios de validez
+\cite{ISO19375,DINSPEC19289}, reportando la incertidumbre (intervalos de confianza) y aplicando ANOVA
+con bloqueo cuando existan fuentes sistemáticas (cavidad, lote) \cite{Fischer2020,Liu2021}. La validez
+externa puede reforzarse corroborando tendencias con métricas complementarias a otra escala (p.\,ej.,
+ILSS o Iosipescu) y con configuraciones FBPO escalables y trazables (molde multicavidad, control
+metrológico de \(\ell_e\)) que facilitan la repetibilidad interlote \cite{DeLeon2022}.
 
 \subsubsection{Efecto del \textit{sizing} y la topografía superficial}
 Diferencias en el recubrimiento de fábrica (\textit{sizing}) entre proveedores pueden modificar el mojado
@@ -308,6 +421,39 @@ y un plan estadístico (ANOVA con bloqueo por cavidad/lote) para discernir efect
 de artefactos de montaje \cite{Fischer2020,ISO19375}. Este enfoque permite interpretar la IFSS
 aparente como un indicador reproducible de tendencias, manteniendo explícita su dependencia del
 modelo de reducción y de las condiciones superficiales y de proceso.
+
+\subsubsection{Profundización en el rol del \textit{sizing}}
+
+El \textit{sizing} —el recubrimiento superficial industrial aplicado a las fibras— es uno de los
+factores más influyentes en la adhesión fibra–matriz. Su función principal es compatibilizar la
+superficie de la fibra con la química de la matriz y proteger los filamentos durante el manejo; sin
+embargo, su impacto en la IFSS proviene de múltiples niveles:
+
+\begin{itemize}
+    \item \textbf{Nivel químico:} grupos funcionales específicos promueven la humectación y la
+    reactividad con la matriz (p.\,ej., agentes de acoplamiento en sistemas epoxi). Diferencias
+    entre proveedores pueden modificar la polaridad, energía superficial y densidad de sitios
+    reactivos \cite{AhmadvashAghbash2024IMR}.
+
+    \item \textbf{Nivel microestructural:} el espesor, continuidad y estado de curado del
+    \textit{sizing} afectan la formación de una zona interfacial homogénea. Capas demasiado gruesas,
+    incompletas o parcialmente curadas pueden alimentar fallas cohesivas o transiciones frágiles.
+
+    \item \textbf{Nivel mesoscópico (hebra completa):} el \textit{sizing} regula el mojado entre
+    filamentos, la compactación del haz, la formación de microcanales y la fricción colectiva. Estas
+    variables influyen directamente en el comportamiento del FBPO, donde la interacción colectiva
+    determina la pendiente \(P^{\ast}\)–\(A_e\) y el régimen friccional post–despegue
+    \cite{DeLeon2022}.
+
+    \item \textbf{Nivel macroscópico:} diferencias de \textit{sizing} se traducen en variaciones de
+    ILSS, resistencia transversal, disipación de energía y durabilidad. Ensayos FBPO permiten anticipar
+    tendencias de estas propiedades sin requerir tamaños muestrales grandes.
+\end{itemize}
+
+Pequeñas variaciones en formulaciones nominalmente similares pueden producir cambios sistemáticos en
+el modo de falla, la fricción post–despegue y la morfología observada por SEM/AFM. Por ello, la
+comparación entre proveedores requiere un control estricto de condiciones superficiales, ambientales y
+procesos de curado para aislar el efecto real del \textit{sizing}.
 
 \subsubsection{Criterio de \emph{muestra válida}}
 \begin{itemize}

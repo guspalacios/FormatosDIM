@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  3 DEC 2025 01:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  9 DEC 2025 11:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1283,7 +1283,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `Pagina_Titulo.aux'.
 
 (Pagina_Titulo.tex
-<udec-dim.png, id=145, 417.56pt x 108.405pt>
+<udec-dim.png, id=205, 417.56pt x 108.405pt>
 File: udec-dim.png Graphic file (type png)
 <use udec-dim.png>
 Package pdftex.def Info: udec-dim.png  used on input line 5.
@@ -1305,15 +1305,15 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 
 
 
-] (Formato-MT-Latex.toc)
+] (Formato-MT-Latex.toc [4
+
+
+])
 \tf@toc=\write5
 \openout5 = `Formato-MT-Latex.toc'.
 
- [4
-
-
-] (Formato-MT-Latex.lof
-Overfull \hbox (21.40816pt too wide) in paragraph at lines 3--3
+ [5] (Formato-MT-Latex.lof
+Overfull \hbox (21.40816pt too wide) in paragraph at lines 4--4
  [][] [][]\OT1/cmr/m/n/12 Molde neg-a-tivo im-preso en PLA (mul-ti-cavi-dad) con canales y topes geom^^Setricos 
  []
 
@@ -1321,14 +1321,14 @@ Overfull \hbox (21.40816pt too wide) in paragraph at lines 3--3
 \tf@lof=\write6
 \openout6 = `Formato-MT-Latex.lof'.
 
- [5
+ [6
 
 
 ]
 \openout2 = `C1-Introduccion.aux'.
 
  (C1-Introduccion.tex
-<Interface_diagram.pdf, id=235, 341.275pt x 127.47626pt>
+<Interface_diagram.pdf, id=318, 341.275pt x 127.47626pt>
 File: Interface_diagram.pdf Graphic file (type pdf)
 <use Interface_diagram.pdf>
 Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
@@ -1344,67 +1344,97 @@ Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
 
 
 
-] [6] [7] [8] [9] [10] [11] [12]) [13]
+] [6]
+<IFSS_ranges_plot.png, id=419, 715.11165pt x 426.393pt>
+File: IFSS_ranges_plot.png Graphic file (type png)
+<use IFSS_ranges_plot.png>
+Package pdftex.def Info: IFSS_ranges_plot.png  used on input line 125.
+(pdftex.def)             Requested size: 399.05278pt x 237.93915pt.
+ [7 <./IFSS_ranges_plot.png>] [8] [9] [10] [11] [12] [13] [14] [15]) [16]
 \openout2 = `C3-Metodologia.aux'.
 
- (C3-Metodologia.tex [14
+ (C3-Metodologia.tex [17
 
 
 
 ]
-<Modelo_pla_negativo.jpeg, id=487, 652.68843pt x 547.2947pt>
+<Modelo_pla_negativo.jpeg, id=579, 652.68843pt x 547.2947pt>
 File: Modelo_pla_negativo.jpeg Graphic file (type jpg)
 <use Modelo_pla_negativo.jpeg>
 Package pdftex.def Info: Modelo_pla_negativo.jpeg  used on input line 103.
 (pdftex.def)             Requested size: 234.73524pt x 196.83386pt.
- [15]
-<Silicona_caucho.jpeg, id=494, 733.23938pt x 441.90094pt>
+ [18]
+<Silicona_caucho.jpeg, id=586, 733.23938pt x 441.90094pt>
 File: Silicona_caucho.jpeg Graphic file (type jpg)
 <use Silicona_caucho.jpeg>
-Package pdftex.def Info: Silicona_caucho.jpeg  used on input line 126.
+Package pdftex.def Info: Silicona_caucho.jpeg  used on input line 127.
 (pdftex.def)             Requested size: 234.73524pt x 141.46512pt.
- [16 <./Modelo_pla_negativo.jpeg> <./Silicona_caucho.jpeg>]
-<Etapas_probeta.jpeg, id=502, 475.02469pt x 418.56375pt>
+ [19 <./Modelo_pla_negativo.jpeg> <./Silicona_caucho.jpeg>]
+<Etapas_probeta.jpeg, id=593, 475.02469pt x 418.56375pt>
 File: Etapas_probeta.jpeg Graphic file (type jpg)
 <use Etapas_probeta.jpeg>
-Package pdftex.def Info: Etapas_probeta.jpeg  used on input line 168.
+Package pdftex.def Info: Etapas_probeta.jpeg  used on input line 149.
 (pdftex.def)             Requested size: 234.73524pt x 206.83522pt.
-<Resina_mepox_1685.jpeg, id=503, 813.0375pt x 702.37407pt>
+ [20 <./Etapas_probeta.jpeg>]
+<Resina_mepox_1685.jpeg, id=601, 813.0375pt x 702.37407pt>
 File: Resina_mepox_1685.jpeg Graphic file (type jpg)
 <use Resina_mepox_1685.jpeg>
-Package pdftex.def Info: Resina_mepox_1685.jpeg  used on input line 176.
-(pdftex.def)             Requested size: 234.73524pt x 202.783pt.
- [17] [18 <./Etapas_probeta.jpeg> <./Resina_mepox_1685.jpeg>]) [19]
+Package pdftex.def Info: Resina_mepox_1685.jpeg  used on input line 182.
+(pdftex.def)             Requested size: 207.4893pt x 179.25244pt.
+<Resina_epo_200.jpeg, id=602, 437.83575pt x 343.88475pt>
+File: Resina_epo_200.jpeg Graphic file (type jpg)
+<use Resina_epo_200.jpeg>
+Package pdftex.def Info: Resina_epo_200.jpeg  used on input line 186.
+(pdftex.def)             Requested size: 228.23041pt x 179.25244pt.
+<Ensayo_fbpo.jpeg, id=604, 541.42274pt x 755.82375pt>
+File: Ensayo_fbpo.jpeg Graphic file (type jpg)
+<use Ensayo_fbpo.jpeg>
+Package pdftex.def Info: Ensayo_fbpo.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 152.86133pt x 213.39566pt.
+ [21 <./Resina_mepox_1685.jpeg> <./Resina_epo_200.jpeg> <./Ensayo_fbpo.jpeg>]) [22]
 \openout2 = `C4-Resultados.aux'.
 
- (C4-Resultados.tex) [20
+ (C4-Resultados.tex
+
+LaTeX Warning: Reference `fig:fibra_epo' on page 23 undefined on input line 15.
+
+
+LaTeX Warning: Reference `fig:fibraaero_mepox' on page 23 undefined on input line 29.
+
+
+LaTeX Warning: Reference `fig:fibraaero_epo' on page 23 undefined on input line 44.
+
+
+LaTeX Warning: Reference `fig:comparacion_sistemas' on page 23 undefined on input line 58.
+
+) [23
 
 
 
 ]
 \openout2 = `C5-Discusion.aux'.
 
- (C5-Discusion.tex) [21
+ (C5-Discusion.tex) [24
 
 
 
 ]
 \openout2 = `C6-Conclusiones.aux'.
 
- (C6-Conclusiones.tex) [22
+ (C6-Conclusiones.tex) [25
 
 
 
-] (Formato-MT-Latex.bbl [23
+] (Formato-MT-Latex.bbl [26
 
 
-]) [24]
+]) [27]
 \openout2 = `Carta_Gantt.aux'.
 
  (Carta_Gantt.tex
 
 pdfTeX warning: pdflatex (file ./CartaGantt-MT_Palacios.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<CartaGantt-MT_Palacios.pdf, id=557, 794.97pt x 614.295pt>
+<CartaGantt-MT_Palacios.pdf, id=654, 794.97pt x 614.295pt>
 File: CartaGantt-MT_Palacios.pdf Graphic file (type pdf)
 <use CartaGantt-MT_Palacios.pdf>
 Package pdftex.def Info: CartaGantt-MT_Palacios.pdf  used on input line 7.
@@ -1414,7 +1444,7 @@ Overfull \hbox (93.89265pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
-) [25
+) [28
 
  <./CartaGantt-MT_Palacios.pdf>] 
 AED: lastpage setting LastPage
@@ -1428,21 +1458,25 @@ This document will not have a glossary.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Formato-MT-Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 3C4D780D8B786B8FECCA8942B0F006A0;6834.
+(rerunfilecheck)             Checksum: 8617BC3BF93B1A04346E222C7E644EA7;9982.
  ) 
 Here is how much of TeX's memory you used:
- 44989 strings out of 474486
- 1041466 string characters out of 5753570
- 1940542 words of memory out of 5000000
- 66451 multiletter control sequences out of 15000+600000
+ 45057 strings out of 474486
+ 1042812 string characters out of 5753570
+ 1942542 words of memory out of 5000000
+ 66498 multiletter control sequences out of 15000+600000
  564683 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,93p,2594b,924s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Formato-MT-Latex.pdf (30 pages, 1137695 bytes).
+Output written on Formato-MT-Latex.pdf (34 pages, 1506515 bytes).
 PDF statistics:
- 672 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
- 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
+ 463 words of extra memory for PDF output out of 10000 (max. 10000000)
 
