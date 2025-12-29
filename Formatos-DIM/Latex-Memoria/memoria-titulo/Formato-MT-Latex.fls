@@ -525,6 +525,8 @@ OUTPUT C3-Metodologia.aux
 INPUT .\C3-Metodologia.tex
 INPUT .\C3-Metodologia.tex
 INPUT C3-Metodologia.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcbx0800.tfm
 INPUT .\Modelo_pla_negativo.jpeg
 INPUT .\Modelo_pla_negativo.jpeg
 INPUT .\Modelo_pla_negativo.jpeg
@@ -573,6 +575,13 @@ OUTPUT C4-Resultados.aux
 INPUT .\C4-Resultados.tex
 INPUT .\C4-Resultados.tex
 INPUT C4-Resultados.tex
+INPUT .\grafica_todas_probetas.png
+INPUT .\grafica_todas_probetas.png
+INPUT .\grafica_todas_probetas.png
+INPUT .\grafica_todas_probetas.png
+INPUT .\grafica_todas_probetas.png
+INPUT .\grafica_todas_probetas.png
+INPUT .\grafica_todas_probetas.png
 INPUT .\C5-Discusion.tex
 INPUT .\C5-Discusion.tex
 OUTPUT C5-Discusion.aux
@@ -633,6 +642,8 @@ INPUT .\Carta_Gantt.aux
 INPUT Carta_Gantt.aux
 INPUT .\Formato-MT-Latex.out
 INPUT .\Formato-MT-Latex.out
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx0800.pk
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx0800.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
