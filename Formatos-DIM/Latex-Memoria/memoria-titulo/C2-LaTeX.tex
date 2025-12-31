@@ -6,7 +6,7 @@
 
 \subsection{Estado del Arte}
     
-El estudio de la adhesión fibra–matriz en materiales compuestos ha sido ampliamente abordado
+El estudio de la adhesión fibra–matriz en materiales compuestos ha sido principalmente abordado
 mediante ensayos a escala micromecánica, los cuales permiten caracterizar la resistencia
 al corte interfacial (\textit{Interfacial Shear Strength}, IFSS) de fibras individuales embebidas
 en una matriz polimérica. Entre los métodos más utilizados destacan el \textit{Single-Fiber Pull-Out
@@ -99,18 +99,24 @@ carbono/epoxi y vidrio/epoxi. En general, los métodos micromecánicos presentan
 debido al confinamiento geométrico y al estado tensional no uniforme, mientras que los métodos
 mesoscópicos —como FBPO— entregan valores más moderados pero de mayor representatividad estadística.
 
-A partir de los datos consolidados en la revision de \cite{AhmadvashAghbash2024IMR}, los rangos típicos
-son:
-
-\begin{itemize}
-    \item \textbf{SFFT:} 30–100 MPa.
-    \item \textbf{Microbond:} 30–90 MPa.
-    \item \textbf{Push-Out / Push-In:} 10–80 MPa.
-    \item \textbf{SFPO:} 20–50 MPa.
-    \item \textbf{FBPO:} 15–40 MPa. \cite{DeLeon2022}.
-    \item \textbf{ILSS:} 40–80 MPa.
-    \item \textbf{Iosipescu:} 30–60 MPa.
-\end{itemize}
+% \begin{table}[htbp]
+% \centering
+% \caption{Rangos de IFSS reportados en la literatura para distintos métodos de ensayo.}
+% \label{tab:ifss_rangos}
+% \begin{tabular}{l c}
+% \toprule
+% \textbf{Método de ensayo} & \textbf{Rango de IFSS (MPa)} \\
+% \midrule
+% SFFT               & 30--100 \\
+% Microbond          & 30--90  \\
+% Push-Out / Push-In & 10--80  \\
+% SFPO               & 20--50  \\
+% FBPO               & 15--40  \\
+% ILSS               & 40--80  \\
+% Iosipescu          & 30--60  \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
 
 Estos rangos reflejan claramente la disminución progresiva de la IFSS aparente al pasar de escalas
 micromecánicas a mesoscópicas y finalmente a ensayos estructurales. La Fig.~\ref{fig:ifss_ranges} 
@@ -120,11 +126,19 @@ reportado por \cite{AhmadvashAghbash2024IMR}, quien destaca que los ensayos a mi
 sobreestimar la adhesión debido a restricciones geométricas que no representan adecuadamente la 
 interacción colectiva de una hebra completa.
 
+% \begin{figure}[htbp]
+%     \centering
+%     \includegraphics[width=0.85\linewidth]{IFSS_ranges_plot.png}
+%     \captionsetup{justification=centering, singlelinecheck=false}
+%     \caption{Rangos de IFSS reportados en la literatura para distintos métodos de ensayo.}
+%     \label{fig:ifss_ranges}
+% \end{figure}
+
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.85\linewidth]{IFSS_ranges_plot.png}
+    \includegraphics[width=0.85\linewidth]{IFSS_reportada_literatura}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Rangos de IFSS reportados en la literatura para distintos métodos de ensayo.}
+    \caption{Rangos de IFSS reportados para distintos métodos de ensayo \cite{AhmadvashAghbash2024IMR}.}
     \label{fig:ifss_ranges}
 \end{figure}
 
@@ -182,6 +196,18 @@ transferencia de esfuerzos desde la matriz hacia las fibras, determinando el com
 mecánico global del material. La calidad de la interfaz influye directamente en la rigidez,
 resistencia y tenacidad del compuesto, y un fallo en esta región puede conducir a una disminución
 significativa de la vida útil de los componentes \cite{HullClyne1996, KellyZweben2000}.
+Como se ilustra en la Fig~\ref{fig:interfaz_fibra_matriz}, el enlace interfacial puede
+descomponerse en contribuciones químicas, mecánicas y friccionales, las cuales interactúan
+entre sí y están fuertemente influenciadas por la química del \textit{sizing} y la historia de
+procesamiento.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{interfaz.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Esquema representativo de la interfaz fibra–matriz en un material compuesto.}
+    \label{fig:interfaz_fibra_matriz}
+\end{figure}    
 
 El enlace interfacial suele descomponerse en contribuciones químicas (compatibilidad entre grupos
 funcionales de matriz y \textit{sizing}), anclaje mecánico (topografía/rugosidad efectiva) y fricción
@@ -227,7 +253,7 @@ la interpretación con métricas complementarias cuando sea pertinente
 indicador robusto para juzgar diferencias de adhesión entre materiales o tratamientos, manteniendo
 explícito su carácter dependiente del modelo y de las condiciones de ensayo.
 
-\subsubsection{Naturaleza aparente vs.\ real de la IFSS}
+\subsubsection{IFSS aparente vs.\ real}
 
 La resistencia al corte interfacial reportada en los ensayos (IFSS) es, en la mayoría de los casos,
 una \emph{magnitud aparente}. Esto se debe a que su cálculo se basa en modelos de reducción que
@@ -288,6 +314,14 @@ una propiedad intrínseca del material, sino una respuesta efectiva del sistema 
 	geométrico, reducción de datos y validez de muestras. Resulta idónea para \emph{cribado} de
 	recubrimientos y estudios mecanísticos de química de interfase.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{escalas_de_estudio.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Escalas de compuesto tejido de fibra.}
+    \label{fig:escalas_de_estudio}
+\end{figure} 
+
     \item \textbf{Mesoescala:} Considera una \emph{hebra completa} (típicamente \(\sim\)3000 filamentos)
 	embebida en matriz y representa la interacción \emph{colectiva} fibra – matriz \cite{DeLeon2022}.
 	El \textit{Fiber-Bundle Pull-Out} (FBPO) permite reducir la dispersión y mejorar la robustez
@@ -346,7 +380,16 @@ aceptación - son esenciales para reducir la dispersión, habilitar análisis es
 facilitar la comparación entre estudios \cite{ISO19375,DINSPEC19289,Fischer2020,Liu2021}.
 
 \subsubsection{Ensayos de caracterización interfacial}
-Los ensayos más utilizados para la medición de IFSS incluyen:
+Los ensayos más utilizados para la medición de IFSS incluyen Fig~\ref{fig:tipos_de_ensayos}:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{tipos_de_ensayos.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Tipos de ensayo a microescala.}
+    \label{fig:tipos_de_ensayos}
+\end{figure}
+
 \begin{itemize}
     \item \textbf{\textit{Single-Fiber Pull-Out Test:}} Evalúa la adhesión extrayendo un único filamento
 	previamente embebido en una microresina o matriz, con control fino de la longitud de embebido y de
@@ -455,30 +498,30 @@ el modo de falla, la fricción post–despegue y la morfología observada por SE
 comparación entre proveedores requiere un control estricto de condiciones superficiales, ambientales y
 procesos de curado para aislar el efecto real del \textit{sizing}.
 
-\subsubsection{Criterio de \emph{muestra válida}}
-\begin{itemize}
-  \item \textbf{Integridad del evento de extracción.}
-  La hebra debe extraerse completamente del bloque sin fractura del haz previa al despegue ni daño del
-  bloque/mordazas. Señales de deslizamiento o rotación del bloque invalidan el ensayo
-  \cite{ISO19375,DINSPEC19289}.
+% \subsubsection{Criterio de \emph{muestra válida}}
+% \begin{itemize}
+%   \item \textbf{Integridad del evento de extracción.}
+%   La hebra debe extraerse completamente del bloque sin fractura del haz previa al despegue ni daño del
+%   bloque/mordazas. Señales de deslizamiento o rotación del bloque invalidan el ensayo
+%   \cite{ISO19375,DINSPEC19289}.
 
-  \item \textbf{Calidad de la señal fuerza–desplazamiento.}
-  Línea base estable, resolución suficiente y \emph{identificación clara} del despegue; ausencia de
-  saturaciones, pérdidas de dato o artefactos eléctricos. Se registra \emph{preload} y tasa nominal.
+%   \item \textbf{Calidad de la señal fuerza–desplazamiento.}
+%   Línea base estable, resolución suficiente y \emph{identificación clara} del despegue; ausencia de
+%   saturaciones, pérdidas de dato o artefactos eléctricos. Se registra \emph{preload} y tasa nominal.
 
-  \item \textbf{Conformidad geométrica.}
-  Longitud embebida dentro de tolerancias y hebra sin daño visible ni nudos; alineación axial con la
-  línea de carga (coaxialidad). Se aconseja verificación metrológica en probetas testigo
-  \cite{ISO19375,DINSPEC19289}.
+%   \item \textbf{Conformidad geométrica.}
+%   Longitud embebida dentro de tolerancias y hebra sin daño visible ni nudos; alineación axial con la
+%   línea de carga (coaxialidad). Se aconseja verificación metrológica en probetas testigo
+%   \cite{ISO19375,DINSPEC19289}.
 
-  \item \textbf{Condiciones de ejecución.}
-  Velocidad de ensayo constante dentro de tolerancia; ambiencia (T/HR) registrada y dentro de rango;
-  protocolo de sujeción reproducible (protección antiaplastamiento).
+%   \item \textbf{Condiciones de ejecución.}
+%   Velocidad de ensayo constante dentro de tolerancia; ambiencia (T/HR) registrada y dentro de rango;
+%   protocolo de sujeción reproducible (protección antiaplastamiento).
 
-  \item \textbf{Trazabilidad y descarte.}
-  Identificación unívoca (proveedor, lote, cavidad, fecha) y evidencia de descarte (foto/notas)
-  cuando procede. Criterios predefinidos para evitar sesgo de selección \cite{ISO19375,DINSPEC19289}.
-\end{itemize}
+%   \item \textbf{Trazabilidad y descarte.}
+%   Identificación unívoca (proveedor, lote, cavidad, fecha) y evidencia de descarte (foto/notas)
+%   cuando procede. Criterios predefinidos para evitar sesgo de selección \cite{ISO19375,DINSPEC19289}.
+% \end{itemize}
 
 \subsubsection{Análisis estadístico (normalidad, ANOVA y Tukey)}
 \begin{itemize}

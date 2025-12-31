@@ -7,7 +7,7 @@
 \subsection{Planteamiento del problema}
 Los materiales compuestos reforzados con fibras son cada vez más utilizados en sectores
 de alto impacto como la aeronáutica, el transporte, la energía y la construcción, debido a su
-elevada relación resistencia – peso y a su versatilidad de diseño. Sin embargo, el desempeño
+elevada relación resistencia – peso y a su versatilidad de aplicación. Sin embargo, el desempeño
 mecánico de estos materiales depende en gran medida de la calidad de la interfaz entre la fibra
 y la matriz, entendida como la zona de contacto donde se transfiere el esfuerzo mecánico desde
 la matriz polimérica hacia los filamentos de refuerzo (\Cref{fig:interface}). Una interfaz deficiente
@@ -16,7 +16,7 @@ lo que limita la competitividad de los compuestos en aplicaciones críticas
 \cite{HullClyne1996,KellyZweben2000,Gao2015}.
 Adicionalmente, en sistemas aparentemente idénticos a nivel de matriz y fibra, diferencias en el
 \textit{sizing} (recubrimiento de fábrica) entre proveedores pueden alterar la humectabilidad,
-la actividad química de enlace y la fricción post - despegue, impactando la  resistencia al
+la actividad química superficial y la fricción post - despegue, impactando la  resistencia al
 corte interfacial (\textit{Interfacial Shear Strength}, IFSS) y su comportamiento mecánico
 \cite{AhmadvashAghbash2024IMR,Liu2021}.
 
@@ -32,11 +32,11 @@ a escala micromecánica. Definida como aquella en la que se estudia la interacci
 único filamento y la matriz circundante, utilizando equipos de microensayo de alta precisión
 y sistemas de registro especializados. Entre los que destacan el \textit{Single-Fiber Pull-Out Test},
 el \textit{Push-Out Test} y el \textit{Microdroplet Test}. Estos ensayos han sido ampliamente
-documentados y normalizados, permitiendo obtener estimaciones de la IFSS. No obstante, su aplicación sobre fibras individuales
-presenta limitaciones importantes: alta dispersión de resultados, poca representatividad frente
-al comportamiento real de hebras de fibras (una hebra corresponde aproximadamente a
-3000 filamentos, cada uno con un diámetro típico cercano a $7\,\mu$m) y dificultad para escalar
-a configuraciones prácticas de ingeniería \cite{DINSPEC19289}.
+documentados y normalizados, permitiendo obtener estimaciones de la IFSS. No obstante, su aplicación
+sobre fibras individuales presenta limitaciones importantes: alta dispersión de resultados, poca
+representatividad frente al comportamiento real de hebras de fibras (una hebra corresponde
+aproximadamente a 3000 filamentos, cada uno con un diámetro típico cercano a $7\,\mu$m) y dificultad
+para escalar a configuraciones prácticas de ingeniería \cite{DINSPEC19289}.
 En este ámbito, la reciente \textbf{ISO 19375:2024} consolida criterios para el \textit{single-fibre
 pull-out} (alineación, control geométrico y reducción de datos), lo cual refuerza las buenas prácticas
 que pueden trasladarse a otros montajes \cite{ISO19375}. Asimismo, la literatura destaca que la IFSS
@@ -50,7 +50,7 @@ nivel micromecánico (un solo filamento) y el nivel macroscópico (laminados o c
 estructurales). En la mesoescala se estudia el comportamiento de una hebra completa,
 lo que permite capturar la interacción colectiva fibra – matriz. Esto otorga mayor robustez
 estadística a los resultados, ya que se reduce la dispersión asociada a variaciones individuales
-de cada filamento. Los autores en \cite{DeLeon2022} propusieron un método de fabricación escalable
+de cada filamento. De Leon et al. \cite{DeLeon2022} propusieron un método de fabricación escalable
 para probetas de FBPO, utilizando moldes multicavidad y dispositivos de alineación geométrica,
 lo que garantiza control en la longitud de embebido, mejorando la repetibilidad y permitiendo la
 producción de grandes lotes de muestras. Dicho avance abre la posibilidad de implementar
@@ -80,10 +80,10 @@ mordazas \cite{ISO3341}. Por su parte, \textbf{DIN 29965} entrega
 especificaciones del hilo de carbono relevantes para trazabilidad de materiales
 (designación del hilo, masas lineales, requisitos de calidad), lo que facilita documentar la equivalencia
 entre proveedores y el control del \textit{sizing} de fábrica utilizado en las probetas \cite{DIN29965}.
-En conjunto, estas guías permiten definir una hoja de ruta de QA/QC (Aseguramiento de Calidad (\textit{Quality Assurance, QA})
-y Control de Calidad (\textit{Quality Control, QC})) en FBPO: identificación unívoca de
-probetas, registro de cavidad/molde, control ambiental previo al ensayo y criterios explícitos de
-aceptación.
+En conjunto, estas guías permiten definir una hoja de ruta de QA/QC (Aseguramiento de Calidad
+(\textit{Quality Assurance, QA}) y Control de Calidad (\textit{Quality Control, QC})) en FBPO:
+identificación unívoca de probetas, registro de cavidad/molde, control ambiental previo al ensayo
+y criterios explícitos de aceptación.
 
 De forma más reciente, la \textbf{ISO 19375:2024} estandariza el \emph{single-fibre pull-out} con
 lineamientos modernos de \textbf{alineación}, \textbf{geometría} y \textbf{reducción} (incluida la
@@ -113,16 +113,16 @@ que la IFSS obtenida es \emph{aparente} y dependiente del modelo de reducción u
 % discusión de escalas y control de variables, aun cuando no se trate de polímeros en configuración
 % pull-out \cite{ASTMD4475}.
 
-Finalmente, la validez de los resultados del presente trabajo se reforzará mediante su
-comparación con otros ensayos desarrollados a mesoescala, particularmente el ensayo de Iosipescu
-y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, los cuales han sido utilizados
-previamente para estimar la resistencia al corte interfacial en configuraciones más representativas.
-De esta manera, el \textit{Fiber-Bundle Pull-Out Test} se analizará no solo como técnica
-complementaria a los métodos micromecánicos tradicionales, sino también en relación con metodologías
-meso ya reportadas en la literatura \cite{DeLeon2022}. En conjunto, este enfoque permitirá
-contrastar resultados de FBPO con métodos de referencia y, cuando corresponda, verificar tendencias
-con métricas complementarias, preservando la trazabilidad y las buenas prácticas inspiradas en
-ISO/DIN/ASTM \cite{ISO19375,DINSPEC19289,ISO3341,DIN29965,ASTMD4475}.
+Adicionalmente, como etapa de verificación, la validez de los resultados del presente trabajo se
+reforzará mediante su comparación con otros ensayos desarrollados a mesoescala, particularmente 
+el ensayo de Iosipescu y los ensayos de tracción de hebras a $45^\circ$ y $90^\circ$, los cuales
+han sido utilizados previamente para estimar la resistencia al corte interfacial en configuraciones
+más representativas. De esta manera, el \textit{Fiber-Bundle Pull-Out Test} se analizará no solo
+como técnica complementaria a los métodos micromecánicos tradicionales, sino también en relación
+con metodologías meso ya reportadas en la literatura \cite{DeLeon2022}. En conjunto, este enfoque
+permitirá contrastar resultados de FBPO con métodos de referencia y, cuando corresponda, verificar
+tendencias con métricas complementarias, preservando la trazabilidad y las buenas prácticas
+inspiradas en ISO/DIN/ASTM \cite{ISO19375,DINSPEC19289,ISO3341,DIN29965,ASTMD4475}.
 
 \subsection{Alcance}
 El presente trabajo se enmarca en la implementación experimental del ensayo \textit{Fiber-Bundle
@@ -228,7 +228,7 @@ La \Cref{fig:metodologia} resume gráficamente estas tres fases y su relación c
     % Fase 3
     \node[box, fill=red!25, below=of fase2] (fase3) {\textbf{Fase 3: Procesamiento y análisis} \\
         Curvas fuerza–desplazamiento, ANOVA y contraste con bibliografía. \\
-        \footnotesize Relación: \textbf{OE3, OE4}
+        \footnotesize Relación: \textbf{OE3}
     };
 
     % Flechas

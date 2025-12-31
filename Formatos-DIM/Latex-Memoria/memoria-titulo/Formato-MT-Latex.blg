@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Formato-MT-Latex.aux
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 A level-1 auxiliary file: Pagina_Titulo.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: C0-Agradecimientos.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: C0-Resumen.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
@@ -43,7 +45,7 @@ Warning--entry type for "ASTMD4475" isn't style-file defined
 --line 547 of file Referencias.bib
 You've used 28 entries,
             1876 wiz_defined-function locations,
-            672 strings with 8954 characters,
+            673 strings with 8976 characters,
 and the built_in function-call counts, 6327 in all, are:
 = -- 627
 > -- 253

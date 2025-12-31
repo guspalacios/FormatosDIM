@@ -219,6 +219,8 @@ INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\booktabs\booktabs.sty
 INPUT C:\Users\gusta\AppData\Roaming\MiKTeX\tex\latex\glossaries\base\glossaries.sty
@@ -390,6 +392,9 @@ INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
 INPUT Pagina_Titulo.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT C0-Agradecimientos.aux
 INPUT .\C0-Resumen.aux
 INPUT .\C0-Resumen.aux
 INPUT C0-Resumen.aux
@@ -459,6 +464,14 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\C0-Agradecimientos.tex
+INPUT .\C0-Agradecimientos.tex
+OUTPUT C0-Agradecimientos.aux
+INPUT .\C0-Agradecimientos.tex
+INPUT .\C0-Agradecimientos.tex
+INPUT C0-Agradecimientos.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\C0-Resumen.tex
 INPUT .\C0-Resumen.tex
 OUTPUT C0-Resumen.aux
@@ -474,7 +487,6 @@ INPUT C0-Abstract.tex
 INPUT .\Formato-MT-Latex.toc
 INPUT .\Formato-MT-Latex.toc
 INPUT Formato-MT-Latex.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
@@ -492,6 +504,10 @@ INPUT .\Formato-MT-Latex.lof
 INPUT .\Formato-MT-Latex.lof
 INPUT Formato-MT-Latex.lof
 OUTPUT Formato-MT-Latex.lof
+INPUT .\Formato-MT-Latex.lot
+INPUT .\Formato-MT-Latex.lot
+INPUT Formato-MT-Latex.lot
+OUTPUT Formato-MT-Latex.lot
 INPUT .\C1-Introduccion.tex
 INPUT .\C1-Introduccion.tex
 OUTPUT C1-Introduccion.aux
@@ -504,7 +520,6 @@ INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\C2-Latex.tex
 INPUT .\C2-Latex.tex
@@ -512,13 +527,29 @@ OUTPUT C2-Latex.aux
 INPUT .\C2-Latex.tex
 INPUT .\C2-Latex.tex
 INPUT C2-Latex.tex
-INPUT .\IFSS_ranges_plot.png
-INPUT .\IFSS_ranges_plot.png
-INPUT .\IFSS_ranges_plot.png
-INPUT .\IFSS_ranges_plot.png
-INPUT .\IFSS_ranges_plot.png
-INPUT .\IFSS_ranges_plot.png
-INPUT .\IFSS_ranges_plot.png
+INPUT .\IFSS_reportada_literatura.pdf
+INPUT .\IFSS_reportada_literatura.pdf
+INPUT .\IFSS_reportada_literatura.pdf
+INPUT .\IFSS_reportada_literatura.pdf
+INPUT .\IFSS_reportada_literatura.pdf
+INPUT .\interfaz.pdf
+INPUT .\interfaz.pdf
+INPUT .\interfaz.pdf
+INPUT .\interfaz.pdf
+INPUT .\interfaz.pdf
+INPUT .\interfaz.pdf
+INPUT .\escalas_de_estudio.pdf
+INPUT .\escalas_de_estudio.pdf
+INPUT .\escalas_de_estudio.pdf
+INPUT .\escalas_de_estudio.pdf
+INPUT .\escalas_de_estudio.pdf
+INPUT .\escalas_de_estudio.pdf
+INPUT .\tipos_de_ensayos.pdf
+INPUT .\tipos_de_ensayos.pdf
+INPUT .\tipos_de_ensayos.pdf
+INPUT .\tipos_de_ensayos.pdf
+INPUT .\tipos_de_ensayos.pdf
+INPUT .\tipos_de_ensayos.pdf
 INPUT .\C3-Metodologia.tex
 INPUT .\C3-Metodologia.tex
 OUTPUT C3-Metodologia.aux
@@ -575,13 +606,24 @@ OUTPUT C4-Resultados.aux
 INPUT .\C4-Resultados.tex
 INPUT .\C4-Resultados.tex
 INPUT C4-Resultados.tex
-INPUT .\grafica_todas_probetas.png
-INPUT .\grafica_todas_probetas.png
-INPUT .\grafica_todas_probetas.png
-INPUT .\grafica_todas_probetas.png
-INPUT .\grafica_todas_probetas.png
-INPUT .\grafica_todas_probetas.png
-INPUT .\grafica_todas_probetas.png
+INPUT .\Esf_v_def.pdf
+INPUT .\Esf_v_def.pdf
+INPUT .\Esf_v_def.pdf
+INPUT .\Esf_v_def.pdf
+INPUT .\Esf_v_def.pdf
+INPUT .\Esf_v_def.pdf
+INPUT .\IFSS_aparente.pdf
+INPUT .\IFSS_aparente.pdf
+INPUT .\IFSS_aparente.pdf
+INPUT .\IFSS_aparente.pdf
+INPUT .\IFSS_aparente.pdf
+INPUT .\IFSS_aparente.pdf
+INPUT .\Comparativa_Lit_Exp.pdf
+INPUT .\Comparativa_Lit_Exp.pdf
+INPUT .\Comparativa_Lit_Exp.pdf
+INPUT .\Comparativa_Lit_Exp.pdf
+INPUT .\Comparativa_Lit_Exp.pdf
+INPUT .\Comparativa_Lit_Exp.pdf
 INPUT .\C5-Discusion.tex
 INPUT .\C5-Discusion.tex
 OUTPUT C5-Discusion.aux
@@ -613,6 +655,9 @@ INPUT Formato-MT-Latex.aux
 INPUT .\Pagina_Titulo.aux
 INPUT .\Pagina_Titulo.aux
 INPUT Pagina_Titulo.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT .\C0-Agradecimientos.aux
+INPUT C0-Agradecimientos.aux
 INPUT .\C0-Resumen.aux
 INPUT .\C0-Resumen.aux
 INPUT C0-Resumen.aux

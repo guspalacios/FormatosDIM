@@ -25,6 +25,7 @@
 \usepackage{tocloft}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{float}
 \usepackage[labelfont=bf]{caption}
 \usepackage{booktabs}
 \usepackage{tocloft}
@@ -93,24 +94,24 @@
 \pagenumbering{roman}
 
 \include{Pagina_Titulo}
-%\include{C0-Agradecimientos}
+\include{C0-Agradecimientos}
 \include{C0-Resumen}
 \include{C0-Abstract}
 
 \tableofcontents \clearpage
-% \pagenumbering{arabic}
+\pagenumbering{arabic}
 \cleardoublepage
 \addcontentsline{toc}{section}{\listfigurename}
 \listoffigures \clearpage
 \cleardoublepage
-% \addcontentsline{toc}{section}{\listtablename}
-% \listoftables \clearpage
-% \cleardoublepage
-% \addcontentsline{toc}{section}{List of Abbreviations}
+\addcontentsline{toc}{section}{\listtablename}
+\listoftables \clearpage
+\cleardoublepage
+\addcontentsline{toc}{section}{List of Abbreviations}
 % \glossary
 % \printglossaries[type=\acronymtype]
 % \printnoidxglossary[title={Nomenclatura}, style=alttree]
-\pagenumbering{arabic}
+% \pagenumbering{arabic}
 
 \include{C1-Introduccion}
 \include{C2-Latex}
