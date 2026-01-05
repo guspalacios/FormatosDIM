@@ -1,68 +1,207 @@
 % =====================================
-% CAPÍTULO 4: METODOLOGÍA
+% CAPÍTULO 4: RESULTADOS
 % =====================================
 
 \section{Resultados}
 
 En esta sección se presentan los resultados experimentales obtenidos para los distintos sistemas
-fibra–matriz evaluados mediante el ensayo Fiber-Bundle Pull-Out (FBPO). Los datos se reportan de
-manera objetiva, acompañados de representaciones gráficas construidas a partir de los registros
-experimentales procesados, las cuales incluyen los valores individuales, estadísticos descriptivos
-y la variabilidad asociada a cada condición de ensayo.
+fibra - matriz evaluados mediante el ensayo Fiber-Bundle Pull-Out (FBPO). Los datos se reportan de
+manera objetiva y sistemática, acompañados de representaciones gráficas construidas a partir de
+los registros experimentales procesados, las cuales incluyen valores individuales, estadísticos
+descriptivos y medidas de variabilidad asociadas a cada condición de ensayo.
 
-La presentación de los resultados abarca la respuesta fuerza–desplazamiento característica del
-ensayo FBPO, la identificación del despegue interfacial y la estimación de la IFSS aparente, junto
-con los contrastes estadísticos pertinentes cuando corresponde. La interpretación física de las
-tendencias observadas y su discusión en relación con antecedentes de la literatura se desarrollan
-en la sección de Discusión.
+La presentación de los resultados comprende la respuesta fuerza - desplazamiento característica
+del ensayo FBPO, la identificación del evento de despegue interfacial y la estimación de la IFSS
+aparente. Asimismo, cuando corresponde, se incluyen los contrastes estadísticos entre condiciones
+experimentales, con el fin de identificar diferencias significativas entre los sistemas
+fibra - matriz evaluados. La interpretación física de las tendencias observadas y su análisis en
+relación con antecedentes reportados en la literatura se desarrollan de manera específica en la
+sección de Discusión.
+
+\subsection{Observaciones visuales durante el ensayo FBPO}
+
+Previo al análisis cuantitativo de los resultados, se presentan observaciones visuales
+representativas del comportamiento de las probetas durante la ejecución del ensayo
+Fiber-Bundle Pull-Out (FBPO). Estas observaciones permiten contextualizar la respuesta
+fuerza - des- plazamiento registrada y verificar que el mecanismo dominante corresponde al
+despegue interfacial de la hebra embebida, y no a modos de falla asociados a la sujeción,
+a defectos de fabricación o a roturas prematuras del refuerzo.
+
+Durante la aplicación de carga se observó que, para las probetas consideradas válidas,
+la deformación inicial del sistema ocurre sin daño visible, seguida de un evento de
+despegue interfacial localizado en la zona de transición entre la hebra libre y la región
+embebida. Posteriormente, el ensayo evoluciona hacia un régimen dominado por el
+deslizamiento de la hebra dentro de la matriz, acompañado por fricción interfacial,
+comportamiento coherente con la forma característica de las curvas
+fuerza - desplazamiento obtenidas.
+
+La Figura~\ref{fig:fbpo_regiones} muestra la identificación visual de las regiones
+funcionales de una probeta tras el ensayo FBPO. Se distinguen dos zonas principales:
+(A) la región embebida en la matriz polimérica, asociada al despegue interfacial, y
+(B) la región de hebra libre, dominada por efectos de fricción y por la interacción con
+el sistema de sujeción. Esta distinción resulta relevante para la interpretación de los
+resultados, dado que la resistencia al corte interfacial se define exclusivamente a
+partir del comportamiento de la región embebida.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.32\textwidth]{partes_probeta.png}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Identificación de regiones en una probeta FBPO:
+    (A) región embebida asociada al despegue interfacial y
+    (B) región de hebra libre dominada por fricción y sujeción.}
+    \label{fig:fbpo_regiones}
+\end{figure}
+
+En este contexto, la resistencia al corte interfacial aparente se estimó a partir de la
+fuerza característica asociada al despegue interfacial \(P^{\ast}\), normalizada por el
+área embebida efectiva de la hebra, de acuerdo con la expresión:
+\begin{equation}
+\tau_{\text{IFSS,ap}} = \frac{P^{\ast}}{A_e}.
+\end{equation}
+
+El área embebida \(A_e\) se aproximó considerando la geometría de la hebra como una sección
+de ancho efectivo constante \(w\) y longitud embebida \(\ell_e\), de modo que:
+\begin{equation}
+A_e = 2\,\ell_e\,w,
+\end{equation}
+donde el factor 2 corresponde al contacto interfacial considerado en ambas caras
+(anterior y posterior) de la hebra. Esta definición es consistente con la identificación
+visual de la región interfacial mostrada en la Figura~\ref{fig:fbpo_regiones} y constituye
+la base para el cálculo de la IFSS aparente presentado en las subsecciones siguientes.
+
+La Figura~\ref{fig:fbpo_mitad} muestra una probeta durante la ejecución del ensayo FBPO,
+donde se observa la hebra de fibra de carbono parcialmente embebida en la matriz
+polimérica, de acuerdo con la geometría definida en el diseño experimental. Esta imagen
+confirma el adecuado control de la longitud embebida y la correcta alineación axial de la
+hebra respecto del eje de carga.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.3\textwidth]{ensayo_mitad.jpeg}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Probeta durante el ensayo FBPO, mostrando la hebra de fibra de carbono
+    parcialmente embebida en la matriz polimérica.}
+    \label{fig:fbpo_mitad}
+\end{figure}
+
+En la Figura~\ref{fig:fbpo_pre_post} se presenta una comparación visual del estado de una
+probeta antes y después del ensayo. Tras la aplicación de carga, se evidencia la separación
+en la región embebida y la exposición progresiva de la hebra, comportamiento consistente
+con la ocurrencia del despegue interfacial y el posterior deslizamiento relativo.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.45\textwidth]{antes_despues.jpeg}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Comparación visual de una probeta FBPO antes y después del ensayo,
+    evidenciando el despegue interfacial y la extracción parcial de la hebra.}
+    \label{fig:fbpo_pre_post}
+\end{figure}
+
+Finalmente, la Figura~\ref{fig:fbpo_post_aero} muestra ejemplos representativos del estado
+post ensayo para sistemas con fibra de grado aeroespacial. En ambos casos se aprecia la
+extracción parcial de la hebra desde la matriz, sin evidencia de rotura frágil del refuerzo
+en la zona embebida. Estas observaciones visuales respaldan la validez del criterio de
+muestra válida adoptado y confirman que los resultados experimentales analizados en las
+subsecciones siguientes corresponden al comportamiento interfacial buscado.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[b]{0.42\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{mepox_hta.jpeg}
+        \caption{Sistema mepox--aero.}
+        \label{fig:fbpo_mepox_aero}
+    \end{subfigure}%
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{epo_hta.jpeg}
+        \caption{Sistema epo--aero.}
+        \label{fig:fbpo_epo_aero}
+    \end{subfigure}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Estado post ensayo FBPO para sistemas con fibra de grado aeroespacial:
+    (a) MEPOX-HTA y (b) EPO-HTA, mostrando la extracción parcial de la hebra y la
+    matriz residual tras el despegue interfacial.}
+    \label{fig:fbpo_post_aero}
+\end{figure}
 
 \subsection{Resultados preliminares}
 
 En esta subsección se presentan los resultados obtenidos a partir del procesamiento directo de los
 registros experimentales de los ensayos FBPO, con el objetivo de caracterizar de manera descriptiva
-la respuesta mecánica global de los sistemas fibra–matriz evaluados. En esta etapa no se incorporan
-aún contrastes estadísticos formales entre condiciones, los cuales se abordan en subsecciones
-posteriores.
+la respuesta mecánica global de los sistemas fibra - matriz evaluados. En esta etapa no se incorporan
+aún contrastes estadísticos formales entre condiciones, los cuales se desarrollan en subsecciones
+posteriores, sino que se prioriza la observación de tendencias generales y la coherencia del
+comportamiento medido.
 
-La \Cref{fig:esf_def_preliminar} muestra curvas representativas fuerza–desplazamiento obtenidas
-durante los ensayos, donde se aprecia una respuesta inicial aproximadamente lineal, seguida de un
-evento de despegue interfacial y un régimen posterior asociado al deslizamiento de la hebra. Asimismo,
-se observa la dispersión existente entre probetas ensayadas bajo una misma condición, reflejando la
-variabilidad experimental inherente al método.
+La \Cref{fig:esf_def_preliminar} muestra curvas representativas fuerza - desplazamiento obtenidas
+durante los ensayos FBPO. En todos los casos se identifica una etapa inicial con respuesta
+aproximadamente lineal, asociada a la deformación elástica del sistema, seguida de un evento de
+despegue interfacial claramente distinguible. Posteriormente, las curvas evolucionan hacia un
+régimen dominado por el deslizamiento de la hebra dentro de la matriz, caracterizado por una
+pendiente menor y asociado a fricción interfacial.
 
-Estas curvas constituyen la base para la extracción de los parámetros característicos utilizados en
-el análisis cuantitativo posterior, en particular la identificación de la carga de despegue
-$P^{\ast}$. Los resultados aquí presentados permiten verificar la coherencia general de las mediciones
-y contextualizar el conjunto de datos obtenido, sirviendo como punto de partida para el análisis
-estadístico y la discusión desarrollados en las secciones siguientes.
+Asimismo, se observa una dispersión apreciable entre curvas correspondientes a probetas ensayadas
+bajo una misma condición experimental, tanto en la pendiente inicial como en la magnitud de la
+carga asociada al despegue interfacial. Esta variabilidad refleja la naturaleza experimental del
+ensayo FBPO y la sensibilidad de la respuesta interfacial a pequeñas variaciones geométricas,
+superficiales y de procesamiento, aun cuando se mantengan constantes los parámetros nominales del
+ensayo.
+
+Las curvas presentadas constituyen la base para la extracción de los parámetros característicos
+utilizados en el análisis cuantitativo posterior, en particular la identificación de la carga de
+despegue interfacial \(P^{\ast}\). En este sentido, los resultados preliminares permiten verificar
+la coherencia general de las mediciones, confirmar la ocurrencia del mecanismo de falla esperado y
+contextualizar el conjunto de datos obtenido, sirviendo como punto de partida para el análisis
+estadístico y la discusión desarrollados en las subsecciones siguientes.
 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.85\textwidth]{Esf_v_def.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Curvas esfuerzo–desplazamiento representativas obtenidas durante los ensayos preliminares
-    para los sistemas fibra–matriz evaluados.}
+    \caption{Curvas fuerza - desplazamiento representativas obtenidas durante los ensayos FBPO
+    para los sistemas fibra - matriz evaluados.}
     \label{fig:esf_def_preliminar}
 \end{figure}
 
 \subsection{Resultados directos de las mediciones}
 
-En esta subsección se presentan de manera conjunta los resultados directos obtenidos a partir de las
-mediciones experimentales de IFSS aparente mediante el ensayo FBPO para los distintos sistemas
-fibra–matriz evaluados. El análisis considera un total de 100 ensayos válidos, distribuidos en cuatro
-grupos según el tipo de fibra y matriz: epo–HTA (40 ensayos), epo–HT (10 ensayos), mepox–HTA (40
-ensayos) y mepox–HT (10 ensayos).
+En esta subsección se presentan de manera conjunta los resultados directos obtenidos a partir de
+las mediciones experimentales de IFSS aparente mediante el ensayo FBPO para los distintos sistemas
+fibra - matriz evaluados. El análisis considera un total de 100 ensayos válidos, distribuidos en
+cuatro grupos según el tipo de fibra y la matriz empleada: EPO-HTA (40 ensayos), EPO-HT (10
+ensayos), MEPOX-HTA (40 ensayos) y MEPOX-HT (10 ensayos). Esta distribución muestral permite
+analizar tanto la influencia del tipo de fibra como el efecto de la matriz epóxica bajo
+condiciones experimentales controladas.
 
-La \Cref{fig:IFSS_aparente} muestra el diagrama de caja correspondiente a los valores de IFSS aparente
-obtenidos para cada sistema. En este gráfico se representan los valores individuales, la mediana, los
-cuartiles y la dispersión asociada a cada conjunto de datos, permitiendo una visualización directa de
-la variabilidad experimental y de las diferencias globales entre los sistemas analizados. De manera
-general, se observa una dispersión distinta entre grupos y diferencias en los rangos de valores de
-IFSS aparente, lo que sugiere comportamientos interfaciales diferenciados entre los sistemas
-fibra–matriz considerados.
+La \Cref{fig:IFSS_aparente} muestra el diagrama de caja correspondiente a los valores de IFSS
+aparente obtenidos para cada sistema fibra - matriz. En el gráfico se representan los valores
+individuales, la mediana, los cuartiles y la dispersión asociada a cada conjunto de datos,
+permitiendo una visualización directa de la variabilidad experimental y de las diferencias
+globales entre los sistemas analizados.
 
-Los resultados aquí presentados tienen un carácter descriptivo y constituyen la base para el análisis
-estadístico comparativo desarrollado en la subsección siguiente.
+De manera general, se observan diferencias claras tanto en el rango de valores de IFSS aparente
+como en el nivel de dispersión entre los distintos grupos. Los sistemas con fibra HTA presentan,
+en términos generales, rangos de IFSS aparente más amplios que sus contrapartes con fibra HT,
+lo que sugiere una mayor variabilidad interfacial asociada a este tipo de refuerzo bajo las
+condiciones de ensayo consideradas. Asimismo, se aprecia que los sistemas fabricados con la
+resina Mepox tienden a exhibir una dispersión diferente respecto de aquellos fabricados con la
+resina EPO, evidenciando que la matriz también influye en la respuesta interfacial medida.
+
+En cuanto a la tendencia central, las medianas de IFSS aparente difieren entre los cuatro
+sistemas evaluados, indicando comportamientos interfaciales diferenciados que no pueden
+atribuirse únicamente a la dispersión experimental. En particular, se observa que ciertos
+sistemas combinan valores medianos más elevados con una dispersión relativamente acotada,
+mientras que otros presentan medianas similares pero con una variabilidad significativamente
+mayor.
+
+Los resultados presentados en esta subsección tienen un carácter descriptivo y permiten situar
+los valores experimentales obtenidos dentro de un contexto comparativo interno entre sistemas
+fibra - matriz. Este análisis constituye la base para los contrastes estadísticos formales y la
+evaluación de significancia de las diferencias observadas, los cuales se desarrollan en la
+subsección siguiente.
 
 \begin{figure}[h!]
     \centering
@@ -74,21 +213,29 @@ estadístico comparativo desarrollado en la subsección siguiente.
 
 \subsection{Comparación con valores FBPO de referencia}
 
-Con el objetivo de contextualizar los resultados experimentales obtenidos, se realizó una
-comparación descriptiva entre los valores de IFSS aparente medidos en este trabajo y los rangos
-típicos reportados en la literatura para ensayos de tipo Fiber-Bundle Pull-Out (FBPO).
+Con el objetivo de contextualizar los resultados experimentales obtenidos en este trabajo, se
+realizó una comparación descriptiva entre los valores de IFSS aparente medidos mediante el
+ensayo FBPO y los rangos típicos reportados en la literatura para ensayos del mismo tipo.
 
-La \Cref{fig:ifss_ranges} presenta, de manera comparativa, los rangos de IFSS recopilados a partir
-de estudios previos junto con los valores experimentales obtenidos para los sistemas fibra–matriz
-evaluados. Los rangos de referencia fueron sistematizados a partir de antecedentes bibliográficos
-relevantes, permitiendo una visualización conjunta de la magnitud y dispersión de los valores
-reportados para el método FBPO.
+La \Cref{fig:ifss_ranges} presenta, de manera comparativa, los rangos de IFSS aparente recopilados
+a partir de estudios previos junto con los valores experimentales obtenidos para los sistemas
+fibra - matriz evaluados. Los rangos de referencia fueron sistematizados a partir de antecedentes
+bibliográficos relevantes, permitiendo una visualización conjunta tanto de la magnitud como de
+la dispersión de los valores reportados para el método FBPO.
 
-Esta comparación tiene un carácter estrictamente descriptivo y permite situar los resultados del
+De la comparación se observa que los valores experimentales obtenidos en este estudio se sitúan
+dentro del orden de magnitud reportado en la literatura para ensayos FBPO. Asimismo, se aprecia
+una superposición parcial entre los rangos experimentales y los rangos de referencia, lo que
+indica una coherencia general entre los resultados obtenidos y los antecedentes previos
+disponibles para este tipo de ensayo. Las diferencias observadas en la amplitud de los rangos y
+en los valores centrales reflejan la variabilidad inherente al método y a los sistemas
+fibra - matriz considerados.
+
+Esta comparación tiene un carácter estrictamente descriptivo y permite ubicar los resultados del
 presente estudio dentro del contexto de valores típicamente reportados para el ensayo FBPO. En
-este sentido, la figura proporciona un marco de referencia para la interpretación posterior de
-los resultados y constituye un insumo para el análisis crítico desarrollado en la sección de
-Discusión.
+este sentido, la figura proporciona un marco de referencia cuantitativo para la interpretación
+posterior de los resultados y constituye un insumo para el análisis crítico desarrollado en la
+sección de Discusión.
 
 \begin{figure}[h!]
     \centering
@@ -101,21 +248,21 @@ Discusión.
 
 \subsection{Análisis estadístico de los resultados de IFSS aparente}
 
-Con el propósito de evaluar la existencia de diferencias entre los sistemas fibra--matriz
-analizados, se realizó un análisis estadístico sobre los valores de IFSS aparente obtenidos
-experimentalmente.
+Con el propósito de evaluar la existencia de diferencias significativas entre los sistemas
+fibra--matriz analizados, se realizó un análisis estadístico sobre los valores de IFSS aparente
+obtenidos experimentalmente mediante el ensayo FBPO.
 
-Previo a la aplicación del análisis de varianza, se verificaron los supuestos estadísticos
-correspondientes. La normalidad de los datos se evaluó mediante la prueba de Shapiro--Wilk,
-no observándose desviaciones significativas en ninguno de los grupos analizados
-($p > 0{,}05$). En contraste, la prueba de Levene evidenció heterogeneidad de varianzas entre
-los grupos ($p \ll 0{,}05$), asociada a diferencias en la dispersión de los datos y al
-desbalance en el número de probetas por sistema.
+Previo a la aplicación de los contrastes inferenciales, se verificaron los supuestos
+estadísticos correspondientes. La normalidad de los datos se evaluó mediante la prueba de
+Shapiro--Wilk, no observándose desviaciones significativas respecto de una distribución normal
+en ninguno de los grupos analizados ($p > 0{,}05$). En contraste, la prueba de Levene evidenció
+heterogeneidad de varianzas entre los grupos ($p \ll 0{,}05$), asociada tanto a diferencias en
+la dispersión de los datos como al desbalance en el número de probetas por sistema.
 
-Dado que no se cumple el supuesto de homocedasticidad requerido para un ANOVA clásico, se
-aplicó un análisis de varianza de Welch, el cual es robusto frente a varianzas desiguales y
-tamaños muestrales desbalanceados. El resultado del ANOVA de Welch indicó la presencia de
-diferencias significativas entre los sistemas evaluados.
+Dado que no se cumple el supuesto de homocedasticidad requerido para un análisis de varianza
+clásico, se aplicó un análisis de varianza de Welch, el cual es robusto frente a varianzas
+desiguales y tamaños muestrales desbalanceados. El resultado del ANOVA de Welch indicó la
+existencia de diferencias estadísticamente significativas entre los sistemas evaluados.
 
 \begin{table}[h!]
 \centering
@@ -131,27 +278,35 @@ ANOVA de Welch & 279{,}54 & 3 & 36{,}46 & $< 0{,}001$ \\
 \end{table}
 
 Con el fin de identificar entre qué pares de sistemas se presentan diferencias significativas,
-se realizó un análisis \emph{post hoc} mediante el método de Games--Howell, consistente con
-el uso del ANOVA de Welch.
+se realizó un análisis \emph{post hoc} mediante el método de Games-Howell, consistente con el
+uso del ANOVA de Welch y adecuado para comparaciones múltiples bajo condiciones de varianzas
+desiguales.
 
 \begin{table}[h!]
 \centering
-\caption{Comparaciones múltiples mediante el método de Games--Howell.}
+\caption{Comparaciones múltiples mediante el método de Games-Howell.}
 \label{tab:games_howell}
 \begin{tabular}{l l c c c}
 \hline
 Grupo A & Grupo B & $\Delta$ media & $p$-valor & Significativo \\
 \hline
-epo--aero   & epo--fibra   & 25{,}52   & $< 0{,}001$ & Sí \\
-epo--aero   & mepox--aero  & 11{,}27   & $< 0{,}001$ & Sí \\
-epo--aero   & mepox--fibra & 24{,}96   & $< 0{,}001$ & Sí \\
-epo--fibra  & mepox--aero  & $-14{,}25$ & $< 0{,}001$ & Sí \\
-epo--fibra  & mepox--fibra & $-0{,}57$ & 0{,}85      & No \\
-mepox--aero & mepox--fibra & 13{,}69   & $< 0{,}001$ & Sí \\
+EPO-HTA   & EPO-HT   & 25{,}52    & $< 0{,}001$ & Sí \\
+EPO-HTA   & MEPOX-HTA  & 11{,}27    & $< 0{,}001$ & Sí \\
+EPO-HTA   & MEPOX-HT & 24{,}96    & $< 0{,}001$ & Sí \\
+EPO-HT   & MEPOX-HTA  & $-14{,}25$ & $< 0{,}001$ & Sí \\
+EPO-HT   & MEPOX-HT & $-0{,}57$  & 0{,}85      & No \\
+MEPOX-HTA & MEPOX-HT & 13{,}69    & $< 0{,}001$ & Sí \\
 \hline
 \end{tabular}
 \end{table}
 
-Los resultados del análisis estadístico confirman la existencia de diferencias entre los sistemas
-fibra--matriz evaluados. La interpretación de estas diferencias y su relación con las
-características de los materiales y del proceso se desarrollan en la sección de Discusión.
+Los resultados del análisis \emph{post hoc} indican que la mayoría de las comparaciones entre
+pares de sistemas presentan diferencias estadísticamente significativas en los valores de IFSS
+aparente. La única excepción corresponde a la comparación entre los sistemas EPO-HT y
+MEPOX-HT, para los cuales no se detectaron diferencias significativas bajo el nivel de
+significancia considerado.
+
+Los resultados estadísticos aquí presentados confirman la existencia de diferencias entre los
+sistemas fibra-matriz evaluados. La interpretación física de estas diferencias y su relación
+con las características de los materiales y del proceso de fabricación se desarrollan en la
+sección de Discusión.

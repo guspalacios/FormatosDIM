@@ -1,15 +1,23 @@
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Esquema conceptual de la interfaz fibra – matriz en materiales compuestos.}}{3}{figure.caption.1}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Esquema simplificado de la metodología propuesta y su relación con los OE.}}{6}{figure.caption.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Rangos de IFSS reportados para distintos métodos de ensayo \cite {AhmadvashAghbash2024IMR}.}}{9}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquema representativo de la interfaz fibra–matriz en un material compuesto.}}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Escalas de compuesto tejido de fibra.}}{12}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Tipos de ensayo a microescala.}}{14}{figure.caption.7}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Molde negativo impreso en PLA (multicavidad) con canales y topes geométricos para fijar \(\ell _e\).}}{22}{figure.caption.8}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Sistema de silicona RTV empleado para la fabricación del molde blando (Shore A~30, kit silicona + catalizador).}}{23}{figure.caption.9}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Secuencia de fabricación de probetas FBPO: cavidad de silicona, posicionamiento de hebra, colado/curado y desmoldeo.}}{24}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistemas epoxi de baja viscosidad utilizados. Izquierda: MEPOX 1685. Derecha: EPO 200.}}{24}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Montaje experimental del ensayo \textit {Fiber-Bundle Pull-Out} (FBPO). }}{26}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Curvas esfuerzo–desplazamiento representativas obtenidas durante los ensayos preliminares para los sistemas fibra–matriz evaluados.}}{29}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Boxplot de los valores de IFSS aparente obtenidos para los sistemas evaluados.}}{29}{figure.caption.16}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparación entre los valores de IFSS aparente obtenidos experimentalmente en este estudio y los rangos de IFSS reportados en la literatura para ensayos FBPO.}}{30}{figure.caption.17}%
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Carta Gantt del proyecto.}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Esquema conceptual de la interfaz fibra - matriz en materiales compuestos.}}{4}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Esquema simplificado de la metodología propuesta y su relación con los OE.}}{7}{figure.caption.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Rangos de IFSS reportados para distintos métodos de ensayo \cite {AhmadvashAghbash2024IMR}.}}{10}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquema representativo de la interfaz fibra–matriz en un material compuesto.}}{11}{figure.caption.5}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Escalas de estudio en materiales compuestos reforzados con fibra.}}{15}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Tipos de ensayo para la caracterización interfacial.}}{17}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Etiqueta técnica del tejido de fibra de carbono Tenax\textsuperscript {\textregistered }-E HTA40 / 3k / HT (ECC-Style~462), grado aeroespacial.}}{25}{figure.caption.8}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Etiqueta técnica del tejido de fibra de carbono HT 3k / 200~tex.}}{25}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Molde negativo impreso en PLA (arquitectura multicavidad) con canales de sección constante y topes geométricos integrados para fijar la longitud de embebido \(\ell _e\).}}{29}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistema de silicona RTV empleado para la fabricación del molde blando (dureza nominal \(\sim \) Shore~A~30, kit silicona y catalizador).}}{30}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Secuencia de fabricación de probetas FBPO: (a) cavidad de silicona, (b) posicionamiento de la hebra, (c) colado y curado de la resina y (d) probeta desmoldeada.}}{31}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sistemas epoxi de baja viscosidad utilizados en este estudio. Izquierda: MEPOX 1685L. Derecha: EPO 200.}}{32}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Montaje experimental del ensayo \textit {Fiber-Bundle Pull-Out} (FBPO).}}{34}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Mordaza diseñada para el ensayo FBPO: (A) vista frontal, mostrando la geometría de sujeción de la hebra; (B) vista lateral.}}{34}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Identificación de regiones en una probeta FBPO: (A) región embebida asociada al despegue interfacial y (B) región de hebra libre dominada por fricción y sujeción.}}{38}{figure.caption.18}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Probeta durante el ensayo FBPO, mostrando la hebra de fibra de carbono parcialmente embebida en la matriz polimérica.}}{38}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparación visual de una probeta FBPO antes y después del ensayo, evidenciando el despegue interfacial y la extracción parcial de la hebra.}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Estado post ensayo FBPO para sistemas con fibra de grado aeroespacial: (a) MEPOX-HTA y (b) EPO-HTA, mostrando la extracción parcial de la hebra y la matriz residual tras el despegue interfacial.}}{39}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Curvas fuerza - desplazamiento representativas obtenidas durante los ensayos FBPO para los sistemas fibra - matriz evaluados.}}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Boxplot de los valores de IFSS aparente obtenidos para los sistemas evaluados.}}{41}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparación entre los valores de IFSS aparente obtenidos experimentalmente en este estudio y los rangos de IFSS reportados en la literatura para ensayos FBPO.}}{42}{figure.caption.24}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Carta Gantt del proyecto.}}{52}{figure.caption.27}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Repositorio bibliográfico de valores de IFSS reportados en la literatura para distintos métodos y escalas de caracterización interfacial \cite {AhmadvashAghbash2023,DeLeon2022}.}}{53}{figure.caption.28}%

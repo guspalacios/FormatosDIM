@@ -1,56 +1,58 @@
 \contentsline {section}{Lista de Figuras}{1}{Doc-Start}%
-\contentsline {section}{Lista de Tablas}{2}{Doc-Start}%
-\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Planteamiento del problema}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Alcance}{5}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Objetivos}{5}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{5}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{5}{subsubsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.4}Propuesta metodológica}{6}{subsection.1.4}%
-\contentsline {section}{List of Abbreviations}{3}{Doc-Start}%
-\contentsline {section}{\numberline {2}Estado del Arte y Marco Teórico}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Estado del Arte}{7}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Valores reportados en la literatura}{8}{subsubsection.2.1.1}%
-\contentsline {paragraph}{Discusión.}{9}{paragraph*.4}%
-\contentsline {subsection}{\numberline {2.2}Marco Teórico}{10}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}Interfaz fibra – matriz}{10}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}Resistencia al corte interfacial (IFSS)}{10}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}IFSS aparente vs.\ real}{11}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Mecanismos de falla interfacial}{11}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Escalas de estudio}{12}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}Variables experimentales que afectan la IFSS}{13}{subsubsection.2.2.6}%
-\contentsline {subsubsection}{\numberline {2.2.7}Ensayos de caracterización interfacial}{14}{subsubsection.2.2.7}%
-\contentsline {subsubsection}{\numberline {2.2.8}Efecto del \textit {sizing} y la topografía superficial}{15}{subsubsection.2.2.8}%
-\contentsline {subsubsection}{\numberline {2.2.9}Profundización en el rol del \textit {sizing}}{15}{subsubsection.2.2.9}%
-\contentsline {subsubsection}{\numberline {2.2.10}Análisis estadístico (normalidad, ANOVA y Tukey)}{16}{subsubsection.2.2.10}%
-\contentsline {subsubsection}{\numberline {2.2.11}Normas y estandarización}{17}{subsubsection.2.2.11}%
-\contentsline {section}{\numberline {3}Metodología}{19}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Materiales}{19}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Fibras de carbono utilizadas}{19}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Diseño general de la investigación}{20}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Etapas de desarrollo}{21}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Etapa 1: Revisión de antecedentes bibliográficos}{21}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Etapa 2: Diseño del sistema experimental}{21}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Etapa 3: Fabricación de moldes de silicona}{22}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Etapa 4: Fabricación de probetas}{23}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Etapa 4.1: Caracterización mecánica de las resinas epóxicas}{24}{subsubsection.3.3.5}%
-\contentsline {paragraph}{Resina Mepox 1685L}{25}{paragraph*.12}%
-\contentsline {paragraph}{Resina EPO 200}{25}{paragraph*.13}%
-\contentsline {subsubsection}{\numberline {3.3.6}Etapa 5: Ejecución de los ensayos FBPO}{25}{subsubsection.3.3.6}%
-\contentsline {subsubsection}{\numberline {3.3.7}Etapa 6: Procesamiento y análisis de datos}{26}{subsubsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.4}Replicabilidad y validez}{27}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Resultados}{28}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Resultados preliminares}{28}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Resultados directos de las mediciones}{28}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Comparación con valores FBPO de referencia}{29}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Análisis estadístico de los resultados de IFSS aparente}{30}{subsection.4.4}%
-\contentsline {section}{\numberline {5}Discusión}{32}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Interpretación de los resultados}{32}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Discusión del análisis estadístico del IFSS aparente}{32}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Relación con el estado del arte}{33}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Limitaciones del estudio}{33}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Implicancias y proyecciones}{34}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Conclusiones}{35}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Trabajo futuro}{36}{subsection.6.1}%
-\contentsline {section}{Referencias}{37}{subsection.6.1}%
-\contentsline {section}{Anexo \numberline {A}Carta Gantt}{39}{appendix.a.A}%
+\contentsline {section}{Lista de Tablas}{3}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Planteamiento del problema}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Alcance}{6}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Objetivos}{6}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{6}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{6}{subsubsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.4}Propuesta metodológica}{7}{subsection.1.4}%
+\contentsline {section}{List of Abbreviations}{4}{Doc-Start}%
+\contentsline {section}{\numberline {2}Estado del Arte y Marco Teórico}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Estado del Arte}{8}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Valores reportados en la literatura}{9}{subsubsection.2.1.1}%
+\contentsline {paragraph}{Discusión.}{10}{paragraph*.4}%
+\contentsline {subsection}{\numberline {2.2}Marco Teórico}{11}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Interfaz fibra - matriz}{11}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Resistencia al corte interfacial (IFSS)}{12}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}IFSS aparente vs.\ real}{13}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Mecanismos de falla interfacial}{14}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Escalas de estudio}{15}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Variables experimentales que afectan la IFSS}{16}{subsubsection.2.2.6}%
+\contentsline {subsubsection}{\numberline {2.2.7}Ensayos de caracterización interfacial}{17}{subsubsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {2.2.8}Efecto del \textit {sizing} y la topografía superficial}{18}{subsubsection.2.2.8}%
+\contentsline {subsubsection}{\numberline {2.2.9}Profundización en el rol del \textit {sizing}}{19}{subsubsection.2.2.9}%
+\contentsline {subsubsection}{\numberline {2.2.10}Análisis estadístico (normalidad, ANOVA y Tukey)}{20}{subsubsection.2.2.10}%
+\contentsline {subsubsection}{\numberline {2.2.11}Normas y estandarización}{21}{subsubsection.2.2.11}%
+\contentsline {section}{\numberline {3}Metodología}{24}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Materiales}{24}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Fibras de carbono utilizadas}{24}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Diseño general de la investigación}{25}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Etapas de desarrollo}{27}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Etapa 1: Revisión de antecedentes bibliográficos}{27}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Etapa 2: Diseño del sistema experimental}{27}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Etapa 3: Fabricación de moldes de silicona}{28}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Etapa 4: Fabricación de probetas}{30}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}Etapa 4.1: Caracterización mecánica de las resinas epóxicas}{31}{subsubsection.3.3.5}%
+\contentsline {paragraph}{Resina Mepox 1685L}{32}{paragraph*.14}%
+\contentsline {paragraph}{Resina EPO 200}{33}{paragraph*.15}%
+\contentsline {subsubsection}{\numberline {3.3.6}Etapa 5: Ejecución de los ensayos FBPO}{33}{subsubsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.7}Etapa 6: Procesamiento y análisis de datos}{35}{subsubsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.4}Replicabilidad y validez}{36}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Resultados}{37}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Observaciones visuales durante el ensayo FBPO}{37}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Resultados preliminares}{39}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resultados directos de las mediciones}{40}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Comparación con valores FBPO de referencia}{42}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Análisis estadístico de los resultados de IFSS aparente}{42}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Discusión}{44}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Interpretación de los resultados}{44}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Discusión del análisis estadístico del IFSS aparente}{45}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Relación con el estado del arte}{45}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Limitaciones del estudio}{46}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Implicancias y proyecciones}{47}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{48}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Trabajo futuro}{49}{subsection.6.1}%
+\contentsline {section}{Referencias}{50}{subsection.6.1}%
+\contentsline {section}{Anexo \numberline {A}Carta Gantt}{52}{appendix.a.A}%
+\contentsline {section}{Anexo \numberline {B}Repositorio IFSS}{53}{appendix.a.B}%

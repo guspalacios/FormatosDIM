@@ -26,6 +26,8 @@ The style file: ieeetr.bst
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 A level-1 auxiliary file: Carta_Gantt.aux
+Reallocating 'name_of_file' (item size: 1) to 21 items.
+A level-1 auxiliary file: Repositorio_IFSS.aux
 Database file #1: Referencias.bib
 Warning--entry type for "DINSPEC19289" isn't style-file defined
 --line 47 of file Referencias.bib
@@ -45,7 +47,7 @@ Warning--entry type for "ASTMD4475" isn't style-file defined
 --line 547 of file Referencias.bib
 You've used 28 entries,
             1876 wiz_defined-function locations,
-            673 strings with 8976 characters,
+            674 strings with 8996 characters,
 and the built_in function-call counts, 6327 in all, are:
 = -- 627
 > -- 253
