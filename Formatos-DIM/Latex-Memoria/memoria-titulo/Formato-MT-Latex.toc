@@ -7,7 +7,6 @@
 \contentsline {subsubsection}{\numberline {1.3.1}Objetivo General}{6}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}Objetivos Específicos}{6}{subsubsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.4}Propuesta metodológica}{7}{subsection.1.4}%
-\contentsline {section}{List of Abbreviations}{4}{Doc-Start}%
 \contentsline {section}{\numberline {2}Estado del Arte y Marco Teórico}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Estado del Arte}{8}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}Valores reportados en la literatura}{9}{subsubsection.2.1.1}%
@@ -31,28 +30,28 @@
 \contentsline {subsection}{\numberline {3.3}Etapas de desarrollo}{27}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Etapa 1: Revisión de antecedentes bibliográficos}{27}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Etapa 2: Diseño del sistema experimental}{27}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Etapa 3: Fabricación de moldes de silicona}{28}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3}Etapa 3: Fabricación de moldes de silicona}{29}{subsubsection.3.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.4}Etapa 4: Fabricación de probetas}{30}{subsubsection.3.3.4}%
 \contentsline {subsubsection}{\numberline {3.3.5}Etapa 4.1: Caracterización mecánica de las resinas epóxicas}{31}{subsubsection.3.3.5}%
-\contentsline {paragraph}{Resina Mepox 1685L}{32}{paragraph*.14}%
-\contentsline {paragraph}{Resina EPO 200}{33}{paragraph*.15}%
+\contentsline {paragraph}{Resina Mepox 1685L:}{33}{paragraph*.14}%
+\contentsline {paragraph}{Resina EPO 200:}{33}{paragraph*.15}%
 \contentsline {subsubsection}{\numberline {3.3.6}Etapa 5: Ejecución de los ensayos FBPO}{33}{subsubsection.3.3.6}%
 \contentsline {subsubsection}{\numberline {3.3.7}Etapa 6: Procesamiento y análisis de datos}{35}{subsubsection.3.3.7}%
 \contentsline {subsection}{\numberline {3.4}Replicabilidad y validez}{36}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Resultados}{37}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Observaciones visuales durante el ensayo FBPO}{37}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Resultados preliminares}{39}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Resultados directos de las mediciones}{40}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Comparación con valores FBPO de referencia}{42}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Análisis estadístico de los resultados de IFSS aparente}{42}{subsection.4.5}%
-\contentsline {section}{\numberline {5}Discusión}{44}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Interpretación de los resultados}{44}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Discusión del análisis estadístico del IFSS aparente}{45}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Relación con el estado del arte}{45}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Limitaciones del estudio}{46}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Implicancias y proyecciones}{47}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Conclusiones}{48}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Trabajo futuro}{49}{subsection.6.1}%
-\contentsline {section}{Referencias}{50}{subsection.6.1}%
-\contentsline {section}{Anexo \numberline {A}Carta Gantt}{52}{appendix.a.A}%
-\contentsline {section}{Anexo \numberline {B}Repositorio IFSS}{53}{appendix.a.B}%
+\contentsline {subsection}{\numberline {4.2}Resultados preliminares}{40}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Resultados directos de las mediciones}{42}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Comparación con valores FBPO de referencia}{43}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Análisis estadístico de los resultados de IFSS aparente}{44}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Discusión}{47}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Interpretación de los resultados}{47}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Discusión del análisis estadístico del IFSS aparente}{48}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Relación con el estado del arte}{48}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Limitaciones del estudio}{49}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Implicancias y proyecciones}{50}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{51}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Trabajo futuro}{52}{subsection.6.1}%
+\contentsline {section}{Referencias}{53}{subsection.6.1}%
+\contentsline {section}{Anexo \numberline {A}Carta Gantt}{55}{appendix.a.A}%
+\contentsline {section}{Anexo \numberline {B}Repositorio IFSS}{56}{appendix.a.B}%

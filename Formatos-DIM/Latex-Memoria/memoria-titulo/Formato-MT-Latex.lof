@@ -17,7 +17,11 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Comparación visual de una probeta FBPO antes y después del ensayo, evidenciando el despegue interfacial y la extracción parcial de la hebra.}}{39}{figure.caption.20}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Estado post ensayo FBPO para sistemas con fibra de grado aeroespacial: (a) MEPOX-HTA y (b) EPO-HTA, mostrando la extracción parcial de la hebra y la matriz residual tras el despegue interfacial.}}{39}{figure.caption.21}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Curvas fuerza - desplazamiento representativas obtenidas durante los ensayos FBPO para los sistemas fibra - matriz evaluados.}}{40}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Boxplot de los valores de IFSS aparente obtenidos para los sistemas evaluados.}}{41}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Comparación entre los valores de IFSS aparente obtenidos experimentalmente en este estudio y los rangos de IFSS reportados en la literatura para ensayos FBPO.}}{42}{figure.caption.24}%
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Carta Gantt del proyecto.}}{52}{figure.caption.27}%
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Repositorio bibliográfico de valores de IFSS reportados en la literatura para distintos métodos y escalas de caracterización interfacial \cite {AhmadvashAghbash2023,DeLeon2022}.}}{53}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Curvas esfuerzo - desplazamiento con registro de las etapas del ensayo.}}{41}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Curvas fuerza - desplazamiento con la diferencia de comportamiento de este sistema.}}{42}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Boxplot de los valores de IFSS aparente obtenidos para los sistemas evaluados.}}{43}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Comparación entre los valores de IFSS aparente obtenidos experimentalmente en este estudio y los rangos de IFSS reportados en la literatura para ensayos FBPO.}}{44}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Comparación de distribución para IFSS aparente del sistema EPO-HTA. A) Ajuste para diferentes curvas teóricas. B) Ajuste utilizando Weibull.}}{45}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Comparación de distribución para IFSS aparente del sistema MEPOX-HTA. A) Ajuste para diferentes curvas teóricas. B) Ajuste utilizando Gamma.}}{45}{figure.caption.28}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Carta Gantt del proyecto.}}{55}{figure.caption.32}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Repositorio bibliográfico de valores de IFSS reportados en la literatura para distintos métodos y escalas de caracterización interfacial \cite {AhmadvashAghbash2023,DeLeon2022}.}}{56}{figure.caption.33}%

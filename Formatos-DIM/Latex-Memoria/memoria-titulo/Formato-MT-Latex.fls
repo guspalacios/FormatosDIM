@@ -464,7 +464,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\C0-Agradecimientos.tex
@@ -481,6 +480,7 @@ OUTPUT C0-Resumen.aux
 INPUT .\C0-Resumen.tex
 INPUT .\C0-Resumen.tex
 INPUT C0-Resumen.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT .\C0-Abstract.tex
 INPUT .\C0-Abstract.tex
 OUTPUT C0-Abstract.aux
@@ -501,7 +501,6 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 OUTPUT Formato-MT-Latex.toc
 INPUT .\Formato-MT-Latex.lof
 INPUT .\Formato-MT-Latex.lof
@@ -524,6 +523,7 @@ INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
 INPUT .\Interface_diagram.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\C2-Latex.tex
 INPUT .\C2-Latex.tex
@@ -667,12 +667,24 @@ INPUT .\epo_hta.jpeg
 INPUT .\epo_hta.jpeg
 INPUT .\epo_hta.jpeg
 INPUT .\epo_hta.jpeg
-INPUT .\Esf_v_def.pdf
-INPUT .\Esf_v_def.pdf
-INPUT .\Esf_v_def.pdf
-INPUT .\Esf_v_def.pdf
-INPUT .\Esf_v_def.pdf
-INPUT .\Esf_v_def.pdf
+INPUT .\F_v_def_WI.pdf
+INPUT .\F_v_def_WI.pdf
+INPUT .\F_v_def_WI.pdf
+INPUT .\F_v_def_WI.pdf
+INPUT .\F_v_def_WI.pdf
+INPUT .\F_v_def_WI.pdf
+INPUT .\Etapas_fbpo_grafico.pdf
+INPUT .\Etapas_fbpo_grafico.pdf
+INPUT .\Etapas_fbpo_grafico.pdf
+INPUT .\Etapas_fbpo_grafico.pdf
+INPUT .\Etapas_fbpo_grafico.pdf
+INPUT .\Etapas_fbpo_grafico.pdf
+INPUT .\Etapas_mepox.pdf
+INPUT .\Etapas_mepox.pdf
+INPUT .\Etapas_mepox.pdf
+INPUT .\Etapas_mepox.pdf
+INPUT .\Etapas_mepox.pdf
+INPUT .\Etapas_mepox.pdf
 INPUT .\IFSS_aparente.pdf
 INPUT .\IFSS_aparente.pdf
 INPUT .\IFSS_aparente.pdf
@@ -685,6 +697,18 @@ INPUT .\Comparativa_Lit_Exp.pdf
 INPUT .\Comparativa_Lit_Exp.pdf
 INPUT .\Comparativa_Lit_Exp.pdf
 INPUT .\Comparativa_Lit_Exp.pdf
+INPUT .\hist_epo_aero.pdf
+INPUT .\hist_epo_aero.pdf
+INPUT .\hist_epo_aero.pdf
+INPUT .\hist_epo_aero.pdf
+INPUT .\hist_epo_aero.pdf
+INPUT .\hist_epo_aero.pdf
+INPUT .\hist_mepox_aero.pdf
+INPUT .\hist_mepox_aero.pdf
+INPUT .\hist_mepox_aero.pdf
+INPUT .\hist_mepox_aero.pdf
+INPUT .\hist_mepox_aero.pdf
+INPUT .\hist_mepox_aero.pdf
 INPUT .\C5-Discusion.tex
 INPUT .\C5-Discusion.tex
 OUTPUT C5-Discusion.aux
@@ -765,12 +789,12 @@ INPUT .\Formato-MT-Latex.out
 INPUT .\Formato-MT-Latex.out
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx0800.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcbx0800.pk
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0800.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0800.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\gusta\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
