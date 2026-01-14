@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  9 JAN 2026 02:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.12)  13 JAN 2026 22:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1190,7 +1190,7 @@ Package pgfplots: loading complementary utilities for your pgf version...
 File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (A-Nomenclatura.tex) (Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Agradecimientos.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Carta_Gantt.aux) (Repositorio_IFSS.aux))
+))) (A-Nomenclatura.tex) (Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Agradecimientos.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Carta_Gantt.aux) (Repositorio_IFSS.aux) (SEM_imagenes.aux))
 \openout1 = `Formato-MT-Latex.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
@@ -1291,7 +1291,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `Pagina_Titulo.aux'.
 
 (Pagina_Titulo.tex
-<udec-dim.png, id=220, 417.56pt x 108.405pt>
+<udec-dim.png, id=232, 417.56pt x 108.405pt>
 File: udec-dim.png Graphic file (type png)
 <use udec-dim.png>
 Package pdftex.def Info: udec-dim.png  used on input line 5.
@@ -1330,7 +1330,12 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 \tf@toc=\write5
 \openout5 = `Formato-MT-Latex.toc'.
 
- [7] (Formato-MT-Latex.lof [1
+ [7] (Formato-MT-Latex.lof
+Overfull \hbox (10.89526pt too wide) in paragraph at lines 14--14
+ [][] [][]\OT1/cmr/m/n/12 Montaje ex-per-i-men-tal del en-sayo \OT1/cmr/m/it/12 Fiber-Bundle Pull-Out \OT1/cmr/m/n/12 (FBPO) en m^^Saquina 
+ []
+
+[1
 
 
 ])
@@ -1348,7 +1353,7 @@ Package pdftex.def Info: udec-dim.png  used on input line 5.
 \openout2 = `C1-Introduccion.aux'.
 
  (C1-Introduccion.tex
-<Interface_diagram.pdf, id=424, 341.275pt x 127.47626pt>
+<Interface_diagram.pdf, id=464, 341.275pt x 127.47626pt>
 File: Interface_diagram.pdf Graphic file (type pdf)
 <use Interface_diagram.pdf>
 Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
@@ -1365,195 +1370,213 @@ Package pdftex.def Info: Interface_diagram.pdf  used on input line 25.
 
 
 ]
-<IFSS_reportada_literatura.pdf, id=516, 722.7pt x 433.62pt>
+<IFSS_reportada_literatura.pdf, id=556, 722.7pt x 433.62pt>
 File: IFSS_reportada_literatura.pdf Graphic file (type pdf)
 <use IFSS_reportada_literatura.pdf>
 Package pdftex.def Info: IFSS_reportada_literatura.pdf  used on input line 112.
 (pdftex.def)             Requested size: 399.05278pt x 239.43127pt.
  [9] [10 <./IFSS_reportada_literatura.pdf>]
-<interfaz.pdf, id=675, 469.63759pt x 178.53185pt>
+<interfaz.pdf, id=715, 469.63759pt x 178.53185pt>
 File: interfaz.pdf Graphic file (type pdf)
 <use interfaz.pdf>
 Package pdftex.def Info: interfaz.pdf  used on input line 190.
 (pdftex.def)             Requested size: 352.10286pt x 133.85222pt.
- [11 <./interfaz.pdf>] [12] [13] [14]
-<escalas_de_estudio.pdf, id=999, 169.72171pt x 159.49721pt>
+ [11 <./interfaz.pdf>]
+<SEM_interfaz_ejemplo.pdf, id=1014, 770.88pt x 578.16pt>
+File: SEM_interfaz_ejemplo.pdf Graphic file (type pdf)
+<use SEM_interfaz_ejemplo.pdf>
+Package pdftex.def Info: SEM_interfaz_ejemplo.pdf  used on input line 260.
+(pdftex.def)             Requested size: 352.10286pt x 264.07774pt.
+ [12] [13 <./SEM_interfaz_ejemplo.pdf>] [14] [15]
+<escalas_de_estudio.pdf, id=1068, 169.72171pt x 159.49721pt>
 File: escalas_de_estudio.pdf Graphic file (type pdf)
 <use escalas_de_estudio.pdf>
-Package pdftex.def Info: escalas_de_estudio.pdf  used on input line 385.
+Package pdftex.def Info: escalas_de_estudio.pdf  used on input line 414.
 (pdftex.def)             Requested size: 187.78532pt x 176.47449pt.
- [15 <./escalas_de_estudio.pdf>] [16]
-<tipos_de_ensayos.pdf, id=1137, 323.97618pt x 131.03326pt>
+ [16 <./escalas_de_estudio.pdf>] [17]
+<tipos_de_ensayos.pdf, id=1206, 323.97618pt x 131.03326pt>
 File: tipos_de_ensayos.pdf Graphic file (type pdf)
 <use tipos_de_ensayos.pdf>
-Package pdftex.def Info: tipos_de_ensayos.pdf  used on input line 494.
+Package pdftex.def Info: tipos_de_ensayos.pdf  used on input line 523.
 (pdftex.def)             Requested size: 352.10286pt x 142.41153pt.
- [17 <./tipos_de_ensayos.pdf>] [18] [19] [20] [21] [22]) [23]
+ [18 <./tipos_de_ensayos.pdf>] [19] [20] [21] [22] [23]) [24]
 \openout2 = `C3-Metodologia.aux'.
 
  (C3-Metodologia.tex
-<hta_etiqueta.jpeg, id=1244, 600.44325pt x 299.31825pt>
+<hta_etiqueta.jpeg, id=1314, 600.44325pt x 299.31825pt>
 File: hta_etiqueta.jpeg Graphic file (type jpg)
 <use hta_etiqueta.jpeg>
 Package pdftex.def Info: hta_etiqueta.jpeg  used on input line 59.
 (pdftex.def)             Requested size: 352.10286pt x 175.51837pt.
- [24
+ [25
 
 
 
 ]
-<ht_etiqueta.jpeg, id=1252, 657.05475pt x 342.078pt>
+<ht_etiqueta.jpeg, id=1321, 657.05475pt x 342.078pt>
 File: ht_etiqueta.jpeg Graphic file (type jpg)
 <use ht_etiqueta.jpeg>
 Package pdftex.def Info: ht_etiqueta.jpeg  used on input line 75.
 (pdftex.def)             Requested size: 352.10286pt x 183.31526pt.
- [25 <./hta_etiqueta.jpeg> <./ht_etiqueta.jpeg>] [26] [27]
-<Modelo_pla_negativo.jpeg, id=1277, 652.68843pt x 547.2947pt>
+ [26 <./hta_etiqueta.jpeg> <./ht_etiqueta.jpeg>] [27] [28]
+<Modelo_pla_negativo.jpeg, id=1346, 652.68843pt x 547.2947pt>
 File: Modelo_pla_negativo.jpeg Graphic file (type jpg)
 <use Modelo_pla_negativo.jpeg>
 Package pdftex.def Info: Modelo_pla_negativo.jpeg  used on input line 252.
-(pdftex.def)             Requested size: 234.73524pt x 196.83386pt.
- [28] [29 <./Modelo_pla_negativo.jpeg>]
-<Silicona_caucho.jpeg, id=1287, 733.23938pt x 441.90094pt>
+(pdftex.def)             Requested size: 211.26028pt x 177.15047pt.
+ [29] [30 <./Modelo_pla_negativo.jpeg>]
+<Silicona_caucho.jpeg, id=1357, 733.23938pt x 441.90094pt>
 File: Silicona_caucho.jpeg Graphic file (type jpg)
 <use Silicona_caucho.jpeg>
 Package pdftex.def Info: Silicona_caucho.jpeg  used on input line 305.
 (pdftex.def)             Requested size: 234.73524pt x 141.46512pt.
- [30 <./Silicona_caucho.jpeg>]
-<Etapas_probeta.jpeg, id=1294, 475.02469pt x 418.56375pt>
+ [31 <./Silicona_caucho.jpeg>]
+<Etapas_probeta.jpeg, id=1363, 475.02469pt x 418.56375pt>
 File: Etapas_probeta.jpeg Graphic file (type jpg)
 <use Etapas_probeta.jpeg>
 Package pdftex.def Info: Etapas_probeta.jpeg  used on input line 361.
 (pdftex.def)             Requested size: 234.73524pt x 206.83522pt.
- [31 <./Etapas_probeta.jpeg>]
-<Resina_mepox_1685.jpeg, id=1301, 813.0375pt x 702.37407pt>
+ [32 <./Etapas_probeta.jpeg>]
+<Resina_mepox_1685.jpeg, id=1370, 813.0375pt x 702.37407pt>
 File: Resina_mepox_1685.jpeg Graphic file (type jpg)
 <use Resina_mepox_1685.jpeg>
 Package pdftex.def Info: Resina_mepox_1685.jpeg  used on input line 397.
 (pdftex.def)             Requested size: 207.4893pt x 179.25244pt.
-<Resina_epo_200.jpeg, id=1302, 437.83575pt x 343.88475pt>
+<Resina_epo_200.jpeg, id=1371, 437.83575pt x 343.88475pt>
 File: Resina_epo_200.jpeg Graphic file (type jpg)
 <use Resina_epo_200.jpeg>
 Package pdftex.def Info: Resina_epo_200.jpeg  used on input line 401.
 (pdftex.def)             Requested size: 228.23041pt x 179.25244pt.
- [32 <./Resina_mepox_1685.jpeg> <./Resina_epo_200.jpeg>]
-<Ensayo_fbpo.jpeg, id=1309, 541.42274pt x 755.82375pt>
+ [33 <./Resina_mepox_1685.jpeg> <./Resina_epo_200.jpeg>]
+<Ensayo_fbpo.jpeg, id=1378, 541.42274pt x 755.82375pt>
 File: Ensayo_fbpo.jpeg Graphic file (type jpg)
 <use Ensayo_fbpo.jpeg>
 Package pdftex.def Info: Ensayo_fbpo.jpeg  used on input line 486.
 (pdftex.def)             Requested size: 152.86133pt x 213.39566pt.
-<mordaza.pdf, id=1310, 346.89601pt x 268.6035pt>
+<mordaza.pdf, id=1379, 346.89601pt x 268.6035pt>
 File: mordaza.pdf Graphic file (type pdf)
 <use mordaza.pdf>
-Package pdftex.def Info: mordaza.pdf  used on input line 493.
+Package pdftex.def Info: mordaza.pdf  used on input line 494.
 (pdftex.def)             Requested size: 234.73524pt x 181.75858pt.
- [33] [34 <./Ensayo_fbpo.jpeg> <./mordaza.pdf>] [35]) [36]
+ [34] [35 <./Ensayo_fbpo.jpeg> <./mordaza.pdf>] [36] [37]) [38]
 \openout2 = `C4-Resultados.aux'.
 
- (C4-Resultados.tex [37
+ (C4-Resultados.tex [39
 
 
 
 ]
-<partes_probeta.png, id=1358, 380.92313pt x 465.99094pt>
+<partes_probeta.png, id=1431, 380.92313pt x 465.99094pt>
 File: partes_probeta.png Graphic file (type png)
 <use partes_probeta.png>
 Package pdftex.def Info: partes_probeta.png  used on input line 65.
 (pdftex.def)             Requested size: 187.78532pt x 229.71698pt.
-<ensayo_mitad.jpeg, id=1360, 280.6485pt x 295.70474pt>
+<ensayo_mitad.jpeg, id=1433, 280.6485pt x 295.70474pt>
 File: ensayo_mitad.jpeg Graphic file (type jpg)
 <use ensayo_mitad.jpeg>
 Package pdftex.def Info: ensayo_mitad.jpeg  used on input line 81.
 (pdftex.def)             Requested size: 140.84258pt x 148.39796pt.
-<antes_despues.jpeg, id=1362, 433.62pt x 356.532pt>
+<antes_despues.jpeg, id=1435, 433.62pt x 356.532pt>
 File: antes_despues.jpeg Graphic file (type jpg)
 <use antes_despues.jpeg>
 Package pdftex.def Info: antes_despues.jpeg  used on input line 95.
 (pdftex.def)             Requested size: 258.21019pt x 212.31596pt.
- [38 <./partes_probeta.png> <./ensayo_mitad.jpeg>]
-<mepox_hta.jpeg, id=1369, 248.72925pt x 333.04425pt>
+ [40 <./partes_probeta.png> <./ensayo_mitad.jpeg>]
+<mepox_hta.jpeg, id=1442, 248.72925pt x 333.04425pt>
 File: mepox_hta.jpeg Graphic file (type jpg)
 <use mepox_hta.jpeg>
 Package pdftex.def Info: mepox_hta.jpeg  used on input line 113.
 (pdftex.def)             Requested size: 197.17674pt x 264.02188pt.
-<epo_hta.jpeg, id=1370, 185.493pt x 300.52275pt>
+<epo_hta.jpeg, id=1443, 185.493pt x 300.52275pt>
 File: epo_hta.jpeg Graphic file (type jpg)
 <use epo_hta.jpeg>
 Package pdftex.def Info: epo_hta.jpeg  used on input line 119.
 (pdftex.def)             Requested size: 164.31754pt x 266.22627pt.
- [39 <./antes_despues.jpeg> <./mepox_hta.jpeg> <./epo_hta.jpeg>]
-<F_v_def_WI.pdf, id=1376, 650.43pt x 433.62pt>
+ [41 <./antes_despues.jpeg> <./mepox_hta.jpeg> <./epo_hta.jpeg>]
+<SEM_MEPOX.pdf, id=1449, 1541.76pt x 1156.32pt>
+File: SEM_MEPOX.pdf Graphic file (type pdf)
+<use SEM_MEPOX.pdf>
+Package pdftex.def Info: SEM_MEPOX.pdf  used on input line 156.
+(pdftex.def)             Requested size: 422.52057pt x 316.88623pt.
+ [42 <./SEM_MEPOX.pdf>]
+<SEM_EPO.pdf, id=1472, 1541.76pt x 1156.32pt>
+File: SEM_EPO.pdf Graphic file (type pdf)
+<use SEM_EPO.pdf>
+Package pdftex.def Info: SEM_EPO.pdf  used on input line 179.
+(pdftex.def)             Requested size: 422.52057pt x 316.88623pt.
+ [43 <./SEM_EPO.pdf>]
+<F_v_def_WI.pdf, id=1495, 650.43pt x 433.62pt>
 File: F_v_def_WI.pdf Graphic file (type pdf)
 <use F_v_def_WI.pdf>
-Package pdftex.def Info: F_v_def_WI.pdf  used on input line 148.
+Package pdftex.def Info: F_v_def_WI.pdf  used on input line 212.
 (pdftex.def)             Requested size: 408.43703pt x 272.29543pt.
- [40 <./F_v_def_WI.pdf>]
-<Etapas_fbpo_grafico.pdf, id=1423, 650.43pt x 433.62pt>
+ [44 <./F_v_def_WI.pdf>]
+<Etapas_fbpo_grafico.pdf, id=1542, 650.43pt x 433.62pt>
 File: Etapas_fbpo_grafico.pdf Graphic file (type pdf)
 <use Etapas_fbpo_grafico.pdf>
-Package pdftex.def Info: Etapas_fbpo_grafico.pdf  used on input line 187.
+Package pdftex.def Info: Etapas_fbpo_grafico.pdf  used on input line 251.
 (pdftex.def)             Requested size: 408.43703pt x 272.29543pt.
-<Etapas_mepox.pdf, id=1425, 650.43pt x 433.62pt>
+<Etapas_mepox.pdf, id=1544, 650.43pt x 433.62pt>
 File: Etapas_mepox.pdf Graphic file (type pdf)
 <use Etapas_mepox.pdf>
-Package pdftex.def Info: Etapas_mepox.pdf  used on input line 204.
+Package pdftex.def Info: Etapas_mepox.pdf  used on input line 268.
 (pdftex.def)             Requested size: 408.43703pt x 272.29543pt.
- [41 <./Etapas_fbpo_grafico.pdf>] [42 <./Etapas_mepox.pdf>]
-<IFSS_aparente.pdf, id=1532, 722.7pt x 433.62pt>
+ [45 <./Etapas_fbpo_grafico.pdf>] [46 <./Etapas_mepox.pdf>]
+<IFSS_aparente.pdf, id=1650, 722.7pt x 433.62pt>
 File: IFSS_aparente.pdf Graphic file (type pdf)
 <use IFSS_aparente.pdf>
-Package pdftex.def Info: IFSS_aparente.pdf  used on input line 243.
+Package pdftex.def Info: IFSS_aparente.pdf  used on input line 307.
 (pdftex.def)             Requested size: 399.05278pt x 239.43127pt.
-<Comparativa_Lit_Exp.pdf, id=1534, 650.43pt x 433.62pt>
+<Comparativa_Lit_Exp.pdf, id=1652, 650.43pt x 433.62pt>
 File: Comparativa_Lit_Exp.pdf Graphic file (type pdf)
 <use Comparativa_Lit_Exp.pdf>
-Package pdftex.def Info: Comparativa_Lit_Exp.pdf  used on input line 277.
+Package pdftex.def Info: Comparativa_Lit_Exp.pdf  used on input line 341.
 (pdftex.def)             Requested size: 399.05278pt x 266.04285pt.
- [43 <./IFSS_aparente.pdf>]
-<hist_epo_aero.pdf, id=1639, 1100.50319pt x 433.62pt>
+ [47 <./IFSS_aparente.pdf>]
+<hist_epo_aero.pdf, id=1757, 1100.50319pt x 433.62pt>
 File: hist_epo_aero.pdf Graphic file (type pdf)
 <use hist_epo_aero.pdf>
-Package pdftex.def Info: hist_epo_aero.pdf  used on input line 313.
+Package pdftex.def Info: hist_epo_aero.pdf  used on input line 377.
 (pdftex.def)             Requested size: 422.52057pt x 166.47775pt.
- [44 <./Comparativa_Lit_Exp.pdf>]
-<hist_mepox_aero.pdf, id=1718, 1098.61467pt x 433.62pt>
+ [48 <./Comparativa_Lit_Exp.pdf>]
+<hist_mepox_aero.pdf, id=1837, 1098.61467pt x 433.62pt>
 File: hist_mepox_aero.pdf Graphic file (type pdf)
 <use hist_mepox_aero.pdf>
-Package pdftex.def Info: hist_mepox_aero.pdf  used on input line 322.
+Package pdftex.def Info: hist_mepox_aero.pdf  used on input line 386.
 (pdftex.def)             Requested size: 422.52057pt x 166.76888pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[45 <./hist_epo_aero.pdf> <./hist_mepox_aero.pdf
+[49 <./hist_epo_aero.pdf> <./hist_mepox_aero.pdf
 
 pdfTeX warning: pdflatex (file ./hist_mepox_aero.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) [46]
+>]) [50]
 \openout2 = `C5-Discusion.aux'.
 
- (C5-Discusion.tex [47
+ (C5-Discusion.tex [51
 
 
 
-] [48] [49]) [50]
+] [52] [53] [54]) [55]
 \openout2 = `C6-Conclusiones.aux'.
 
- (C6-Conclusiones.tex [51
+ (C6-Conclusiones.tex [56
 
 
 
-]) [52
+]) [57
 
-] (Formato-MT-Latex.bbl [53
+] (Formato-MT-Latex.bbl [58
 
 
-]) [54]
+]) [59]
 \openout2 = `Carta_Gantt.aux'.
 
  (Carta_Gantt.tex
 
 pdfTeX warning: pdflatex (file ./CartaGantt-MT_Palacios.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<CartaGantt-MT_Palacios.pdf, id=1896, 794.97pt x 614.295pt>
+<CartaGantt-MT_Palacios.pdf, id=2018, 794.97pt x 614.295pt>
 File: CartaGantt-MT_Palacios.pdf Graphic file (type pdf)
 <use CartaGantt-MT_Palacios.pdf>
 Package pdftex.def Info: CartaGantt-MT_Palacios.pdf  used on input line 7.
@@ -1563,7 +1586,7 @@ Overfull \hbox (93.89265pt too wide) in paragraph at lines 7--9
  [][] 
  []
 
-) [55
+) [60
 
  <./CartaGantt-MT_Palacios.pdf>]
 \openout2 = `Repositorio_IFSS.aux'.
@@ -1571,42 +1594,83 @@ Overfull \hbox (93.89265pt too wide) in paragraph at lines 7--9
  (Repositorio_IFSS.tex
 
 pdfTeX warning: pdflatex (file ./IFSS_Organizado.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<IFSS_Organizado.pdf, id=1933, 614.295pt x 794.97pt>
+<IFSS_Organizado.pdf, id=2056, 614.295pt x 794.97pt>
 File: IFSS_Organizado.pdf Graphic file (type pdf)
 <use IFSS_Organizado.pdf>
 Package pdftex.def Info: IFSS_Organizado.pdf  used on input line 11.
 (pdftex.def)             Requested size: 469.47049pt x 607.5557pt.
-) [56
+) [61
 
 
 
- <./IFSS_Organizado.pdf>] 
+ <./IFSS_Organizado.pdf>]
+\openout2 = `SEM_imagenes.aux'.
+
+ (SEM_imagenes.tex
+<SEM_MEPOX_color.pdf, id=2082, 770.88pt x 578.16pt>
+File: SEM_MEPOX_color.pdf Graphic file (type pdf)
+<use SEM_MEPOX_color.pdf>
+Package pdftex.def Info: SEM_MEPOX_color.pdf  used on input line 8.
+(pdftex.def)             Requested size: 352.10286pt x 264.07774pt.
+<SEM_EPO_color.pdf, id=2083, 770.88pt x 578.16pt>
+File: SEM_EPO_color.pdf Graphic file (type pdf)
+<use SEM_EPO_color.pdf>
+Package pdftex.def Info: SEM_EPO_color.pdf  used on input line 16.
+(pdftex.def)             Requested size: 352.10286pt x 264.07774pt.
+<SEM_TEFLON.pdf, id=2084, 1541.76pt x 578.16pt>
+File: SEM_TEFLON.pdf Graphic file (type pdf)
+<use SEM_TEFLON.pdf>
+Package pdftex.def Info: SEM_TEFLON.pdf  used on input line 24.
+(pdftex.def)             Requested size: 422.52057pt x 158.44312pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<SEM_comparativa.pdf, id=2085, 1541.76pt x 578.16pt>
+File: SEM_comparativa.pdf Graphic file (type pdf)
+<use SEM_comparativa.pdf>
+Package pdftex.def Info: SEM_comparativa.pdf  used on input line 33.
+(pdftex.def)             Requested size: 422.52057pt x 158.44312pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [62
+
+
+
+ <./SEM_MEPOX_color.pdf> <./SEM_EPO_color.pdf
+
+pdfTeX warning: pdflatex (file ./SEM_EPO_color.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [63 <./SEM_TEFLON.pdf> <./SEM_comparativa.pdf
+
+pdfTeX warning: pdflatex (file ./SEM_comparativa.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] 
 AED: lastpage setting LastPage
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-(Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Agradecimientos.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Carta_Gantt.aux) (Repositorio_IFSS.aux))
+(Formato-MT-Latex.aux (Pagina_Titulo.aux) (C0-Agradecimientos.aux) (C0-Resumen.aux) (C0-Abstract.aux) (C1-Introduccion.aux) (C2-Latex.aux) (C3-Metodologia.aux) (C4-Resultados.aux) (C5-Discusion.aux) (C6-Conclusiones.aux) (Carta_Gantt.aux) (Repositorio_IFSS.aux) (SEM_imagenes.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Formato-MT-Latex.out' has not changed.
-(rerunfilecheck)             Checksum: 67EADA36295DFCA4D1A9EF95268C01A8;11264.
+(rerunfilecheck)             Checksum: B3D90E6D16B98FB52932CAF99CE371CA;12193.
  ) 
 Here is how much of TeX's memory you used:
- 45451 strings out of 474486
- 1052256 string characters out of 5753570
- 1942542 words of memory out of 5000000
- 66810 multiletter control sequences out of 15000+600000
+ 45561 strings out of 474486
+ 1055167 string characters out of 5753570
+ 1943542 words of memory out of 5000000
+ 66896 multiletter control sequences out of 15000+600000
  566278 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,10n,93p,2594b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx0800.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\gusta\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Formato-MT-Latex.pdf (63 pages, 3422616 bytes).
+Output written on Formato-MT-Latex.pdf (70 pages, 16437668 bytes).
 PDF statistics:
- 2062 PDF objects out of 2073 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
- 590 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2299 PDF objects out of 2487 (max. 8388607)
+ 197 named destinations out of 1000 (max. 500000)
+ 649 words of extra memory for PDF output out of 10000 (max. 10000000)
 

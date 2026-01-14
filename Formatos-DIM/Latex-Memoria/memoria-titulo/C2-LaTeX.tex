@@ -20,7 +20,7 @@ En años recientes, la \textbf{ISO 19375:2024} ha consolidado criterios para el 
 {single-fibre pull-out} (control de alineación, geometría y reducción de datos), reforzando buenas
 prácticas que pueden transferirse a otras configuraciones \cite{ISO19375}. En paralelo, varias
 revisiones subrayan que la IFSS obtenida es una \textit{métrica aparente} sensible al estado de
-tensiones no uniforme, al acoplamiento normal–corte y al modelo de reducción empleado; por ello,
+tensiones no uniforme, al acoplamiento normal - corte y al modelo de reducción empleado; por ello,
 se recomienda explicitar el procedimiento de cálculo y corroborar tendencias con métricas
 complementarias cuando sea pertinente \cite{Fischer2020, Liu2021, AhmadvashAghbash2024IMR}.
 
@@ -48,9 +48,9 @@ pull-out}, enfatizando el control geométrico y la alineación durante el ensayo
 prácticas de sujeción y acondicionamiento que pueden aplicarse a hebras completas. Por último,
 la \textbf{DIN 29965} define especificaciones para hilos de carbono en aplicaciones aeroespaciales,
 relevantes para la trazabilidad del material utilizado en probetas
-\cite{DINSPEC19289, ISO3341, DIN29965}. La \textbf{ISO 19375:2024} aporta lineamientos adicionales de
-alineación y validez para \textit{single-fibre pull-out}, útiles para inspirar configuraciones FBPO,
-mientras que \textbf{ASTM D4475} muestra cómo se normalizan metodologías de corte/aparente en compuestos
+\cite{DINSPEC19289, ISO3341, DIN29965}. La \textbf{ISO 19375:2024} aporta lineamientos adicionales de alineación y validez para
+\textit{single-fibre pull-out}, útiles para inspirar configuraciones FBPO, mientras que
+\textbf{ASTM D4475} ilustra criterios de normalización de metodologías de corte aparente en compuestos
 pultruidos.
 
 Más allá del montaje, la literatura enfatiza fuentes de variabilidad que afectan la comparación
@@ -77,7 +77,7 @@ sus estados tensionales, sensibilidad geométrica y escalas de medida.
 
 El \textbf{sizing} emerge como el factor más determinante de la adhesión. A nivel químico regula la 
 energía superficial y humectación; a nivel microestructural define rugosidad, espesor y continuidad de 
-la capa; y en mesoescala controla la compactación del haz, el \textit{wicking} y la fricción colectiva. 
+la capa; y en mesoescala controla la compactación de la hebra, el \textit{wicking} y la fricción colectiva. 
 De León et al.\ demostraron mediante SEM/AFM que diferencias entre proveedores pueden modificar 
 sistemáticamente los modos de falla y la fricción post - despegue \cite{DeLeon2022}.
 
@@ -97,7 +97,7 @@ El \textit{review} más reciente sobre adhesión fibra - matriz \cite{AhmadvashA
 los rangos típicos de IFSS reportados para configuraciones micro, meso y macroscópicas en sistemas
 carbono/epoxi y vidrio/epoxi. En general, los métodos micromecánicos presentan los valores más altos
 debido al confinamiento geométrico y al estado tensional no uniforme, mientras que los métodos
-mesoscópicos —como FBPO— entregan valores más moderados pero de mayor representatividad estadística.
+mesoscópicos (como FBPO) entregan valores más moderados pero de mayor representatividad estadística.
 
 Estos rangos reflejan claramente la disminución progresiva de la IFSS aparente al pasar de escalas
 micromecánicas a mesoscópicas y finalmente a ensayos estructurales. La Fig.~\ref{fig:ifss_lit} 
@@ -131,7 +131,7 @@ ni \textit{push-out}, pues cada método ilumina diferentes mecanismos interfacia
 
 Esta dependencia refuerza la necesidad de interpretar resultados desde un enfoque multiescala: la
 micromecánica captura fenómenos locales de adhesión, mientras que FBPO incorpora mecanismos colectivos
-como fricción residual, redistribución de carga y variabilidad topológica del haz. A nivel estructural,
+como fricción residual, redistribución de carga y variabilidad topológica de la hebra. A nivel estructural,
 estas propiedades emergentes condicionan la tenacidad interlaminar y el desempeño transversal del
 laminado.
 
@@ -146,7 +146,7 @@ adecuado para esta aproximación debido a su escalabilidad y capacidad de genera
 muestrales.
 
 Persisten brechas abiertas: ausencia de modelos universales que integren adhesión, fricción y topología
-del haz; falta de criterios estandarizados para definir \(P^{\ast}\); y necesidad de profundizar en
+de la hebra; falta de criterios estandarizados para definir \(P^{\ast}\); y necesidad de profundizar en
 modelos fisicoquímicos que describan el rol del \textit{sizing}. El presente trabajo replica y adapta la
 metodología multicavidad propuesta por \cite{DeLeon2022} para comparar dos proveedores de la misma fibra
 en idéntica resina, generando evidencia reproducible y trazable sobre la influencia del recubrimiento de
@@ -189,7 +189,7 @@ aplicado a la fibra y por la historia de procesamiento del material compuesto.
     \centering
     \includegraphics[width=0.75\linewidth]{interfaz.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Esquema representativo de la interfaz fibra–matriz en un material compuesto.}
+    \caption{Esquema representativo de la interfaz fibra - matriz en un material compuesto.}
     \label{fig:interfaz_fibra_matriz}
 \end{figure}
 
@@ -209,7 +209,7 @@ tratamientos superficiales oxidativos o con \textit{sizing} que modifica la rugo
 \cite{AhmadvashAghbash2024IMR}. La magnitud de este aporte depende tanto de la morfología
 superficial de la fibra como de la viscosidad y cinética de curado de la matriz.
 
-Finalmente, la fricción post-despegue domina el comportamiento una vez que se ha producido la
+Finalmente, la fricción post - despegue domina el comportamiento una vez que se ha producido la
 pérdida del anclaje químico y/o mecánico inicial. En esta etapa, la resistencia al deslizamiento
 relativo entre fibra y matriz está gobernada por la presión normal en la interfaz, la rugosidad
 superficial y el confinamiento local impuesto por la matriz circundante. Este mecanismo es
@@ -235,6 +235,35 @@ alterando tanto la forma de la curva fuerza - desplazamiento como la IFSS aparen
 mediante modelos de reducción basados en \(P^{\ast}\) y el área embebida
 \cite{Liu2021, AhmadvashAghbash2024IMR}.
 
+En lo experimental, la observación microestructural post - ensayo constituye una
+herramienta complementaria para interpretar los mecanismos que gobiernan la adhesión fibra - matriz.
+En particular, la microscopía electrónica de barrido (SEM) permite analizar la morfología superficial
+de las fibras extraídas, identificar restos de matriz adherida, zonas de deslizamiento, daño
+superficial y evidencias del modo de falla interfacial. Estas observaciones no proporcionan una medida
+directa de la IFSS, pero aportan evidencia cualitativa relevante para distinguir entre adhesión
+química, anclaje mecánico y fricción post - despegue.
+
+Diversos estudios han utilizado SEM como apoyo interpretativo en ensayos de tipo pull-out y
+Fiber-Bundle Pull-Out, mostrando su utilidad para vincular diferencias en la respuesta mecánica con
+cambios en la topografía superficial, el estado del \textit{sizing} y la morfología de la interfase
+tras el despegue \cite{DeLeon2022, Liu2021}. En este sentido, la caracterización SEM se integra como
+una herramienta auxiliar para respaldar la interpretación de tendencias observadas en la IFSS
+aparente.
+
+La Fig.~\ref{fig:sem_interfaz_ejemplo} muestra una micrografía SEM representativa de la interfaz
+fibra - matriz, donde se observa la superficie de una hebra de fibra tras un ensayo de tipo
+\textit{Fiber-Bundle Pull-Out}, con restos de matriz adherida y regiones asociadas a despegue
+interfacial y fricción post - despegue.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{SEM_interfaz_ejemplo.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Micrografía SEM representativa de la interfaz fibra - matriz, donde se observa la
+    superficie de una hebra de fibra tras un ensayo de tipo \textit{Fiber-Bundle Pull-Out}.}
+    \label{fig:sem_interfaz_ejemplo}
+\end{figure}
+
 \subsubsection{Resistencia al corte interfacial (IFSS)}
 La \textit{Interfacial Shear Strength} (IFSS) describe la capacidad de la interfaz fibra - matriz para
 resistir el deslizamiento relativo entre ambas fases bajo solicitación de corte. Este parámetro se
@@ -256,8 +285,8 @@ concentraciones locales que dificultan una interpretación estrictamente local d
 corte interfacial \cite{Gao2015, Zhou2016}.
 
 En el caso del ensayo FBPO, la IFSS reportada se considera una medida \emph{aparente}, ya que
-representa un promedio efectivo de los mecanismos interfaciales activos durante el despegue del
-haz de fibras. La estimación de este parámetro depende del modelo de reducción adoptado para
+representa un promedio efectivo de los mecanismos interfaciales activos durante el despegue de
+la hebra de fibras. La estimación de este parámetro depende del modelo de reducción adoptado para
 convertir la señal fuerza - desplazamiento en un valor de adhesión interfacial, así como de la
 definición operativa del punto de despegue en la curva experimental. En la literatura, es práctica
 habitual identificar este punto a partir de un cambio de pendiente, un máximo local de carga o un
@@ -272,7 +301,7 @@ esfuerzo cortante o el comportamiento elástico de la matriz) y la incertidumbre
 estimación del parámetro.
 
 La IFSS es altamente sensible a múltiples variables experimentales y de procesamiento. Entre las
-variables geométricas destacan la longitud embebida, el diámetro efectivo del haz y el grado de
+variables geométricas destacan la longitud embebida, el diámetro efectivo de la hebra y el grado de
 compactación de la hebra. A nivel de ejecución del ensayo, factores como la alineación, la calidad
 de la sujeción y la velocidad de carga influyen de manera significativa en la forma de la curva
 fuerza - desplazamiento y en la identificación del despegue interfacial. Asimismo, variables de
@@ -299,8 +328,8 @@ una \emph{magnitud aparente}. Esto se debe a que su cálculo se basa en modelos 
 suponen condiciones idealizadas: distribución uniforme de corte, perímetro constante, ausencia de
 tensiones normales y contacto perfecto fibra - matriz. En configuraciones reales, estos supuestos no se
 cumplen estrictamente debido a fenómenos como rugosidad superficial, gradientes de adherencia,
-infiltración capilar (\textit{wicking}), fricción post - despegue y heterogeneidad en la compactación del
-haz \cite{Liu2021,AhmadvashAghbash2024IMR}.
+infiltración capilar (\textit{wicking}), fricción post - despegue y heterogeneidad en la compactación de
+la hebra \cite{Liu2021,AhmadvashAghbash2024IMR}.
 
 Por ello, la IFSS calculada representa una combinación efectiva de adhesión química, anclaje
 mecánico y fricción residual. Su valor depende del método utilizado (microbond, pull-out,
@@ -352,7 +381,7 @@ o simultánea:
     despegue aparente aun cuando la adhesión no sea alta.
 
     \item \textbf{Deslizamiento friccional post - despegue:} tras la pérdida de anclaje químico,
-    la interacción está dominada por presión normal, rugosidad superficial y compactación del haz. La
+    la interacción está dominada por presión normal, rugosidad superficial y compactación de la hebra. La
     fricción puede contribuir significativamente a la carga medida, especialmente en FBPO donde miles
     de filamentos participan colectivamente \cite{DeLeon2022}.
 \end{itemize}
@@ -570,7 +599,7 @@ continuidad del \textit{sizing}, su estado de curado, posibles migraciones duran
 matriz y la presencia de plastificantes o contaminantes superficiales impactan la energía superficial
 y las tensiones residuales locales.
 
-A nivel del haz, la compactación y el \emph{spreading} de filamentos (grado de apertura o cierre),
+A nivel de la hebra, la compactación y el \emph{spreading} de filamentos (grado de apertura o cierre),
 así como defectos locales (microdaños, contaminación), condicionan la uniformidad de la transferencia
 de carga y, por ende, la dispersión de \(P^{\ast}\) y del tramo friccional post - despegue
 \cite{Fischer2020}. La rugosidad efectiva —derivada de tratamientos oxidativos, plasma o variaciones
@@ -616,7 +645,7 @@ filamentos durante el manejo; sin embargo, su impacto en la IFSS proviene de mú
     incompletas o parcialmente curadas pueden favorecer fallas cohesivas o transiciones frágiles.
 
     \item \textbf{Nivel mesoscópico (hebra completa):} el \textit{sizing} regula el mojado entre
-    filamentos, la compactación del haz, la formación de microcanales y la fricción colectiva. Estas
+    filamentos, la compactación de la hebra, la formación de microcanales y la fricción colectiva. Estas
     variables influyen directamente en el comportamiento del FBPO, donde la interacción colectiva
     determina la pendiente \(P^{\ast}\)–\(A_e\) y el régimen friccional post - despegue
     \cite{DeLeon2022}.

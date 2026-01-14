@@ -158,7 +158,7 @@ no de artefactos asociados al montaje experimental o a la reducción de los dato
 \subsubsection{Etapa 1: Revisión de antecedentes bibliográficos}
 
 En una primera etapa se realizó una revisión sistemática de la literatura orientada a la
-caracterización interfacial mediante ensayos de tracción y adhesión a nivel micro y mesoescala,
+ca- racterización interfacial mediante ensayos de tracción y adhesión a nivel micro y mesoescala,
 incluyendo métodos como el \textit{Single-Fiber Pull-Out}, \textit{Microdroplet}, \textit{Iosipescu}
 y el \textit{Fiber-Bundle Pull-Out}. El objetivo de esta revisión fue identificar criterios
 metodológicos relevantes para la implementación del ensayo FBPO a mesoescala, en particular
@@ -249,7 +249,7 @@ entre diferentes sistemas de fibra bajo condiciones experimentales controladas.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.5\textwidth]{Modelo_pla_negativo.jpeg}
+  \includegraphics[width=0.45\textwidth]{Modelo_pla_negativo.jpeg}
   \captionsetup{justification=centering, singlelinecheck=false}
   \caption{Molde negativo impreso en PLA (arquitectura multicavidad) con canales de sección constante
   y topes geométricos integrados para fijar la longitud de embebido \(\ell_e\).}
@@ -351,7 +351,7 @@ interfacial.
 La secuencia completa de fabricación se resume en la Fig.~\ref{fig:etapas_probeta}, donde se
 ilustran las siguientes etapas: (a) cavidades del molde de silicona, (b) posicionamiento y
 tensión inicial de la hebra con protección de PTFE, (c) colado de la resina y curado parcial, y
-(d) probeta desmoldeada. Este registro visual respalda la trazabilidad cavidad–probeta y permite,
+(d) probeta desmoldeada. Este registro visual respalda la trazabilidad cavidad - probeta y permite,
 cuando resulta pertinente, la aplicación de un \emph{bloqueo por cavidad} en el análisis
 estadístico de los resultados, con el fin de identificar o descartar efectos sistemáticos
 asociados al proceso de moldeo.
@@ -456,11 +456,11 @@ comportamiento mecánico de la matriz epóxica empleada.
 \subsubsection{Etapa 5: Ejecución de los ensayos FBPO}
 
 En la quinta etapa de la investigación se ejecutaron los ensayos \textit{Fiber-Bundle Pull-Out}
-(FBPO) sobre las probetas fabricadas, utilizando una máquina de tracción universal instrumentada
-y el montaje experimental mostrado en la Fig.~\ref{fig:ensayo_fbpo}. El sistema de sujeción incluyó
-una mordaza diseñada específicamente para el ensayo FBPO (Fig.~\ref{fig:mordaza_fbpo}), concebida
-para asegurar una transferencia de carga axial eficiente hacia la hebra y minimizar daños
-locales o desalineaciones durante la aplicación de carga.
+(FBPO) sobre las probetas fabricadas, utilizando una máquina de ensayo universal Zwick-Roell Z005
+instrumentada y el montaje experimental mostrado en la Fig.~\ref{fig:ensayo_fbpo}. El sistema
+de sujeción incluyó una mordaza diseñada específicamente para el ensayo FBPO
+(Fig.~\ref{fig:mordaza_fbpo}), concebida para asegurar una transferencia de carga axial eficiente
+hacia la hebra y minimizar daños locales o desalineaciones durante la aplicación de carga.
 
 Los ensayos se realizaron bajo condiciones controladas de desplazamiento, registrándose de
 forma continua las curvas fuerza - desplazamiento y documentándose los modos de falla observados
@@ -485,7 +485,8 @@ falla prematura no representativa del comportamiento interfacial.
     \centering
     \includegraphics[height=7.5cm, keepaspectratio]{Ensayo_fbpo.jpeg}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Montaje experimental del ensayo \textit{Fiber-Bundle Pull-Out} (FBPO).}
+    \caption{Montaje experimental del ensayo \textit{Fiber-Bundle Pull-Out} (FBPO) en máquina
+    Zwick-Roell Z005.}
     \label{fig:ensayo_fbpo}
 \end{figure}%
 \begin{figure}[H]
@@ -528,11 +529,30 @@ descarte fueron documentados explícitamente y considerados en el análisis esta
 de asegurar que los valores de IFSS aparente reportados correspondieran a un comportamiento
 interfacial representativo y reproducible.
 
+Luego de la ejecución de los ensayos FBPO y la identificación de los ensayos válidos, se realizó
+una caracterización microscópica de la superficie de las hebras extraídas mediante microscopía
+electrónica de barrido (SEM). Las observaciones se efectuaron utilizando un microscopio
+electrónico de barrido Carl Zeiss Microscopy, modelo \textit{GeminiSEM 360}, ubicado en las
+dependencias del Centro de Espectroscopía y Microscopía (CESMI) de la Universidad de Concepción.
+El objetivo de este análisis fue evaluar cualitativamente el estado de la interfaz fibra - matriz
+tras el despegue interfacial, identificando la presencia de restos de matriz adheridos a la
+superficie de la fibra, zonas de limpieza superficial, daño local de filamentos y evidencias
+de los mecanismos dominantes de falla interfacial.
+
+Las observaciones por SEM se realizaron sobre hebras representativas de cada sistema fibra - matriz,
+seleccionadas a partir de ensayos con curvas fuerza - desplazamiento típicas y eventos de despegue
+claramente identificables. Previo a la observación, las muestras fueron acondicionadas conforme
+a los requerimientos del equipo, asegurando la conductividad superficial necesaria para evitar
+efectos de carga durante la adquisición de imágenes. Las micrografías obtenidas se utilizaron
+como complemento de la información mecánica del ensayo FBPO, permitiendo correlacionar los
+modos de falla observados a escala microscópica con el comportamiento interfacial inferido a
+partir de los resultados experimentales.
+
 \subsubsection{Etapa 6: Procesamiento y análisis de datos}
 
 Los datos experimentales obtenidos durante la ejecución de los ensayos FBPO se organizaron de
 acuerdo con el criterio de \emph{muestra válida}, asociando a cada registro su identificación
-completa (proveedor - lote - cavidad - fecha) y las variables de ejecución relevantes, entre las que se
+(sistema: tipo fibra y tipo matriz) y las variables de ejecución relevantes, entre las que se
 incluyen la velocidad de ensayo y la longitud embebida medida \(\ell_e\). Previo al análisis, se
 realizó una depuración básica de los datos que incluyó la verificación de consistencia de
 unidades, la detección de registros incompletos y la revisión de posibles errores de
@@ -574,9 +594,9 @@ frente a puntos influyentes mediante el análisis de residuos y métricas de inf
 cuando resultó pertinente, se aplicó un esquema de \emph{bloqueo por cavidad} con el fin de
 reducir el error residual asociado a variaciones sistemáticas del proceso de moldeo.
 
-A partir de la métrica primaria \(\tau_{\text{IFSS,ap}}\), calculada por probeta o por lote según
-el caso, se realizaron contrastes estadísticos entre condiciones experimentales (proveedor A
-versus proveedor B) mediante un análisis de varianza (ANOVA) de un factor. Previamente se
+A partir de la métrica \(\tau_{\text{IFSS,ap}}\), calculada por probeta o por lote según
+el caso, se realizaron contrastes estadísticos entre condiciones experimentales (diferentes
+sistemas fibra - matriz) mediante un análisis de varianza (ANOVA) de un factor. Previamente se
 verificaron los supuestos de normalidad y homogeneidad de varianzas; en presencia de
 heterocedasticidad se utilizó la variante de Welch, y, cuando correspondió, se aplicaron
 comparaciones \emph{post hoc} mediante los métodos de Tukey o Games-Howell. Los resultados se
@@ -585,13 +605,12 @@ confianza y procedimientos de \emph{bootstrap} cuando resultó necesario, enfati
 identificación de tendencias robustas más allá de la significancia estadística puntual.
 
 Finalmente, los valores de IFSS aparente obtenidos mediante el ensayo FBPO se contrastaron con
-antecedentes de otros ensayos interfaciales y a mesoescala realizados en la misma institución,
-tales como Iosipescu y tracción de hebras orientadas a \(45^\circ\) y \(90^\circ\). Este contraste
-tuvo como objetivo evaluar la aplicabilidad y confiabilidad del método FBPO dentro de un marco
-comparativo más amplio. En este análisis se priorizó la comparación de tendencias relativas
-entre sistemas fibra - matriz, más que la intercambiabilidad numérica directa de los valores de
-IFSS, reconociendo explícitamente el carácter método - dependiente de la métrica interfacial
-obtenida \cite{Fischer2020, Liu2021, DeLeon2022}.
+antecedentes de otros ensayos interfaciales a micro y mesoescala reportados en la lite- ratura.
+Este contraste tuvo como objetivo evaluar la aplicabilidad y confiabilidad del método FBPO
+dentro de un marco comparativo más amplio. En este análisis se priorizó la comparación de
+tendencias relativas entre sistemas fibra - matriz, más que la intercambiabilidad numérica
+directa de los valores de IFSS, reconociendo explícitamente el carácter método - dependiente
+de la métrica interfacial obtenida \cite{Fischer2020, Liu2021, DeLeon2022}.
 
 \subsection{Replicabilidad y validez}
 
@@ -607,12 +626,12 @@ los experimentos.
 
 Asimismo, se definieron y aplicaron criterios explícitos de \emph{muestra válida}, junto con
 causales de descarte previamente establecidas, preservando en todo momento la trazabilidad
-cavidad - probeta - ensayo. Este enfoque permitió fortalecer la validez interna del estudio,
+sistema - probeta - ensayo. Este enfoque permitió fortalecer la validez interna del estudio,
 minimizando la influencia de artefactos asociados al montaje experimental, a la fabricación de
 probetas o al procesamiento posterior de los datos.
 
-El empleo de herramientas experimentales accesibles y ampliamente disponibles —tales como
-modelado CAD, impresión 3D y ensayos de tracción instrumentados—, junto con un plan estadístico
+El empleo de herramientas experimentales accesibles y ampliamente disponibles (tales como
+modelado CAD, impresión 3D y ensayos de tracción instrumentados), junto con un plan estadístico
 coherente basado en ANOVA o su variante de Welch, comparaciones \emph{post hoc} y reporte
 explícito de la incertidumbre asociada, contribuye a la robustez de las conclusiones obtenidas
 y a su comparabilidad tanto interlote como interlaboratorio. En este contexto, el ensayo
