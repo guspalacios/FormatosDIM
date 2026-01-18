@@ -62,6 +62,22 @@ Los estándares citados ofrecen listas de verificación transferibles al FBPO, l
 reducir dispersión y mejorar trazabilidad mediante control de pretensión, bloqueo geométrico y reporte
 sistemático de tolerancias.
 
+Desde el punto de vista mecánico, el comportamiento interfacial durante un ensayo de tipo
+\textit{pull-out} suele representarse mediante una curva fuerza - desplazamiento característica, la cual
+permite identificar distintas etapas del proceso de despegue y extracción de la fibra o hebra.
+La Fig.~\ref{fig:curva_tipica} ilustra de manera esquemática una respuesta típica, donde se
+distinguen una etapa inicial elástica con interfaz intacta, el inicio y propagación del despegue
+interfacial, y una etapa posterior dominada por fricción post - despegue.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\linewidth]{Curva_tipica.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Ejemplo esquemático (izq) y experimental (der) de una curva fuerza - desplazamiento típica
+    de un ensayo tipo pull-out \cite{DeLeon2022}.}
+    \label{fig:curva_tipica}
+\end{figure}
+
 A nivel histórico, el desarrollo de métodos experimentales para cuantificar la adhesión fibra - matriz
 ha evolucionado desde los primeros microbond en los años 80, pasando por la consolidación del 
 \textit{single-fibre pull-out} en los 90, el avance de técnicas ópticas/SEM/AFM en los 2000 y la 
@@ -81,7 +97,7 @@ la capa; y en mesoescala controla la compactación de la hebra, el \textit{wicki
 De León et al.\ demostraron mediante SEM/AFM que diferencias entre proveedores pueden modificar 
 sistemáticamente los modos de falla y la fricción post - despegue \cite{DeLeon2022}.
 
-El escalamiento micro→meso→macro es central para comprender la IFSS moderna: la micromecánica captura 
+El escalamiento micro → meso → macro es central para comprender la IFSS moderna: la micromecánica captura 
 mecanismos locales; la mesomecánica (FBPO) captura efectos colectivos; y los ensayos estructurales 
 permiten validar tendencias en configuraciones reales. En este sentido, FBPO actúa como un puente entre 
 lo local y lo estructural, aportando valores más representativos que un filamento individual.
@@ -102,22 +118,23 @@ mesoscópicos (como FBPO) entregan valores más moderados pero de mayor represen
 Estos rangos reflejan claramente la disminución progresiva de la IFSS aparente al pasar de escalas
 micromecánicas a mesoscópicas y finalmente a ensayos estructurales. La Fig.~\ref{fig:ifss_lit} 
 resume estos valores mediante un boxplot, lo que permite visualizar simultáneamente la amplitud del
-rango reportado y las diferencias sistemáticas entre métodos. Este comportamiento coincide con lo
-reportado por \cite{AhmadvashAghbash2024IMR}, quien destaca que los ensayos a microescala tienden a 
-sobreestimar la adhesión debido a restricciones geométricas que no representan adecuadamente la 
-interacción colectiva de una hebra completa.
+rango reportado y las diferencias sistemáticas entre métodos. Este comportamiento coincide con los valores
+de la literatura actual \cite{AhmadvashAghbash2024IMR,DeLeon2022,Gao2015,Liu2021,Fischer2020,Zhou2016,PIM2024,Romero2025,Schraa2025},
+quien destaca que los ensayos a microescala tienden a sobreestimar la adhesión debido a restricciones
+geométricas que no representan adecuadamente la interacción colectiva de una hebra completa.
 
-\begin{figure}[htbp]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.85\linewidth]{IFSS_reportada_literatura}
+    \includegraphics[width=0.95\linewidth]{IFSS_literatura.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Rangos de IFSS reportados para distintos métodos de ensayo \cite{AhmadvashAghbash2024IMR}.}
+    \caption{Rangos de IFSS reportados para distintos métodos de ensayo
+    \cite{AhmadvashAghbash2024IMR,DeLeon2022,Gao2015,Liu2021,Fischer2020,Zhou2016,PIM2024,Romero2025,Schraa2025}.}
     \label{fig:ifss_lit}
 \end{figure}
 
-% =======================================================
-% ===================== DISCUSIÓN ========================
-% =======================================================
+% =====================================
+%  DISCUSIÓN 
+% =====================================
 
 \paragraph{Discusión.}
 
@@ -152,9 +169,9 @@ metodología multicavidad propuesta por \cite{DeLeon2022} para comparar dos prov
 en idéntica resina, generando evidencia reproducible y trazable sobre la influencia del recubrimiento de
 fábrica en la adhesión fibra - matriz a mesoescala.
 
-%
-% Marco teórico
-%
+% =====================================
+% MARCO TEÓRICO
+% =====================================
 
 \subsection{Marco Teórico}
 
@@ -178,20 +195,6 @@ mientras que una interfaz excesivamente fuerte puede favorecer la iniciación de
 en la matriz, reduciendo la capacidad de disipación de energía del material compuesto. En este
 sentido, la interfaz fibra - matriz no solo debe ser resistente, sino también capaz de acomodar
 deformaciones relativas de manera controlada.
-
-Como se ilustra en la Fig.~\ref{fig:interfaz_fibra_matriz}, el enlace interfacial puede
-descomponerse conceptualmente en tres contribuciones principales: adhesión química, anclaje
-mecánico y fricción post - despegue. Estas contribuciones no actúan de manera independiente,
-sino que interactúan entre sí y están fuertemente influenciadas por la química del \textit{sizing}
-aplicado a la fibra y por la historia de procesamiento del material compuesto.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{interfaz.pdf}
-    \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Esquema representativo de la interfaz fibra - matriz en un material compuesto.}
-    \label{fig:interfaz_fibra_matriz}
-\end{figure}
 
 La contribución química está asociada a la compatibilidad entre los grupos funcionales presentes
 en la superficie de la fibra (generalmente introducidos mediante el \textit{sizing}) y la matriz
@@ -250,18 +253,18 @@ tras el despegue \cite{DeLeon2022, Liu2021}. En este sentido, la caracterizació
 una herramienta auxiliar para respaldar la interpretación de tendencias observadas en la IFSS
 aparente.
 
-La Fig.~\ref{fig:sem_interfaz_ejemplo} muestra una micrografía SEM representativa de la interfaz
-fibra - matriz, donde se observa la superficie de una hebra de fibra tras un ensayo de tipo
-\textit{Fiber-Bundle Pull-Out}, con restos de matriz adherida y regiones asociadas a despegue
-interfacial y fricción post - despegue.
+La Fig.~\ref{fig:sem_ejemplo} presenta un ejemplo de micrografía obtenida mediante microscopía
+electrónica de barrido (SEM), correspondiente a la superficie de fractura de un material compuesto
+reforzado con fibras. Este tipo de imágenes permite ilustrar el uso del SEM como herramienta para
+la observación de características morfológicas de la interfaz fibra - matriz a escala micrométrica.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\linewidth]{SEM_interfaz_ejemplo.pdf}
+    \includegraphics[width=0.75\linewidth]{SEM_ejemplo.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Micrografía SEM representativa de la interfaz fibra - matriz, donde se observa la
-    superficie de una hebra de fibra tras un ensayo de tipo \textit{Fiber-Bundle Pull-Out}.}
-    \label{fig:sem_interfaz_ejemplo}
+    \caption{Ejemplo de micrografía SEM de una superficie de fractura en un material compuesto
+    reforzado con fibras \cite{Lee2018}.}
+    \label{fig:sem_ejemplo}
 \end{figure}
 
 \subsubsection{Resistencia al corte interfacial (IFSS)}
@@ -413,7 +416,7 @@ ensayos micromecánicos, y la relevancia estructural asociada a configuraciones 
     \centering
     \includegraphics[width=0.4\linewidth]{escalas_de_estudio.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Escalas de estudio en materiales compuestos reforzados con fibra.}
+    \caption{Escalas de estudio en materiales compuestos reforzados con fibra \cite{Li2019}.}
     \label{fig:escalas_de_estudio}
 \end{figure} 
 
@@ -496,14 +499,14 @@ explícito de las variables críticas constituye un aspecto central en ensayos d
     \item \textbf{Criterio de \emph{muestra válida}.} 
     Define las condiciones mínimas para aceptar un resultado (p.\,ej., extracción completa de la hebra,
     ausencia de deslizamiento en mordazas, integridad del bloque y señal fuerza - desplazamiento sin
-    artefactos). Este criterio debe declararse antes de la campaña experimental, junto con causas de
+    artefactos). Este criterio debe declararse antes de la etapa experimental, junto con causas de
     descarte y evidencias (fotografías, notas de ensayo), con el fin de reducir sesgos de selección y
     mejorar la comparabilidad interlaboratorio \cite{ISO19375,DINSPEC19289}.
 \end{itemize}
 
 \noindent
-La estandarización y el reporte explícito de estas variables —incluidas sus tolerancias y criterios de
-aceptación— son esenciales para reducir la dispersión experimental, habilitar análisis estadísticos
+La estandarización y el reporte explícito de estas variables (incluidas sus tolerancias y criterios de
+aceptación) son esenciales para reducir la dispersión experimental, habilitar análisis estadísticos
 robustos y facilitar la comparación entre estudios. En particular, este control permite aplicar
 herramientas estadísticas como ANOVA con bloqueo, separando la variabilidad asociada al material de
 aquella introducida por el montaje o la ejecución del ensayo
@@ -518,11 +521,11 @@ ensayo debe realizarse considerando el objetivo del estudio, el nivel de represe
 y la reproducibilidad requerida. En este contexto, la Fig.~\ref{fig:tipos_de_ensayos} ilustra los
 principales ensayos empleados para la medición de la IFSS.
 
-\begin{figure}[H]
+\begin{figure}[h!]
     \centering
-    \includegraphics[width=0.75\linewidth]{tipos_de_ensayos.pdf}
+    \includegraphics[width=0.9\linewidth]{tipos_de_ensayos.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Tipos de ensayo para la caracterización interfacial.}
+    \caption{Tipos de ensayo para la caracterización interfacial \cite{Bussetta2018}.}
     \label{fig:tipos_de_ensayos}
 \end{figure}
 

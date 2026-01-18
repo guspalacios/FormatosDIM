@@ -9,8 +9,8 @@
 \contentsline {subsection}{\numberline {1.4}Propuesta metodológica}{7}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Estado del Arte y Marco Teórico}{8}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Estado del Arte}{8}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Valores reportados en la literatura}{9}{subsubsection.2.1.1}%
-\contentsline {paragraph}{Discusión.}{10}{paragraph*.4}%
+\contentsline {subsubsection}{\numberline {2.1.1}Valores reportados en la literatura}{10}{subsubsection.2.1.1}%
+\contentsline {paragraph}{Discusión.}{10}{paragraph*.5}%
 \contentsline {subsection}{\numberline {2.2}Marco Teórico}{11}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Interfaz fibra - matriz}{11}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Resistencia al corte interfacial (IFSS)}{13}{subsubsection.2.2.2}%
@@ -26,35 +26,34 @@
 \contentsline {section}{\numberline {3}Metodología}{25}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Materiales}{25}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Fibras de carbono utilizadas}{25}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Diseño general de la investigación}{26}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Diseño general de la investigación}{27}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Etapas de desarrollo}{28}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Etapa 1: Revisión de antecedentes bibliográficos}{28}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Etapa 2: Diseño del sistema experimental}{28}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Etapa 3: Fabricación de moldes de silicona}{30}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}Etapa 4: Fabricación de probetas}{31}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}Etapa 4.1: Caracterización mecánica de las resinas epóxicas}{32}{subsubsection.3.3.5}%
-\contentsline {paragraph}{Resina Mepox 1685L:}{34}{paragraph*.15}%
-\contentsline {paragraph}{Resina EPO 200:}{34}{paragraph*.16}%
-\contentsline {subsubsection}{\numberline {3.3.6}Etapa 5: Ejecución de los ensayos FBPO}{34}{subsubsection.3.3.6}%
-\contentsline {subsubsection}{\numberline {3.3.7}Etapa 6: Procesamiento y análisis de datos}{36}{subsubsection.3.3.7}%
-\contentsline {subsection}{\numberline {3.4}Replicabilidad y validez}{37}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.1}Etapa 1: Diseño del sistema experimental}{28}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Etapa 2: Fabricación de moldes de silicona}{29}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Etapa 3: Fabricación de probetas}{30}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}Etapa 3.1: Caracterización mecánica de las resinas epóxicas}{32}{subsubsection.3.3.4}%
+\contentsline {paragraph}{Resina Mepox 1685L:}{33}{paragraph*.16}%
+\contentsline {paragraph}{Resina EPO 200:}{33}{paragraph*.17}%
+\contentsline {subsubsection}{\numberline {3.3.5}Etapa 4: Ejecución de los ensayos FBPO}{34}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}Etapa 5: Procesamiento y análisis de datos}{36}{subsubsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.4}Replicabilidad y validez}{38}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Resultados}{39}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Observaciones experimentales durante el ensayo FBPO}{39}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Observaciones microscópicas post ensayo (SEM)}{42}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Resultados preliminares}{44}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Resultados directos de las mediciones}{46}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.2}Resultados de las mediciones experimentales}{41}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Observaciones microscópicas post ensayo (SEM)}{43}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Resultados procesados de IFSS aparente}{45}{subsection.4.4}%
 \contentsline {subsection}{\numberline {4.5}Comparación con valores FBPO de referencia}{47}{subsection.4.5}%
 \contentsline {subsection}{\numberline {4.6}Análisis estadístico de los resultados de IFSS aparente}{48}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Discusión}{51}{section.5}%
+\contentsline {section}{\numberline {5}Discusión de resultados}{51}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Interpretación de los resultados}{51}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Relación entre IFSS y micrografías SEM post ensayo}{52}{subsection.5.2}%
 \contentsline {subsection}{\numberline {5.3}Discusión del análisis estadístico del IFSS aparente}{53}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Relación con el estado del arte}{53}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.4}Relación con el estado del arte}{54}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Limitaciones del estudio}{54}{subsection.5.5}%
 \contentsline {subsection}{\numberline {5.6}Implicancias y proyecciones}{55}{subsection.5.6}%
 \contentsline {section}{\numberline {6}Conclusiones}{56}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Trabajo futuro}{57}{subsection.6.1}%
 \contentsline {section}{Referencias}{58}{subsection.6.1}%
-\contentsline {section}{Anexo \numberline {A}Carta Gantt}{60}{appendix.a.A}%
-\contentsline {section}{Anexo \numberline {B}Repositorio IFSS}{61}{appendix.a.B}%
-\contentsline {section}{Anexo \numberline {C}Micrografías SEM de probetas FBPO}{62}{appendix.a.C}%
+\contentsline {section}{Anexo \numberline {A}Carta Gantt}{61}{appendix.a.A}%
+\contentsline {section}{Anexo \numberline {B}Repositorio IFSS}{62}{appendix.a.B}%
+\contentsline {section}{Anexo \numberline {C}Micrografías SEM de probetas FBPO}{63}{appendix.a.C}%

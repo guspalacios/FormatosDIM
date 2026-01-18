@@ -56,7 +56,7 @@ material se muestra en la Fig.~\ref{fig:fibraA_label}.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{hta_etiqueta.jpeg}
+    \includegraphics[width=0.8\textwidth]{hta_etiqueta.jpeg}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Etiqueta técnica del tejido de fibra de carbono Tenax\textsuperscript{\textregistered}-E
     HTA40 / 3k / HT (ECC-Style~462), grado aeroespacial.}
@@ -72,7 +72,7 @@ técnica correspondiente a este material se presenta en la Fig.~\ref{fig:fibraB_
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{ht_etiqueta.jpeg}
+    \includegraphics[width=0.8\textwidth]{ht_etiqueta.jpeg}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Etiqueta técnica del tejido de fibra de carbono HT 3k / 200~tex.}
     \label{fig:fibraB_label}
@@ -155,48 +155,48 @@ no de artefactos asociados al montaje experimental o a la reducción de los dato
 
 \subsection{Etapas de desarrollo}
 
-\subsubsection{Etapa 1: Revisión de antecedentes bibliográficos}
+% \subsubsection{Etapa 1: Revisión de antecedentes bibliográficos}
 
-En una primera etapa se realizó una revisión sistemática de la literatura orientada a la
-ca- racterización interfacial mediante ensayos de tracción y adhesión a nivel micro y mesoescala,
-incluyendo métodos como el \textit{Single-Fiber Pull-Out}, \textit{Microdroplet}, \textit{Iosipescu}
-y el \textit{Fiber-Bundle Pull-Out}. El objetivo de esta revisión fue identificar criterios
-metodológicos relevantes para la implementación del ensayo FBPO a mesoescala, en particular
-parámetros geométricos, condiciones de embebido y estrategias de sujeción que permitieran
-asegurar comparabilidad con estudios previos.
+% En una primera etapa se realizó una revisión sistemática de la literatura orientada a la
+% ca- racterización interfacial mediante ensayos de tracción y adhesión a nivel micro y mesoescala,
+% incluyendo métodos como el \textit{Single-Fiber Pull-Out}, \textit{Microdroplet}, \textit{Iosipescu}
+% y el \textit{Fiber-Bundle Pull-Out}. El objetivo de esta revisión fue identificar criterios
+% metodológicos relevantes para la implementación del ensayo FBPO a mesoescala, en particular
+% parámetros geométricos, condiciones de embebido y estrategias de sujeción que permitieran
+% asegurar comparabilidad con estudios previos.
 
-Asimismo, se analizaron las directrices de normas internacionales afines, tales como
-\textbf{DIN SPEC 19289}, \textbf{ISO 3341} y \textbf{DIN 29965}, las cuales aportan lineamientos
-sobre control dimensional, alineación axial, acondicionamiento de hebras y trazabilidad del
-material de refuerzo. A partir de esta revisión se incorporaron recomendaciones relativas al
-reporte explícito de la \emph{IFSS aparente} y de su modelo de reducción, al control de variables
-críticas de ejecución (velocidad de ensayo, longitud embebida $\ell_e$, alineación y criterio
-de muestra válida), y al contraste de tendencias mediante métricas complementarias
-\cite{Fischer2020,Liu2021,AhmadvashAghbash2024IMR}.
+% Asimismo, se analizaron las directrices de normas internacionales afines, tales como
+% \textbf{DIN SPEC 19289}, \textbf{ISO 3341} y \textbf{DIN 29965}, las cuales aportan lineamientos
+% sobre control dimensional, alineación axial, acondicionamiento de hebras y trazabilidad del
+% material de refuerzo. A partir de esta revisión se incorporaron recomendaciones relativas al
+% reporte explícito de la \emph{IFSS aparente} y de su modelo de reducción, al control de variables
+% críticas de ejecución (velocidad de ensayo, longitud embebida $\ell_e$, alineación y criterio
+% de muestra válida), y al contraste de tendencias mediante métricas complementarias
+% \cite{Fischer2020,Liu2021,AhmadvashAghbash2024IMR}.
 
-De forma complementaria, se definió una estrategia de búsqueda reproducible, que consideró
-bases de datos especializadas, palabras clave y filtros por año y tipo de documento, junto
-con una plantilla de extracción de datos. Dicha plantilla permitió sistematizar, para cada
-estudio analizado, el sistema fibra - resina y su \textit{sizing}, la longitud embebida objetivo
-y su método de medición, la velocidad de ensayo, el esquema de sujeción y alineación, el
-criterio de muestra válida, la forma de identificación del despegue y el modelo de reducción
-empleado.
+% De forma complementaria, se definió una estrategia de búsqueda reproducible, que consideró
+% bases de datos especializadas, palabras clave y filtros por año y tipo de documento, junto
+% con una plantilla de extracción de datos. Dicha plantilla permitió sistematizar, para cada
+% estudio analizado, el sistema fibra - resina y su \textit{sizing}, la longitud embebida objetivo
+% y su método de medición, la velocidad de ensayo, el esquema de sujeción y alineación, el
+% criterio de muestra válida, la forma de identificación del despegue y el modelo de reducción
+% empleado.
 
-Como resultado de esta etapa se obtuvo un repositorio de rangos operativos recomendados
-(p.\,ej., $\ell_e$ y sus tolerancias, velocidad de cruceta y acondicionamiento de hebras),
-una lista de verificación para el control de variables experimentales y un esquema de
-reporte mínimo que incluye la métrica de IFSS aparente, su incertidumbre asociada y los
-criterios de validez del ensayo. Este insumo constituyó la base para parametrizar el diseño
-experimental de las etapas posteriores, manteniendo coherencia y trazabilidad con la
-literatura y las normas seleccionadas.
+% Como resultado de esta etapa se obtuvo un repositorio de rangos operativos recomendados
+% (p.\,ej., $\ell_e$ y sus tolerancias, velocidad de cruceta y acondicionamiento de hebras),
+% una lista de verificación para el control de variables experimentales y un esquema de
+% reporte mínimo que incluye la métrica de IFSS aparente, su incertidumbre asociada y los
+% criterios de validez del ensayo. Este insumo constituyó la base para parametrizar el diseño
+% experimental de las etapas posteriores, manteniendo coherencia y trazabilidad con la
+% literatura y las normas seleccionadas.
 
-El repositorio bibliográfico de valores de IFSS reportados en la literatura, sistematizado y
-organizado para esta investigación, se presenta en el Anexo~\ref{anx:Repositorio_IFSS} como material
-de referencia complementario.
+% El repositorio bibliográfico de valores de IFSS reportados en la literatura, sistematizado y
+% organizado para esta investigación, se presenta en el Anexo~\ref{anx:Repositorio_IFSS} como material
+% de referencia complementario.
 
-\subsubsection{Etapa 2: Diseño del sistema experimental}
+\subsubsection{Etapa 1: Diseño del sistema experimental}
 
-En la segunda etapa de la investigación se desarrolló el diseño del sistema experimental
+En la primera etapa de la investigación se desarrolló el diseño del sistema experimental
 mediante modelado asistido por computadora, empleando el software \textit{Autodesk Inventor}.
 El objetivo principal de esta etapa fue concebir un sistema de fabricación de probetas que
 permitiera implementar el ensayo Fiber-Bundle Pull-Out (FBPO) bajo condiciones geométricas
@@ -247,7 +247,7 @@ ensayo. En conjunto, estas decisiones de diseño constituyen la base para una im
 robusta y reproducible del ensayo FBPO, habilitando la comparación confiable de resultados
 entre diferentes sistemas de fibra bajo condiciones experimentales controladas.
 
-\begin{figure}[H]
+\begin{figure}[h!]
   \centering
   \includegraphics[width=0.45\textwidth]{Modelo_pla_negativo.jpeg}
   \captionsetup{justification=centering, singlelinecheck=false}
@@ -256,9 +256,9 @@ entre diferentes sistemas de fibra bajo condiciones experimentales controladas.
   \label{fig:modelo_pla_negativo}
 \end{figure}
 
-\subsubsection{Etapa 3: Fabricación de moldes de silicona}
+\subsubsection{Etapa 2: Fabricación de moldes de silicona}
 
-En la tercera etapa del estudio se fabricaron moldes de silicona a partir de los modelos
+En la segunda etapa del estudio se fabricaron moldes de silicona a partir de los modelos
 negativos impresos en PLA, mediante el vertido controlado de silicona líquida en las cavidades
 correspondientes. Una vez completado el proceso de curado, se obtuvieron moldes blandos con la
 geometría requerida para el colado de las probetas destinadas al ensayo Fiber-Bundle Pull-Out
@@ -309,9 +309,9 @@ posteriores del estudio.
   \label{fig:silicona_caucho}
 \end{figure}
 
-\subsubsection{Etapa 4: Fabricación de probetas}
+\subsubsection{Etapa 3: Fabricación de probetas}
 
-En la cuarta etapa de la investigación se fabricaron las probetas de ensayo empleando los moldes
+En la tercera etapa de la investigación se fabricaron las probetas de ensayo empleando los moldes
 de silicona desarrollados en etapas previas. En cada cavidad del molde se posicionó una hebra de
 fibra de carbono, la cual fue embebida parcialmente en una resina epóxica líquida, de acuerdo con
 la longitud de embebido \(\ell_e\) definida por los topes geométricos del sistema. La utilización
@@ -339,7 +339,16 @@ en la cavidad, la aplicación de una tensión inicial leve y la continuidad del 
 PTFE en la región no embebida. La aplicación de una tensión inicial controlada permitió mantener
 la hebra alineada con el eje de la cavidad durante el vertido de la resina, minimizando la
 introducción de curvaturas o desalineaciones que pudieran generar componentes de carga no
-axiales durante el ensayo FBPO.
+axiales durante el ensayo FBPO. La Fig.~\ref{fig:sistema_posicionamiento}
+ilustra el esquema de sujeción y alineación empleado.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.6\textwidth]{Sistema_posicionamiento.jpeg}
+  \captionsetup{justification=centering, singlelinecheck=false}
+  \caption{Esquema de sujeción y alineación axial de la hebra en el molde.}
+  \label{fig:sistema_posicionamiento}
+\end{figure}
 
 Posteriormente, las probetas fueron sometidas a un proceso de curado y postcurado conforme a las
 especificaciones del fabricante de la resina epóxica, asegurando una polimerización completa y
@@ -374,7 +383,7 @@ condiciones de mezcla, vertido y curado, y se etiquetaron de forma consistente
 los datos experimentales. La Fig.~\ref{fig:etapas_probeta} sirve además como guía visual para la
 reproducción del procedimiento bajo condiciones equivalentes en distintos lotes de fabricación.
 
-\subsubsection{Etapa 4.1: Caracterización mecánica de las resinas epóxicas}
+\subsubsection{Etapa 3.1: Caracterización mecánica de las resinas epóxicas}
 
 En el presente estudio se emplearon sistemas epóxicos de baja viscosidad, seleccionados por su
 adecuada capacidad de colado en cavidades estrechas y por su buen mojado de refuerzos fibrosos,
@@ -453,9 +462,9 @@ resulta particularmente útil para evaluar si las variaciones observadas en la I
 encuentran asociadas predominantemente a la interacción interfacial o a diferencias en el
 comportamiento mecánico de la matriz epóxica empleada.
 
-\subsubsection{Etapa 5: Ejecución de los ensayos FBPO}
+\subsubsection{Etapa 4: Ejecución de los ensayos FBPO}
 
-En la quinta etapa de la investigación se ejecutaron los ensayos \textit{Fiber-Bundle Pull-Out}
+En la cuarta etapa de la investigación se ejecutaron los ensayos \textit{Fiber-Bundle Pull-Out}
 (FBPO) sobre las probetas fabricadas, utilizando una máquina de ensayo universal Zwick-Roell Z005
 instrumentada y el montaje experimental mostrado en la Fig.~\ref{fig:ensayo_fbpo}. El sistema
 de sujeción incluyó una mordaza diseñada específicamente para el ensayo FBPO
@@ -483,7 +492,7 @@ falla prematura no representativa del comportamiento interfacial.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[height=7.5cm, keepaspectratio]{Ensayo_fbpo.jpeg}
+    \includegraphics[height=9.5cm, keepaspectratio]{Ensayo_fbpo.jpeg}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Montaje experimental del ensayo \textit{Fiber-Bundle Pull-Out} (FBPO) en máquina
     Zwick-Roell Z005.}
@@ -491,7 +500,7 @@ falla prematura no representativa del comportamiento interfacial.
 \end{figure}%
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\textwidth, keepaspectratio]{mordaza.pdf}
+    \includegraphics[width=0.45\textwidth, keepaspectratio]{mordaza.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Mordaza diseñada para el ensayo FBPO: (A) vista frontal, mostrando la geometría de
     sujeción de la hebra; (B) vista lateral.}
@@ -548,7 +557,7 @@ como complemento de la información mecánica del ensayo FBPO, permitiendo corre
 modos de falla observados a escala microscópica con el comportamiento interfacial inferido a
 partir de los resultados experimentales.
 
-\subsubsection{Etapa 6: Procesamiento y análisis de datos}
+\subsubsection{Etapa 5: Procesamiento y análisis de datos}
 
 Los datos experimentales obtenidos durante la ejecución de los ensayos FBPO se organizaron de
 acuerdo con el criterio de \emph{muestra válida}, asociando a cada registro su identificación
@@ -565,23 +574,40 @@ niveles de variabilidad y la presencia de valores atípicos. Este análisis expl
 además verificar la coherencia interna de los datos antes de proceder a la estimación de
 parámetros interfaciales y a la aplicación de contrastes estadísticos inferenciales.
 
-La resistencia al corte interfacial se estimó en términos de una \textbf{IFSS aparente (FBPO)},
-reconociendo explícitamente el carácter método - dependiente de la métrica obtenida. Para ello se
-utilizó un modelo de reducción basado en la relación entre la carga de despegue interfacial
-\(P^{\ast}\) y el área embebida \(A_e\), de modo que:
+La Fig.~\ref{fig:fbpo_regiones} muestra la identificación visual de las regiones
+funcionales de una probeta tras el ensayo FBPO. Se distinguen dos zonas principales:
+(A) la región embebida en la matriz polimérica, asociada al despegue interfacial, y
+(B) la región de hebra libre, dominada por efectos de fricción y por la interacción con
+el sistema de sujeción. Esta distinción resulta relevante para la interpretación de los
+resultados, dado que la resistencia al corte interfacial se define exclusivamente a
+partir del comportamiento de la región embebida.
+
+En este contexto, la resistencia al corte interfacial aparente se estimó a partir de la
+fuerza característica asociada al despegue interfacial \(P^{\ast}\), normalizada por el
+área embebida efectiva de la hebra, de acuerdo con la expresión:
 \begin{equation}
-\tau_{\text{IFSS,ap}} \approx \frac{\partial P^{\ast}}{\partial A_e},
+\tau_{\text{IFSS,ap}} = \frac{P^{\ast}}{A_e}.
 \end{equation}
 
-estimada mediante una regresión lineal forzada al origen. La elección de un ajuste forzado se
-justifica por el hecho de que, en ausencia de área embebida, la carga de despegue debe tender a
-cero, hipótesis ampliamente adoptada en estudios FBPO \cite{Fischer2020, Liu2021, DeLeon2022}.
-
-Para el cálculo del área embebida, las hebras se aproximaron como cilindros de diámetro
-equivalente \(d_{\text{eq}}\) y longitud embebida \(\ell_e\), de modo que:
+El área embebida \(A_e\) se aproximó considerando la geometría de la hebra como una sección
+de ancho efectivo constante \(w\) y longitud embebida \(\ell_e\), de modo que:
 \begin{equation}
-A_e = \pi d_{\text{eq}} \ell_e .
+A_e = 2\,\ell_e\,w,
 \end{equation}
+donde el factor 2 corresponde al contacto interfacial considerado en ambas caras
+(anterior y posterior) de la hebra. Esta definición es consistente con la identificación
+visual de la región interfacial mostrada en la Fig.~\ref{fig:fbpo_regiones} y constituye
+la base para el cálculo de la IFSS aparente presentado en las subsecciones siguientes.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{partes_probeta.png}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Identificación de regiones en una probeta FBPO:
+    (A) región embebida asociada al despegue interfacial, 
+    (B) región de hebra libre dominada por fricción y sujeción.}
+    \label{fig:fbpo_regiones}
+\end{figure}
 
 Si bien esta aproximación no captura la distribución real de
 filamentos dentro de la hebra ni posibles irregularidades locales, proporciona una estimación

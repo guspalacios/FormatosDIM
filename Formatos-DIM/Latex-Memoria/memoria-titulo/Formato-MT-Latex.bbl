@@ -1,22 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{AhmadvashAghbash2024IMR}
-S.~Ahmadvash{-}Aghbash, I.~Verpoest, Y.~Swolfs, and M.~Mehdikhani, ``Methods
-  and models for fibre--matrix interface characterisation in fibre-reinforced
-  polymers: A review,'' {\em International Materials Reviews}, vol.~68, no.~8,
-  pp.~1245--1319, 2024.
-
-\bibitem{AhmadvashAghbash2023}
-R.~Ahmadvash~Aghbash and M.~Yildiz, ``Methods and models for fibre--matrix
-  interface characterisation in fibre--reinforced polymer composites: A
-  review,'' {\em Materials}, vol.~16, no.~14, p.~4985, 2023.
-
-\bibitem{DeLeon2022}
-A.~De~Leon, M.~Tank, and R.~Sweat, ``A scalable fiber bundle pullout
-  manufacturing method for data-driven interfacial shear strength measurements
-  of micro and nanomaterials,'' {\em Composites Science and Technology},
-  vol.~222, p.~109375, 2022.
-
 \bibitem{HullClyne1996}
 D.~Hull and T.~W. Clyne, {\em An Introduction to Composite Materials}.
 \newblock Cambridge: Cambridge University Press, 2~ed., 1996.
@@ -30,11 +13,23 @@ S.~Gao and J.~Kim, ``Pull-out strength and interfacial debonding of fibers in
   thermoplastic matrices: recent developments,'' {\em Composites Part A:
   Applied Science and Manufacturing}, vol.~68, pp.~1--12, 2015.
 
+\bibitem{AhmadvashAghbash2024IMR}
+S.~Ahmadvash{-}Aghbash, I.~Verpoest, Y.~Swolfs, and M.~Mehdikhani, ``Methods
+  and models for fibre--matrix interface characterisation in fibre-reinforced
+  polymers: A review,'' {\em International Materials Reviews}, vol.~68, no.~8,
+  pp.~1245--1319, 2024.
+
 \bibitem{Liu2021}
 J.~Liu, H.~Liu, and X.~Yang, ``Interfacial shear strength of carbon fiber
   composites: A review of experimental techniques and numerical simulations,''
   {\em Composites Part A: Applied Science and Manufacturing}, vol.~142,
   pp.~199--214, 2021.
+
+\bibitem{Goda2024}
+I.~Goda, E.~Padayodi, and R.~R. Nirina, ``Computational analysis of the
+  interfacial debonding in polymer composites: research progress and
+  challenges,'' {\em Advanced Composites and Hybrid Materials}, vol.~7, p.~231,
+  2024.
 
 \bibitem{DINSPEC19289}
 ``Din spec 19289: Fibre-reinforced composites -- determination of the
@@ -50,6 +45,12 @@ J.~Liu, H.~Liu, and X.~Yang, ``Interfacial shear strength of carbon fiber
 R.~Fischer and B.~Andre, ``Characterization of the fiber--matrix interface in
   composites with pull-out tests: A review,'' {\em Composites Part A: Applied
   Science and Manufacturing}, vol.~134, p.~106090, 2020.
+
+\bibitem{DeLeon2022}
+A.~De~Leon, M.~Tank, and R.~Sweat, ``A scalable fiber bundle pullout
+  manufacturing method for data-driven interfacial shear strength measurements
+  of micro and nanomaterials,'' {\em Composites Science and Technology},
+  vol.~222, p.~109375, 2022.
 
 \bibitem{Zhou2016}
 J.~Zhou, Y.~Li, N.~Li, X.~Hao, and C.~Liu, ``Interfacial shear strength of
@@ -69,6 +70,11 @@ J.~Zhou, Y.~Li, N.~Li, X.~Hao, and C.~Liu, ``Interfacial shear strength of
 ``Astm d4475 -- standard test method for apparent horizontal shear strength of
   pultruded reinforced plastic rods by the short-beam method,'' 2021.
 
+\bibitem{Lee2018}
+D.-W. Lee and J.-I. Son, ``Research on simple joint method using fiber-metal
+  laminate design for improved mechanical properties of cfrp assembly
+  structure,'' {\em Composites Part B: Engineering}, 2018.
+
 \bibitem{Miller1987}
 B.~Miller, P.~Muri, and L.~Rebenfeld, ``A microbond method for determination of
   the shear strength of fiber/resin interface,'' {\em Composites Science and
@@ -78,6 +84,41 @@ B.~Miller, P.~Muri, and L.~Rebenfeld, ``A microbond method for determination of
 X.~Ouyang, Y.~Sun, and J.~Zhang, ``Measurement of interfacial shear strength of
   fiber--matrix using modified pull-out test,'' {\em Materials Science and
   Engineering: A}, vol.~770, p.~138453, 2020.
+
+\bibitem{PIM2024}
+A.~F. Cabez{\'o}n~Esc{\'a}rate and S.~V. Santos~Rivera, ``Comparaci{\'o}n de
+  t{\'e}cnicas de medici{\'o}n de propiedades de corte interfacial en
+  materiales compuestos,'' proyecto de ingenier{\'\i}a, Universidad de
+  Concepci{\'o}n, Concepci{\'o}n, Chile, Dec. 2024.
+
+\bibitem{Romero2025}
+F.~N. Romero~Yanine, ``Evaluaci{\'o}n del m{\'e}todo de iosipescu para
+  determinaci{\'o}n de resistencia al corte (ifss) y su aplicaci{\'o}n en
+  fibras de carbono recicladas,'' tesis de mag{\'\i}ster, Universidad de
+  Concepci{\'o}n, Concepci{\'o}n, Chile, June 2025.
+
+\bibitem{Schraa2025}
+L.~Schraa, C.~Rodricks, G.~Kalinka, K.~Roetsch, C.~Scheffler, A.~Sambale,
+  K.~Uhlig, M.~Stommel, and V.~Trappe, ``Characterisation and modelling of the
+  fibre--matrix interface of short fibre reinforced thermoplastics using the
+  push-out technique,'' {\em Composites Part B: Engineering}, vol.~297,
+  p.~112317, 2025.
+
+\bibitem{Li2019}
+W.~Li, W.~Chen, L.~Tang, Z.~Jiang, and P.~Huang, ``A general strength model for
+  fiber bundle composites under transverse tension or interlaminar shear,''
+  {\em Composites Part A: Applied Science and Manufacturing}, vol.~121,
+  pp.~45--55, 2019.
+
+\bibitem{Bussetta2018}
+P.~Bussetta and N.~Correia, ``Numerical forming of continuous fibre reinforced
+  composite material: A review,'' {\em Composites Part A: Applied Science and
+  Manufacturing}, vol.~113, pp.~12--31, 2018.
+
+\bibitem{AhmadvashAghbash2023}
+R.~Ahmadvash~Aghbash and M.~Yildiz, ``Methods and models for fibre--matrix
+  interface characterisation in fibre--reinforced polymer composites: A
+  review,'' {\em Materials}, vol.~16, no.~14, p.~4985, 2023.
 
 \bibitem{ISO2062}
 ``Iso 2062: Textiles -- yarns -- determination of breaking force and elongation
@@ -105,13 +146,6 @@ J.~Brandstetter, K.~Kromp, H.~Peterlik, and R.~Weiss, ``Effect of surface
   roughness on friction in fibre-bundle pull-out tests,'' {\em Composites
   Science and Technology}, vol.~65, pp.~981--988, 2005.
 
-\bibitem{Schraa2025}
-L.~Schraa, C.~Rodricks, G.~Kalinka, K.~Roetsch, C.~Scheffler, A.~Sambale,
-  K.~Uhlig, M.~Stommel, and V.~Trappe, ``Characterisation and modelling of the
-  fibre--matrix interface of short fibre reinforced thermoplastics using the
-  push-out technique,'' {\em Composites Part B: Engineering}, vol.~297,
-  p.~112317, 2025.
-
 \bibitem{Allen2025}
 K.~A. Allen, L.~T. Kearney, S.~Gupta, H.~Ghossein, J.~K. Keum, J.~T. Damron,
   H.~E. Humphrey, U.~Vaidya, and A.~K. Naskar, ``Understanding interfacial
@@ -126,21 +160,9 @@ Y.~Xu, J.~Zhu, L.~Zhou, B.~Yang, Z.~Liu, Y.~Liu, L.~Tang, and Z.~Jiang,
   Composites Part A: Applied Science and Manufacturing}, vol.~183, p.~108221,
   2024.
 
-\bibitem{Romero2025}
-F.~N. Romero~Yanine, ``Evaluaci{\'o}n del m{\'e}todo de iosipescu para
-  determinaci{\'o}n de resistencia al corte (ifss) y su aplicaci{\'o}n en
-  fibras de carbono recicladas,'' tesis de mag{\'\i}ster, Universidad de
-  Concepci{\'o}n, Concepci{\'o}n, Chile, June 2025.
-
 \bibitem{Escarate2025}
 A.~F. Esc{\'a}rate~Cabez{\'o}n, ``Simulaci{\'o}n por elementos finitos del
   ensayo \emph{Transverse Tensile Bundle Test} en materiales compuestos,'' Aug.
   2025.
-
-\bibitem{PIM2024}
-A.~F. Cabez{\'o}n~Esc{\'a}rate and S.~V. Santos~Rivera, ``Comparaci{\'o}n de
-  t{\'e}cnicas de medici{\'o}n de propiedades de corte interfacial en
-  materiales compuestos,'' proyecto de ingenier{\'\i}a, Universidad de
-  Concepci{\'o}n, Concepci{\'o}n, Chile, Dec. 2024.
 
 \end{thebibliography}

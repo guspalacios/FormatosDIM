@@ -5,8 +5,8 @@
 \section{Resultados}
 
 En esta sección se presentan los resultados experimentales obtenidos para los distintos sistemas
-fibra - matriz evaluados mediante el ensayo Fiber-Bundle Pull-Out (FBPO). Los datos se reportan de
-manera objetiva y sistemática, acompañados de representaciones gráficas construidas a partir de
+fibra - matriz evaluados mediante el ensayo Fiber-Bundle Pull-Out (FBPO). Los datos se reportan
+acompañados de representaciones gráficas construidas a partir de
 los registros experimentales procesados, las cuales incluyen valores individuales, estadísticos
 descriptivos y medidas de variabilidad asociadas a cada condición de ensayo.
 
@@ -23,9 +23,9 @@ sección de Discusión.
 Previo al análisis cuantitativo de los resultados, se presentan observaciones visuales
 representativas del comportamiento de las probetas durante la ejecución del ensayo
 Fiber-Bundle Pull-Out (FBPO). Estas observaciones permiten contextualizar la respuesta
-fuerza - des- plazamiento registrada y verificar que el mecanismo dominante corresponde al
-despegue interfacial de la hebra embebida, y no a modos de falla asociados a la sujeción,
-a defectos de fabricación o a roturas prematuras del refuerzo.
+fuerza - des- plazamiento registrada y verificar que el mecanismo dominante de falla
+corresponde al des- pegue interfacial de la hebra embebida, y no a modos de falla
+asociados a la sujeción, a defectos de fabricación o a roturas prematuras del refuerzo.
 
 Durante la aplicación de carga se observó que, para las probetas consideradas válidas,
 la deformación inicial del sistema ocurre sin daño visible, seguida de un evento de
@@ -34,41 +34,6 @@ embebida. Posteriormente, el ensayo evoluciona hacia un régimen dominado por el
 deslizamiento de la hebra dentro de la matriz, acompañado por fricción interfacial,
 comportamiento coherente con la forma característica de las curvas
 fuerza - desplazamiento obtenidas.
-
-La Fig.~\ref{fig:fbpo_regiones} muestra la identificación visual de las regiones
-funcionales de una probeta tras el ensayo FBPO. Se distinguen dos zonas principales:
-(A) la región embebida en la matriz polimérica, asociada al despegue interfacial, y
-(B) la región de hebra libre, dominada por efectos de fricción y por la interacción con
-el sistema de sujeción. Esta distinción resulta relevante para la interpretación de los
-resultados, dado que la resistencia al corte interfacial se define exclusivamente a
-partir del comportamiento de la región embebida.
-
-En este contexto, la resistencia al corte interfacial aparente se estimó a partir de la
-fuerza característica asociada al despegue interfacial \(P^{\ast}\), normalizada por el
-área embebida efectiva de la hebra, de acuerdo con la expresión:
-\begin{equation}
-\tau_{\text{IFSS,ap}} = \frac{P^{\ast}}{A_e}.
-\end{equation}
-
-El área embebida \(A_e\) se aproximó considerando la geometría de la hebra como una sección
-de ancho efectivo constante \(w\) y longitud embebida \(\ell_e\), de modo que:
-\begin{equation}
-A_e = 2\,\ell_e\,w,
-\end{equation}
-donde el factor 2 corresponde al contacto interfacial considerado en ambas caras
-(anterior y posterior) de la hebra. Esta definición es consistente con la identificación
-visual de la región interfacial mostrada en la Fig.~\ref{fig:fbpo_regiones} y constituye
-la base para el cálculo de la IFSS aparente presentado en las subsecciones siguientes.
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.4\textwidth]{partes_probeta.png}
-    \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Identificación de regiones en una probeta FBPO:
-    (A) región embebida asociada al despegue interfacial y
-    (B) región de hebra libre dominada por fricción y sujeción.}
-    \label{fig:fbpo_regiones}
-\end{figure}
 
 La Fig.~\ref{fig:fbpo_mitad} muestra una probeta durante la ejecución del ensayo FBPO,
 donde se observa la hebra de fibra de carbono parcialmente embebida en la matriz
@@ -87,12 +52,12 @@ hebra respecto del eje de carga.
 
 En la Fig.~\ref{fig:fbpo_pre_post} se presenta una comparación visual del estado de una
 probeta antes y después del ensayo. Tras la aplicación de carga, se evidencia la separación
-en la región embebida y la exposición progresiva de la hebra, comportamiento consistente
-con la ocurrencia del despegue interfacial y el posterior deslizamiento relativo.
+en la región embebida y la exposición de la hebra, comportamiento indicativo
+de la ocurrencia del despegue interfacial y el posterior deslizamiento relativo.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.55\textwidth]{antes_despues.jpeg}
+    \includegraphics[width=0.52\textwidth]{antes_despues.jpeg}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Comparación visual de una probeta FBPO antes y después del ensayo,
     evidenciando el despegue interfacial y la extracción parcial de la hebra.}
@@ -106,15 +71,15 @@ en la zona embebida. Estas observaciones visuales respaldan la validez del crite
 muestra válida adoptado y confirman que los resultados experimentales analizados en las
 subsecciones siguientes corresponden al comportamiento interfacial buscado.
 
-\begin{figure}[h!]
+\begin{figure}[H]
     \centering
-    \begin{subfigure}[b]{0.42\textwidth}
+    \begin{subfigure}[b]{0.34\textwidth}
         \centering
         \includegraphics[width=\textwidth]{mepox_hta.jpeg}
         \caption{Sistema MEPOX-HTA.}
         \label{fig:fbpo_mepox_aero}
     \end{subfigure}%
-    \begin{subfigure}[b]{0.35\textwidth}
+    \begin{subfigure}[b]{0.27\textwidth}
         \centering
         \includegraphics[width=\textwidth]{epo_hta.jpeg}
         \caption{Sistema EPO-HTA.}
@@ -127,71 +92,7 @@ subsecciones siguientes corresponden al comportamiento interfacial buscado.
     \label{fig:fbpo_post_aero}
 \end{figure}
 
-\subsection{Observaciones microscópicas post ensayo (SEM)}
-
-Con el fin de complementar las observaciones macroscópicas realizadas durante la ejecución de los
-ensayos FBPO, se analizaron mediante SEM superficies representativas de fibras extraídas tras el
-ensayo. Las micrografías obtenidas permiten examinar la morfología post ensayo de la interfase
-fibra - matriz y visualizar rasgos asociados a los mecanismos de despegue y deslizamiento
-desarrollados durante el ensayo.
-
-Para ambos sistemas fibra - matriz, las observaciones se realizaron a cuatro niveles de aumento.
-El primer nivel permite una visión general de la hebra extraída y de la zona previamente embebida;
-el segundo nivel se centra en regiones localizadas de la interfase, mientras que el tercer nivel es
-alguna zona de interés de la interfaz. Finalmente, el cuarto nivel
-corres- ponde al análisis a escala de filamentos individuales. Este enfoque facilita una
-comparación directa entre sistemas y una identificación multiescala de los rasgos interfaciales
-post ensayo.
-
-La Fig.~\ref{fig:sem_mepox} presenta micrografías correspondientes al sistema MEPOX-HTA. A bajo
-aumento se observa una hebra con una distribución heterogénea de regiones a lo largo de la zona
-embebida, distinguiéndose sectores donde la fibra aparece mayoritariamente libre de resina,
-zonas con presencia puntual de matriz residual adherida y áreas correspondientes a la porción
-de la probeta que conserva el recubrimiento de teflón, el cual quedó contenido dentro del volumen
-de la matriz durante el moldeo. Esta heterogeneidad confirma que el proceso de despegue no ocurre
-de manera uniforme a lo largo de toda la longitud embebida.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{SEM_MEPOX.pdf}
-    \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{micrografías SEM de A) Probeta MEPOX-HTA, B) Acercamiento zona de la interfase,
-    C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}
-    \label{fig:sem_mepox}
-\end{figure}
-
-A aumentos intermedios, el sistema MEPOX-HTA muestra una superficie de fibra predomi- nantemente
-limpia, con residuos de matriz adheridos de forma discontinua y de extensión limitada. A nivel
-de filamentos individuales se identifican marcas longitudinales asociadas al deslizamiento
-relativo de la hebra durante la etapa posterior al despegue interfacial, sin evidencia de
-deformación significativa de la resina adherida. Estas observaciones evidencian un contacto
-fibra - matriz reducido tras el evento de despegue.
-
-En la Fig.~\ref{fig:sem_epo} se presentan micrografías representativas del sistema EPO-HTA. En la
-visión global de la hebra se observa una mayor presencia de matriz residual distribuida a lo
-largo de la zona previamente embebida, junto con regiones donde la fibra permanece parcialmente
-recubierta. A aumentos intermedios se distinguen zonas con arrastre de resina y deformación
-plástica local, mientras que el análisis a nivel de filamento individual revela restos de matriz
-adherida y una topografía superficial más irregular en comparación con el sistema MEPOX-HTA.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{SEM_EPO.pdf}
-    \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{micrografías SEM de A) Probeta EPO-HTA, B) Acercamiento zona de la interfase,
-    C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}
-    \label{fig:sem_epo}
-\end{figure}
-
-En ambos sistemas, las micrografías confirman que el mecanismo de falla predominante corresponde
-al despegue interfacial seguido de deslizamiento de la hebra, sin evidencia de rotura frágil del
-refuerzo en la zona embebida. Las diferencias observadas en la cantidad, distribución y morfología
-de la matriz residual entre los sistemas MEPOX--HTA y EPO--HTA constituyen una evidencia
-microscópica directa de los distintos comportamientos interfaciales desarrollados durante el
-ensayo FBPO y complementan los resultados mecánicos presentados previamente. En el Anexo~\ref{anx:SEM_imagenes}
-se muestran micrografías adicionales obtenidas para ambos sistemas.
-
-\subsection{Resultados preliminares}
+\subsection{Resultados de las mediciones experimentales}
 
 En esta subsección se presentan los resultados obtenidos a partir del procesamiento directo de los
 registros experimentales de los ensayos FBPO, con el objetivo de caracterizar de manera descriptiva
@@ -209,7 +110,7 @@ pendiente menor y asociado a fricción interfacial.
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.87\textwidth]{F_v_def_WI.pdf}
+    \includegraphics[width=0.85\textwidth]{F_v_def_WI.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Curvas fuerza - desplazamiento representativas obtenidas durante los ensayos FBPO
     para los sistemas fibra - matriz evaluados.}
@@ -271,36 +172,86 @@ descrito anteriormente.
     \label{fig:Etapas_mepox}
 \end{figure}
 
-\subsection{Resultados directos de las mediciones}
+\subsection{Observaciones microscópicas post ensayo (SEM)}
+
+Con el fin de complementar las observaciones macroscópicas realizadas durante la ejecución de los
+ensayos FBPO, se analizaron mediante SEM superficies representativas de fibras extraídas tras el
+ensayo. Las micrografías obtenidas permiten examinar la morfología post ensayo de la interfase
+fibra - matriz y visualizar rasgos asociados a los mecanismos de despegue y deslizamiento
+desarrollados durante el ensayo.
+
+Para ambos sistemas fibra - matriz, las observaciones se realizaron a cuatro niveles de aumento.
+El primer nivel permite una visión general de la hebra extraída y de la zona previamente embebida;
+el segundo nivel se centra en regiones localizadas de la interfase, mientras que el tercer nivel es
+alguna zona de interés de la interfaz. Finalmente, el cuarto nivel
+corres- ponde al análisis a escala de filamentos individuales. Este enfoque facilita una
+comparación directa entre sistemas y una identificación multiescala de los rasgos interfaciales
+post ensayo.
+
+La Fig.~\ref{fig:sem_mepox} presenta micrografías correspondientes al sistema MEPOX-HTA. A bajo
+aumento se observa una hebra con una distribución heterogénea de regiones a lo largo de la zona
+embebida, distinguiéndose sectores donde la fibra aparece mayoritariamente libre de resina,
+zonas con presencia puntual de matriz residual adherida y áreas correspondientes a la porción
+de la probeta que conserva el recubrimiento de teflón, el cual quedó contenido dentro del volumen
+de la matriz durante el moldeo. Esta heterogeneidad confirma que el proceso de despegue no ocurre
+de manera uniforme a lo largo de toda la longitud embebida.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{SEM_MEPOX.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{micrografías SEM de A) Probeta MEPOX-HTA, B) Acercamiento zona de la interfase,
+    C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}
+    \label{fig:sem_mepox}
+\end{figure}
+
+A aumentos intermedios, el sistema MEPOX-HTA muestra una superficie de fibra predomi- nantemente
+limpia, con residuos de matriz adheridos de forma discontinua y de extensión limitada. A nivel
+de filamentos individuales se identifican marcas longitudinales asociadas al deslizamiento
+relativo de la hebra durante la etapa posterior al despegue interfacial, sin evidencia de
+deformación significativa de la resina adherida. Estas observaciones evidencian un contacto
+fibra - matriz reducido tras el evento de despegue.
+
+En la Fig.~\ref{fig:sem_epo} se presentan micrografías representativas del sistema EPO-HTA. En la
+visión global de la hebra se observa una mayor presencia de matriz residual distribuida a lo
+largo de la zona previamente embebida, junto con regiones donde la fibra permanece parcialmente
+recubierta. A aumentos intermedios se distinguen zonas con arrastre de resina y deformación
+plástica local, mientras que el análisis a nivel de filamento individual revela restos de matriz
+adherida y una topografía superficial más irregular en comparación con el sistema MEPOX-HTA.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{SEM_EPO.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{micrografías SEM de A) Probeta EPO-HTA, B) Acercamiento zona de la interfase,
+    C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}
+    \label{fig:sem_epo}
+\end{figure}
+
+En ambos sistemas, las micrografías confirman que el mecanismo de falla predominante corresponde
+al despegue interfacial seguido de deslizamiento de la hebra, sin evidencia de rotura frágil del
+refuerzo en la zona embebida. Las diferencias observadas en la extensión, localización y morfología
+de la matriz residual entre los sistemas MEPOX--HTA y EPO--HTA constituyen una evidencia
+microscópica directa de los distintos comportamientos interfaciales desarrollados durante el
+ensayo FBPO y complementan los resultados mecánicos presentados previamente. En el Anexo~\ref{anx:SEM_imagenes}
+se muestran micrografías adicionales obtenidas para ambos sistemas.
+
+\subsection{Resultados procesados de IFSS aparente}
 
 En esta subsección se presentan de manera conjunta los resultados directos obtenidos a partir de
 las mediciones experimentales de IFSS aparente mediante el ensayo FBPO para los distintos sistemas
-fibra - matriz evaluados. El análisis considera un total de 100 ensayos válidos, distribuidos en
-cuatro grupos según el tipo de fibra y la matriz empleada: EPO-HTA (40 ensayos), EPO-HT (10
-ensayos), MEPOX-HTA (40 ensayos) y MEPOX-HT (10 ensayos). Esta distribución muestral permite
-analizar tanto la influencia del tipo de fibra como el efecto de la matriz epóxica bajo
-condiciones experimentales controladas.
+fibra - matriz evaluados. Los resultados tienen un carácter descriptivo y permiten situar los valores 
+experimentales obtenidos dentro de un contexto comparativo entre sistemas fibra - matriz.
+El análisis considera un total de 100 ensayos válidos, distribuidos en cuatro grupos según el tipo
+de fibra y la matriz empleada: EPO-HTA (40 ensayos), EPO-HT (10 ensayos), MEPOX-HTA (40 ensayos)
+y MEPOX-HT (10 ensayos). Esta distribución muestral permite analizar tanto la influencia del tipo
+de fibra como el efecto del tipo de matriz epóxica bajo condiciones experimentales controladas.
 
 La Fig.~\ref{fig:IFSS_aparente} muestra el diagrama de caja correspondiente a los valores de IFSS
 aparente obtenidos para cada sistema fibra - matriz. En el gráfico se representan los valores
 indivi- duales, la mediana, los cuartiles y la dispersión asociada a cada conjunto de datos,
 permitiendo una visualización directa de la variabilidad experimental y de las diferencias
 globales entre los sistemas analizados.
-
-De manera general, se observan diferencias claras tanto en el rango de valores de IFSS aparente
-como en el nivel de dispersión entre los distintos grupos. Los sistemas con fibra HTA presentan,
-en términos generales, rangos de IFSS aparente más amplios que sus contrapartes con fibra HT,
-lo que sugiere una mayor variabilidad interfacial asociada a este tipo de refuerzo bajo las
-condiciones de ensayo consideradas. Asimismo, se aprecia que los sistemas fabricados con la
-resina MEPOX tienden a exhibir una dispersión diferente respecto de aquellos fabricados con la
-resina EPO, evidenciando que la matriz también influye en la respuesta interfacial medida.
-
-En cuanto a la tendencia central, las medianas de IFSS aparente difieren entre los cuatro
-sistemas evaluados, indicando comportamientos interfaciales diferenciados que no pueden
-atribuirse únicamente a la dispersión experimental. En particular, se observa que ciertos
-sistemas combinan valores medianos más elevados con una dispersión relativamente acotada,
-mientras que otros presentan medianas similares pero con una variabilidad significativamente
-mayor.
 
 \begin{figure}[h!]
     \centering
@@ -310,11 +261,42 @@ mayor.
     \label{fig:IFSS_aparente}
 \end{figure}
 
-Los resultados presentados en esta subsección tienen un carácter descriptivo y permiten situar
-los valores experimentales obtenidos dentro de un contexto comparativo interno entre sistemas
-fibra - matriz. Este análisis constituye la base para los contrastes estadísticos formales y la
-evaluación de significancia de las diferencias observadas, los cuales se desarrollan en la
-subsección siguiente.
+De manera general, se observan diferencias claras tanto en el rango de valores de IFSS aparente
+como en el nivel de dispersión entre los distintos grupos. Los sistemas con fibra HTA presentan,
+en términos generales, rangos de IFSS aparente más amplios que sus contrapartes con fibra HT,
+lo que sugiere una mayor variabilidad interfacial en este tipo de refuerzo. Asimismo, se aprecia
+que los sistemas fabricados con la resina MEPOX tienden a exhibir una dispersión diferente
+respecto de aquellos fabricados con la resina EPO, evidenciando que la matriz también influye
+en la respuesta interfacial medida.
+
+En cuanto a la tendencia central, las medianas de IFSS aparente difieren entre los cuatro
+sistemas evaluados, indicando comportamientos interfaciales diferenciados que no pueden
+atribuirse únicamente a la dispersión experimental. En particular, se observa que ciertos
+sistemas combinan valores medianos más elevados con una dispersión relativamente acotada,
+mientras que otros presentan medianas similares pero con una variabilidad significativamente
+mayor.
+
+La Tabla~\ref{tab:ifss_estadisticos} resume los estadísticos descriptivos clave asociados a los
+valores de IFSS aparente para cada sistema fibra - matriz, incluyendo el número de ensayos válidos,
+la mediana, la media y la desviación estándar. Este análisis constituye la base para los contrastes
+estadísticos formales y la evaluación de significancia de las diferencias observadas, los cuales
+se desarrollan en la subsección siguiente.
+
+\begin{table}[H]
+    \centering
+    \caption{Estadísticos descriptivos de la IFSS aparente obtenidos mediante el ensayo FBPO.}
+    \label{tab:ifss_estadisticos}
+    \begin{tabular}{lccccc}
+        \toprule
+        Sistema & n & Mediana [MPa] & Media [MPa] & Desv. estándar [MPa] \\
+        \midrule
+        EPO-HTA & 40 & 30,78 & 29,92 & 6,79 \\
+        EPO-HT & 10 &  4,10 &  4,40 & 1,30 \\
+        MEPOX-HTA & 40 & 18,34 & 18,65 & 3,37 \\
+        MEPOX-HT & 10 &  5,10 &  4,97 & 1,83 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \subsection{Comparación con valores FBPO de referencia}
 
@@ -328,14 +310,6 @@ fibra - matriz evaluados. Los rangos de referencia fueron sistematizados a parti
 bibliográficos relevantes, permitiendo una visualización conjunta tanto de la magnitud como de
 la dispersión de los valores reportados para el método FBPO.
 
-De la comparación se observa que los valores experimentales obtenidos en este estudio se sitúan
-dentro del orden de magnitud reportado en la literatura para ensayos FBPO. Asimismo, se aprecia
-una superposición parcial entre los rangos experimentales y los rangos de referencia, lo que
-indica una coherencia general entre los resultados obtenidos y los antecedentes previos
-disponibles para este tipo de ensayo. Las diferencias observadas en la amplitud de los rangos y
-en los valores centrales reflejan la variabilidad inherente al método y a los sistemas
-fibra - matriz considerados.
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{Comparativa_Lit_Exp.pdf}
@@ -345,11 +319,19 @@ fibra - matriz considerados.
     \label{fig:ifss_ranges}
 \end{figure}
 
-Esta comparación tiene un carácter estrictamente descriptivo y permite ubicar los resultados del
+De la comparación se observa que los valores experimentales obtenidos en este estudio se sitúan
+dentro del orden de magnitud reportado en la literatura para ensayos FBPO. Asimismo, se aprecia
+una superposición parcial entre los rangos experimentales y los rangos de referencia, lo que
+indica una coherencia general entre los resultados obtenidos y los antecedentes previos
+disponibles para este tipo de ensayo. Las diferencias observadas en la amplitud de los rangos y
+en los valores centrales reflejan la variabilidad inherente al método y a los sistemas
+fibra - matriz considerados.
+
+Este análisis tiene un carácter estrictamente descriptivo y permite ubicar los resultados del
 presente estudio dentro del contexto de valores típicamente reportados para el ensayo FBPO. En
-este sentido, la figura proporciona un marco de referencia cuantitativo para la interpretación
-posterior de los resultados y constituye un insumo para el análisis crítico desarrollado en la
-sección de Discusión.
+este sentido, la figura proporciona un marco de referencia cuantitativo para la interpretación de
+los resultados y constituye un insumo para el análisis crítico desarrollado en la sección de
+Discusión.
 
 \subsection{Análisis estadístico de los resultados de IFSS aparente}
 
@@ -365,6 +347,15 @@ histograma a distintas distribuciones teóricas, mientras que el gráfico B) pre
 mediante una distribución de Weibull, que muestra una buena concordancia con los datos
 experimentales en todo el rango de valores analizados.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{hist_epo.pdf}
+    \captionsetup{justification=centering, singlelinecheck=false}
+    \caption{Comparación de distribución para IFSS aparente del sistema EPO-HTA. A) Ajuste para diferentes
+    curvas teóricas. B) Ajuste utilizando Weibull.}
+    \label{fig:Hist_epo_aero}
+\end{figure}
+
 De manera análoga, la Fig.~\ref{fig:Hist_mepox_aero} muestra los histogramas obtenidos para el
 sistema MEPOX-HTA. En este caso, la distribución presenta una dispersión relativamente mayor,
 reflejando una mayor variabilidad en los valores de IFSS aparente. El ajuste comparativo
@@ -374,16 +365,7 @@ y los datos experimentales.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\textwidth]{hist_epo_aero.pdf}
-    \captionsetup{justification=centering, singlelinecheck=false}
-    \caption{Comparación de distribución para IFSS aparente del sistema EPO-HTA. A) Ajuste para diferentes
-    curvas teóricas. B) Ajuste utilizando Weibull.}
-    \label{fig:Hist_epo_aero}
-\end{figure}%
-
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.9\textwidth]{hist_mepox_aero.pdf}
+    \includegraphics[width=0.9\textwidth]{hist_mepox.pdf}
     \captionsetup{justification=centering, singlelinecheck=false}
     \caption{Comparación de distribución para IFSS aparente del sistema MEPOX-HTA. A) Ajuste para diferentes
     curvas teóricas. B) Ajuste utilizando Gamma.}
@@ -396,33 +378,35 @@ unimodales, sin evidencia de multimodalidad ni valores atípicos extremos. Estas
 respaldan la aplicación de métodos estadísticos inferenciales para la comparación entre
 sistemas, cuyos resultados se presentan a continuación.
 
-Previo a la aplicación de los contrastes inferenciales, se verificaron los supuestos
-estadísticos correspondientes. La normalidad de los datos se evaluó mediante la prueba de
-Shapiro-Wilk, no observándose desviaciones significativas respecto de una distribución normal
-en ninguno de los grupos analizados ($p > 0{,}05$). En contraste, la prueba de Levene evidencia
-heterogeneidad de varianzas entre los grupos ($p \ll 0{,}05$), asociada tanto a diferencias en
-la dispersión de los datos como al desbalance en el número de probetas por sistema.
+Sobre la base de las distribuciones mostradas en las Fig.~\ref{fig:Hist_epo_aero} y
+\ref{fig:Hist_mepox_aero}, se verificaron los supuestos estadísticos requeridos para los contrastes
+inferenciales. Si bien los ajustes a distribuciones de Weibull y Gamma se emplearon con fines
+descriptivos, la normalidad de los datos se evaluó mediante la prueba de Shapiro-Wilk, sin
+detectarse desviaciones significativas en ninguno de los grupos ($p > 0{,}05$). En contraste, la
+prueba de Levene evidenció heterogeneidad de varianzas entre los sistemas ($p \ll 0{,}05$).
 
 Con fines comparativos, se calculó inicialmente un análisis de varianza (ANOVA) de una vía
 clásico, cuyos resultados se presentan en la Tabla~\ref{tab:anova_ifss}. El elevado valor del
 estadístico $F$ y el correspondiente $p$-valor indican la existencia de diferencias
 estadísticamente significativas entre las medias de IFSS aparente de los sistemas evaluados.
-No obstante, dado que no se cumple el supuesto de homocedasticidad, estos resultados deben
-interpretarse con cautela.
+Sin embargo, dado que la prueba de Levene evidenció heterogeneidad de varianzas entre los grupos
+($p \ll 0{,}05$), no se cumple el supuesto de homocedasticidad requerido por este método. En
+consecuencia, los resultados del ANOVA clásico se consideran únicamente con fines de referencia
+y no se utilizan como base para la inferencia estadística final.
 
 \begin{table}[h!]
-\centering
-\caption{Análisis de varianza (ANOVA) de una vía para IFSS aparente.}
-\label{tab:anova_ifss}
-\begin{tabular}{l c c c c c}
-\hline
-Fuente & Suma de cuadrados & gl & Cuadrado medio & $F$ & $p$-valor \\
-\hline
-Entre grupos  & 8690{,}60 & 3  & 2896{,}87 & 121{,}51 & $< 0{,}001$ \\
-Intra grupos  & 2288{,}75  & 96 & 23{,}84  &        &            \\
-Total (corr.) & 10979{,}35 & 99 &        &        &            \\
-\hline
-\end{tabular}
+    \centering
+    \caption{Análisis de varianza (ANOVA) de una vía para IFSS aparente.}
+    \label{tab:anova_ifss}
+    \begin{tabular}{l c c c c c}
+        \toprule
+        Fuente & Suma de cuadrados & gl & Cuadrado medio & $F$ & $p$-valor \\
+        \midrule
+        Entre grupos  & 8690{,}60 & 3  & 2896{,}87 & 121{,}51 & $< 0{,}001$ \\
+        Intra grupos  & 2288{,}75  & 96 & 23{,}84  &        &            \\
+        Total (corr.) & 10979{,}35 & 99 &        &        &            \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
 En consecuencia, se aplicó un análisis de varianza de Welch, robusto frente a varianzas
@@ -431,16 +415,16 @@ la Tabla~\ref{tab:anova_welch}, donde nuevamente se observa la presencia de dife
 estadísticamente significativas entre los sistemas fibra - matriz considerados.
 
 \begin{table}[h!]
-\centering
-\caption{Resultados del análisis de varianza de Welch para los valores de IFSS aparente.}
-\label{tab:anova_welch}
-\begin{tabular}{lcccc}
-\hline
-Prueba & $F$ & gl$_1$ & gl$_2$ & $p$-valor \\
-\hline
-ANOVA de Welch & 279{,}54 & 3 & 36{,}46 & $< 0{,}001$ \\
-\hline
-\end{tabular}
+    \centering
+    \caption{Resultados del ANOVA de Welch para los valores de IFSS aparente.}
+    \label{tab:anova_welch}
+    \begin{tabular}{lcccc}
+        \toprule
+        Prueba & $F$ & gl$_1$ & gl$_2$ & $p$-valor \\
+        \midrule
+        ANOVA de Welch & 279{,}54 & 3 & 36{,}46 & $< 0{,}001$ \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
 Con el objetivo de identificar específicamente entre qué pares de sistemas se presentan dichas
@@ -451,22 +435,22 @@ presentan diferencias estadísticamente significativas en los valores de IFSS ap
 la única excepción la comparación entre los sistemas EPO-HT y MEPOX-HT, para los cuales no se
 detectaron diferencias significativas bajo el nivel de significancia considerado.
 
-\begin{table}[h!]
-\centering
-\caption{Comparaciones múltiples mediante el método de Games-Howell.}
-\label{tab:games_howell}
-\begin{tabular}{l l c c c}
-\hline
-Grupo A & Grupo B & $\Delta$ media & $p$-valor & Significativo \\
-\hline
-EPO-HTA   & EPO-HT   & 25{,}52    & $< 0{,}001$ & Sí \\
-EPO-HTA   & MEPOX-HTA  & 11{,}27    & $< 0{,}001$ & Sí \\
-EPO-HTA   & MEPOX-HT & 24{,}96    & $< 0{,}001$ & Sí \\
-EPO-HT   & MEPOX-HTA  & $-14{,}25$ & $< 0{,}001$ & Sí \\
-EPO-HT   & MEPOX-HT & $-0{,}57$  & 0{,}85      & No \\
-MEPOX-HTA & MEPOX-HT & 13{,}69    & $< 0{,}001$ & Sí \\
-\hline
-\end{tabular}
+\begin{table}[H]
+    \centering
+    \caption{Comparaciones múltiples mediante el método de Games-Howell.}
+    \label{tab:games_howell}
+    \begin{tabular}{l l c c c}
+        \toprule
+        Grupo A & Grupo B & $\Delta$ media & $p$-valor & Significativo \\
+        \midrule
+        EPO-HTA   & EPO-HT   & 25{,}52    & $< 0{,}001$ & Sí \\
+        EPO-HTA   & MEPOX-HTA  & 11{,}27    & $< 0{,}001$ & Sí \\
+        EPO-HTA   & MEPOX-HT & 24{,}96    & $< 0{,}001$ & Sí \\
+        EPO-HT   & MEPOX-HTA  & $-14{,}25$ & $< 0{,}001$ & Sí \\
+        EPO-HT   & MEPOX-HT & $-0{,}57$  & 0{,}85      & No \\
+        MEPOX-HTA & MEPOX-HT & 13{,}69    & $< 0{,}001$ & Sí \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 
 Los resultados del análisis \emph{post hoc} indican que la mayoría de las comparaciones entre

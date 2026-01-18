@@ -47,45 +47,45 @@ Warning--entry type for "ISO19375" isn't style-file defined
 --line 529 of file Referencias.bib
 Warning--entry type for "ASTMD4475" isn't style-file defined
 --line 547 of file Referencias.bib
-You've used 28 entries,
+You've used 32 entries,
             1876 wiz_defined-function locations,
-            675 strings with 9012 characters,
-and the built_in function-call counts, 6327 in all, are:
-= -- 627
-> -- 253
+            699 strings with 9717 characters,
+and the built_in function-call counts, 7334 in all, are:
+= -- 726
+> -- 297
 < -- 0
-+ -- 97
-- -- 69
-* -- 393
-:= -- 863
-add.period$ -- 33
-call.type$ -- 28
-change.case$ -- 28
++ -- 113
+- -- 81
+* -- 463
+:= -- 1010
+add.period$ -- 37
+call.type$ -- 32
+change.case$ -- 32
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 335
-empty$ -- 615
-format.name$ -- 69
-if$ -- 1590
+cite$ -- 32
+duplicate$ -- 389
+empty$ -- 707
+format.name$ -- 81
+if$ -- 1836
 int.to.chr$ -- 0
-int.to.str$ -- 28
-missing$ -- 21
-newline$ -- 92
-num.names$ -- 22
-pop$ -- 119
+int.to.str$ -- 32
+missing$ -- 25
+newline$ -- 104
+num.names$ -- 26
+pop$ -- 130
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 256
+skip$ -- 291
 stack$ -- 0
-substring$ -- 281
-swap$ -- 146
+substring$ -- 335
+swap$ -- 168
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 49
-width$ -- 30
-write$ -- 254
+while$ -- 60
+width$ -- 34
+write$ -- 292
 (There were 8 warnings)

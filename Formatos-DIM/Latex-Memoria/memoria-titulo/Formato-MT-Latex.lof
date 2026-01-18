@@ -1,34 +1,35 @@
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Esquema conceptual de la interfaz fibra - matriz en materiales compuestos.}}{4}{figure.caption.1}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Esquema conceptual de la interfaz fibra - matriz en materiales compuestos \cite {Goda2024}.}}{4}{figure.caption.1}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Esquema simplificado de la metodología propuesta y su relación con los OE.}}{7}{figure.caption.2}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Rangos de IFSS reportados para distintos métodos de ensayo \cite {AhmadvashAghbash2024IMR}.}}{10}{figure.caption.3}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Esquema representativo de la interfaz fibra - matriz en un material compuesto.}}{11}{figure.caption.5}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Micrografía SEM representativa de la interfaz fibra - matriz, donde se observa la superficie de una hebra de fibra tras un ensayo de tipo \textit {Fiber-Bundle Pull-Out}.}}{13}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Escalas de estudio en materiales compuestos reforzados con fibra.}}{16}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Tipos de ensayo para la caracterización interfacial.}}{18}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ejemplo esquemático (izq) y experimental (der) de una curva fuerza - desplazamiento típica de un ensayo tipo pull-out \cite {DeLeon2022}.}}{9}{figure.caption.3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Rangos de IFSS reportados para distintos métodos de ensayo \cite {AhmadvashAghbash2024IMR,DeLeon2022,Gao2015,Liu2021,Fischer2020,Zhou2016,PIM2024,Romero2025,Schraa2025}.}}{10}{figure.caption.4}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ejemplo de micrografía SEM de una superficie de fractura en un material compuesto reforzado con fibras \cite {Lee2018}.}}{13}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Escalas de estudio en materiales compuestos reforzados con fibra \cite {Li2019}.}}{16}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Tipos de ensayo para la caracterización interfacial \cite {Bussetta2018}.}}{18}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Etiqueta técnica del tejido de fibra de carbono Tenax\textsuperscript {\textregistered }-E HTA40 / 3k / HT (ECC-Style~462), grado aeroespacial.}}{26}{figure.caption.9}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Etiqueta técnica del tejido de fibra de carbono HT 3k / 200~tex.}}{26}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Molde negativo impreso en PLA (arquitectura multicavidad) con canales de sección constante y topes geométricos integrados para fijar la longitud de embebido \(\ell _e\).}}{30}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistema de silicona RTV empleado para la fabricación del molde blando (dureza nominal \(\sim \) Shore~A~30, kit silicona y catalizador).}}{31}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Secuencia de fabricación de probetas FBPO: (a) cavidad de silicona, (b) posicionamiento de la hebra, (c) colado y curado de la resina y (d) probeta desmoldeada.}}{32}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Sistemas epoxi de baja viscosidad utilizados en este estudio. Izquierda: MEPOX 1685L. Derecha: EPO 200.}}{33}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Montaje experimental del ensayo \textit {Fiber-Bundle Pull-Out} (FBPO) en máquina Zwick-Roell Z005.}}{35}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Mordaza diseñada para el ensayo FBPO: (A) vista frontal, mostrando la geometría de sujeción de la hebra; (B) vista lateral.}}{35}{figure.caption.18}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Identificación de regiones en una probeta FBPO: (A) región embebida asociada al despegue interfacial y (B) región de hebra libre dominada por fricción y sujeción.}}{40}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Probeta durante el ensayo FBPO, mostrando la hebra de fibra de carbono parcialmente embebida en la matriz polimérica.}}{40}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparación visual de una probeta FBPO antes y después del ensayo, evidenciando el despegue interfacial y la extracción parcial de la hebra.}}{41}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Estado post ensayo FBPO para sistemas con fibra de grado aeroespacial: (a) MEPOX-HTA y (b) EPO-HTA, mostrando la extracción parcial de la hebra y la matriz residual tras el despegue interfacial.}}{41}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces micrografías SEM de A) Probeta MEPOX-HTA, B) Acercamiento zona de la interfase, C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}}{42}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces micrografías SEM de A) Probeta EPO-HTA, B) Acercamiento zona de la interfase, C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}}{43}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Curvas fuerza - desplazamiento representativas obtenidas durante los ensayos FBPO para los sistemas fibra - matriz evaluados.}}{44}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Curvas esfuerzo - desplazamiento con registro de las etapas del ensayo.}}{45}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Curvas fuerza - desplazamiento con la diferencia de comportamiento de este sistema.}}{46}{figure.caption.27}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Boxplot de los valores de IFSS aparente obtenidos para los sistemas evaluados.}}{47}{figure.caption.28}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Comparación entre los valores de IFSS aparente obtenidos experimentalmente en este estudio y los rangos de IFSS reportados en la literatura para ensayos FBPO.}}{48}{figure.caption.29}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparación de distribución para IFSS aparente del sistema EPO-HTA. A) Ajuste para diferentes curvas teóricas. B) Ajuste utilizando Weibull.}}{49}{figure.caption.30}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Comparación de distribución para IFSS aparente del sistema MEPOX-HTA. A) Ajuste para diferentes curvas teóricas. B) Ajuste utilizando Gamma.}}{49}{figure.caption.31}%
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Carta Gantt del proyecto.}}{60}{figure.caption.35}%
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Repositorio bibliográfico de valores de IFSS reportados en la literatura para distintos métodos y escalas de caracterización interfacial \cite {AhmadvashAghbash2023,DeLeon2022}.}}{61}{figure.caption.36}%
-\contentsline {figure}{\numberline {C.1}{\ignorespaces Micrografías SEM de las probetas FBPO, sistema MEPOX-HTA.}}{62}{figure.caption.37}%
-\contentsline {figure}{\numberline {C.2}{\ignorespaces Micrografías SEM de las probetas FBPO, sistema EPO-HTA.}}{62}{figure.caption.38}%
-\contentsline {figure}{\numberline {C.3}{\ignorespaces Micrografías SEM de las probetas FBPO, con restos de PTFE en la zona de la matriz. A) Probeta con restos de PTFE en la zona de la interfase, B) Acercamiento a varios filamentos.}}{63}{figure.caption.39}%
-\contentsline {figure}{\numberline {C.4}{\ignorespaces Micrografías SEM de las probetas FBPO, comparativa entre MEPOX (A) y EPO (B).}}{63}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Molde negativo impreso en PLA (arquitectura multicavidad) con canales de sección constante y topes geométricos integrados para fijar la longitud de embebido \(\ell _e\).}}{29}{figure.caption.11}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Sistema de silicona RTV empleado para la fabricación del molde blando (dureza nominal \(\sim \) Shore~A~30, kit silicona y catalizador).}}{30}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Esquema de sujeción y alineación axial de la hebra en el molde.}}{31}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Secuencia de fabricación de probetas FBPO: (a) cavidad de silicona, (b) posicionamiento de la hebra, (c) colado y curado de la resina y (d) probeta desmoldeada.}}{32}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sistemas epoxi de baja viscosidad utilizados en este estudio. Izquierda: MEPOX 1685L. Derecha: EPO 200.}}{33}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Montaje experimental del ensayo \textit {Fiber-Bundle Pull-Out} (FBPO) en máquina Zwick-Roell Z005.}}{34}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Mordaza diseñada para el ensayo FBPO: (A) vista frontal, mostrando la geometría de sujeción de la hebra; (B) vista lateral.}}{35}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Identificación de regiones en una probeta FBPO: (A) región embebida asociada al despegue interfacial, (B) región de hebra libre dominada por fricción y sujeción.}}{37}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Probeta durante el ensayo FBPO, mostrando la hebra de fibra de carbono parcialmente embebida en la matriz polimérica.}}{39}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparación visual de una probeta FBPO antes y después del ensayo, evidenciando el despegue interfacial y la extracción parcial de la hebra.}}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Estado post ensayo FBPO para sistemas con fibra de grado aeroespacial: (a) MEPOX-HTA y (b) EPO-HTA, mostrando la extracción parcial de la hebra y la matriz residual tras el despegue interfacial.}}{40}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Curvas fuerza - desplazamiento representativas obtenidas durante los ensayos FBPO para los sistemas fibra - matriz evaluados.}}{41}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Curvas esfuerzo - desplazamiento con registro de las etapas del ensayo.}}{42}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Curvas fuerza - desplazamiento con la diferencia de comportamiento de este sistema.}}{43}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces micrografías SEM de A) Probeta MEPOX-HTA, B) Acercamiento zona de la interfase, C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}}{44}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces micrografías SEM de A) Probeta EPO-HTA, B) Acercamiento zona de la interfase, C) Acercamiento a varios filamentos, D) Acercamiento a filamento individuales.}}{45}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Boxplot de los valores de IFSS aparente obtenidos para los sistemas evaluados.}}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Comparación entre los valores de IFSS aparente obtenidos experimentalmente en este estudio y los rangos de IFSS reportados en la literatura para ensayos FBPO.}}{47}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Comparación de distribución para IFSS aparente del sistema EPO-HTA. A) Ajuste para diferentes curvas teóricas. B) Ajuste utilizando Weibull.}}{48}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Comparación de distribución para IFSS aparente del sistema MEPOX-HTA. A) Ajuste para diferentes curvas teóricas. B) Ajuste utilizando Gamma.}}{48}{figure.caption.33}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Carta Gantt del proyecto.}}{61}{figure.caption.37}%
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Repositorio bibliográfico de valores de IFSS reportados en la literatura para distintos métodos y escalas de caracterización interfacial \cite {AhmadvashAghbash2023,DeLeon2022}.}}{62}{figure.caption.38}%
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Micrografías SEM de las probetas FBPO, sistema MEPOX-HTA.}}{63}{figure.caption.39}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Micrografías SEM de las probetas FBPO, sistema EPO-HTA.}}{63}{figure.caption.40}%
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Micrografías SEM de las probetas FBPO, con restos de PTFE en la zona de la matriz. A) Probeta con restos de PTFE en la zona de la interfase, B) Acercamiento a varios filamentos.}}{64}{figure.caption.41}%
+\contentsline {figure}{\numberline {C.4}{\ignorespaces Micrografías SEM de las probetas FBPO, comparativa entre MEPOX (A) y EPO (B).}}{64}{figure.caption.42}%
